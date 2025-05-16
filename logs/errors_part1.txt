@@ -1,0 +1,460 @@
+============[ PACKAGE: DirectXShaderCompiler-1.8.2403-alt0.3 ]============
+Problem opening /proc/meminfo
+CMake Error at CMakeLists.txt:26 (cmake_policy):
+  Policy CMP0051 may not be set to OLD behavior because this version of CMake
+  no longer supports it.  The policy was introduced in CMake version 3.1.0,
+  and use of NEW behavior is now required.
+
+
+
+============[ PACKAGE: DirectXShaderCompiler-1.8.2403-alt0.3 ]============
+Problem opening /proc/meminfo
+-- Performing Test C_SUPPORTS_DEPRECATED_COPY - Failed
+-- Performing Test CXX_SUPPORTS_DEPRECATED_COPY
+Problem opening /proc/meminfo
+-- Performing Test CXX_SUPPORTS_DEPRECATED_COPY - Success
+
+
+
+============[ PACKAGE: DirectXShaderCompiler-1.8.2403-alt0.3 ]============
+Problem opening /proc/meminfo
+-- Performing Test C_WCOMMENT_ALLOWS_LINE_WRAP - Failed
+-- Performing Test C_SUPPORTS_FNO_FUNCTION_SECTIONS
+Problem opening /proc/meminfo
+-- Performing Test C_SUPPORTS_FNO_FUNCTION_SECTIONS - Success
+
+
+
+============[ PACKAGE: DirectXShaderCompiler-1.8.2403-alt0.3 ]============
+Problem opening /proc/meminfo
+-- Performing Test CXX_SUPPORTS_NO_NESTED_ANON_TYPES_FLAG - Failed
+-- Configuring incomplete, errors occurred!
+error: Bad exit status from /usr/src/tmp/rpm-tmp.79266 (%build)
+
+
+
+
+============[ PACKAGE: DirectXShaderCompiler-1.8.2403-alt0.3 ]============
+-- Performing Test CXX_SUPPORTS_NO_NESTED_ANON_TYPES_FLAG - Failed
+-- Configuring incomplete, errors occurred!
+error: Bad exit status from /usr/src/tmp/rpm-tmp.79266 (%build)
+
+
+
+
+
+
+============[ PACKAGE: GMT-6.4.0-alt1_10 ]============
+Problem opening /proc/meminfo
+CMake Error at CMakeLists.txt:49 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 has been removed from CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+
+
+
+============[ PACKAGE: GMT-6.4.0-alt1_10 ]============
+
+-- Configuring incomplete, errors occurred!
+error: Bad exit status from /usr/src/tmp/rpm-tmp.77443 (%build)
+
+
+
+
+
+============[ PACKAGE: GMT-6.4.0-alt1_10 ]============
+-- Configuring incomplete, errors occurred!
+error: Bad exit status from /usr/src/tmp/rpm-tmp.77443 (%build)
+
+
+RPM build errors:
+
+
+
+============[ PACKAGE: GMT-6.4.0-alt1_10 ]============
+
+RPM build errors:
+    Bad exit status from /usr/src/tmp/rpm-tmp.77443 (%build)
+Command exited with non-zero status 1
+2.85user 0.49system 0:03.10elapsed 108%CPU (0avgtext+0avgdata 66576maxresident)k
+
+
+
+============[ PACKAGE: GMT-6.4.0-alt1_10 ]============
+0inputs+0outputs (0major+37241minor)pagefaults 0swaps
+hsh-rebuild: rebuild of `GMT-6.4.0-alt1_10.src.rpm' failed.
+Command exited with non-zero status 1
+7.59user 4.50system 1:05.04elapsed 18%CPU (0avgtext+0avgdata 133704maxresident)k
+60872inputs+0outputs (0major+443413minor)pagefaults 0swaps
+
+
+
+
+============[ PACKAGE: a2ps-4.14-alt4 ]============
+checking the maximum length of command line arguments... 1572864
+checking command to parse /usr/bin/nm -B output from i586-alt-linux-gcc object... failed
+checking for objdir... .libs
+checking for i586-alt-linux-ar... no
+checking for ar... ar
+
+
+
+============[ PACKAGE: a2ps-4.14-alt4 ]============
+checking the maximum length of command line arguments... 1572864
+checking command to parse /usr/bin/nm -B output from i586-alt-linux-gcc object... failed
+checking for objdir... .libs
+checking for i586-alt-linux-ar... no
+checking for ar... ar
+
+
+
+============[ PACKAGE: a2ps-4.14-alt4 ]============
+fonts.c: In function 'afmalloc':
+../config.h:496:16: error: implicit declaration of function 'rpl_malloc'; did you mean 'xmalloc'? [-Wimplicit-function-declaration]
+  496 | #define malloc rpl_malloc
+      |                ^~~~~~~~~~
+fonts.c:2384:16: note: in expansion of macro 'malloc'
+
+
+
+============[ PACKAGE: a2ps-4.14-alt4 ]============
+      |                ^~~~~~
+../config.h:496:16: error: returning 'int' from a function with return type 'void *' makes pointer from integer without a cast [-Wint-conversion]
+  496 | #define malloc rpl_malloc
+fonts.c:2384:16: note: in expansion of macro 'malloc'
+ 2384 |         return malloc(size);
+
+
+
+============[ PACKAGE: a2ps-4.14-alt4 ]============
+fonts.c: In function 'afmrealloc':
+../config.h:508:17: error: implicit declaration of function 'rpl_realloc'; did you mean 'xrealloc'? [-Wimplicit-function-declaration]
+  508 | #define realloc rpl_realloc
+      |                 ^~~~~~~~~~~
+fonts.c:2396:16: note: in expansion of macro 'realloc'
+
+
+
+
+============[ PACKAGE: aces_container-1.0.2-alt1_8 ]============
+Problem opening /proc/meminfo
+CMake Error at CMakeLists.txt:47 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 has been removed from CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+
+
+
+============[ PACKAGE: aces_container-1.0.2-alt1_8 ]============
+
+-- Configuring incomplete, errors occurred!
+error: Bad exit status from /usr/src/tmp/rpm-tmp.47384 (%build)
+
+
+
+
+
+============[ PACKAGE: aces_container-1.0.2-alt1_8 ]============
+-- Configuring incomplete, errors occurred!
+error: Bad exit status from /usr/src/tmp/rpm-tmp.47384 (%build)
+
+
+RPM build errors:
+
+
+
+============[ PACKAGE: aces_container-1.0.2-alt1_8 ]============
+
+RPM build errors:
+    Bad exit status from /usr/src/tmp/rpm-tmp.47384 (%build)
+Command exited with non-zero status 1
+0.02user 0.05system 0:00.06elapsed 106%CPU (0avgtext+0avgdata 16644maxresident)k
+
+
+
+============[ PACKAGE: aces_container-1.0.2-alt1_8 ]============
+0inputs+0outputs (0major+7267minor)pagefaults 0swaps
+hsh-rebuild: rebuild of `aces_container-1.0.2-alt1_8.src.rpm' failed.
+Command exited with non-zero status 1
+3.88user 3.13system 0:12.09elapsed 58%CPU (0avgtext+0avgdata 132812maxresident)k
+6536inputs+0outputs (0major+290102minor)pagefaults 0swaps
+
+
+
+
+============[ PACKAGE: alglib-4.01.0-alt1_1 ]============
+-- Detecting CXX compile features - done
+CMake Error at CMakeLists.txt:2 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 has been removed from CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+
+
+
+============[ PACKAGE: alglib-4.01.0-alt1_1 ]============
+
+-- Configuring incomplete, errors occurred!
+error: Bad exit status from /usr/src/tmp/rpm-tmp.62057 (%build)
+
+
+
+
+
+============[ PACKAGE: alglib-4.01.0-alt1_1 ]============
+-- Configuring incomplete, errors occurred!
+error: Bad exit status from /usr/src/tmp/rpm-tmp.62057 (%build)
+
+
+RPM build errors:
+
+
+
+============[ PACKAGE: alglib-4.01.0-alt1_1 ]============
+
+RPM build errors:
+    Bad exit status from /usr/src/tmp/rpm-tmp.62057 (%build)
+Command exited with non-zero status 1
+0.53user 0.23system 0:00.72elapsed 105%CPU (0avgtext+0avgdata 19760maxresident)k
+
+
+
+============[ PACKAGE: alglib-4.01.0-alt1_1 ]============
+0inputs+0outputs (0major+41415minor)pagefaults 0swaps
+hsh-rebuild: rebuild of `alglib-4.01.0-alt1_1.src.rpm' failed.
+Command exited with non-zero status 1
+4.04user 2.88system 0:13.32elapsed 51%CPU (0avgtext+0avgdata 133600maxresident)k
+71352inputs+0outputs (0major+294619minor)pagefaults 0swaps
+
+
+
+
+============[ PACKAGE: alt-docs-apache2-0.2.2-alt1 ]============
+  same as the current working directory, but note that this warning will
+  become a fatal error in future CMake releases.
+
+
+Problem opening /proc/meminfo
+
+
+
+============[ PACKAGE: alt-docs-apache2-0.2.2-alt1 ]============
+Problem opening /proc/meminfo
+CMake Error at CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 has been removed from CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+
+
+
+============[ PACKAGE: alt-docs-apache2-0.2.2-alt1 ]============
+
+-- Configuring incomplete, errors occurred!
+error: Bad exit status from /usr/src/tmp/rpm-tmp.20232 (%build)
+
+
+
+
+
+============[ PACKAGE: alt-docs-apache2-0.2.2-alt1 ]============
+-- Configuring incomplete, errors occurred!
+error: Bad exit status from /usr/src/tmp/rpm-tmp.20232 (%build)
+
+
+RPM build errors:
+
+
+
+============[ PACKAGE: alt-docs-apache2-0.2.2-alt1 ]============
+
+RPM build errors:
+    Bad exit status from /usr/src/tmp/rpm-tmp.20232 (%build)
+Command exited with non-zero status 1
+0.01user 0.04system 0:00.05elapsed 103%CPU (0avgtext+0avgdata 16608maxresident)k
+
+
+
+
+============[ PACKAGE: amgcl-devel-1.4.4-alt1 ]============
+-- Detecting CXX compile features - done
+CMake Error at CMakeLists.txt:10 (cmake_policy):
+  Policy CMP0058 may not be set to OLD behavior because this version of CMake
+  no longer supports it.  The policy was introduced in CMake version 3.3.0,
+  and use of NEW behavior is now required.
+
+
+
+============[ PACKAGE: amgcl-devel-1.4.4-alt1 ]============
+
+-- Configuring incomplete, errors occurred!
+error: Bad exit status from /usr/src/tmp/rpm-tmp.7256 (%build)
+
+
+
+
+
+============[ PACKAGE: amgcl-devel-1.4.4-alt1 ]============
+-- Configuring incomplete, errors occurred!
+error: Bad exit status from /usr/src/tmp/rpm-tmp.7256 (%build)
+
+
+RPM build errors:
+
+
+
+============[ PACKAGE: amgcl-devel-1.4.4-alt1 ]============
+
+RPM build errors:
+    Bad exit status from /usr/src/tmp/rpm-tmp.7256 (%build)
+Command exited with non-zero status 1
+0.75user 0.62system 0:01.33elapsed 102%CPU (0avgtext+0avgdata 20772maxresident)k
+
+
+
+============[ PACKAGE: amgcl-devel-1.4.4-alt1 ]============
+0inputs+0outputs (0major+118798minor)pagefaults 0swaps
+hsh-rebuild: rebuild of `amgcl-devel-1.4.4-alt1.src.rpm' failed.
+Command exited with non-zero status 1
+4.06user 3.25system 0:13.77elapsed 53%CPU (0avgtext+0avgdata 133408maxresident)k
+0inputs+0outputs (0major+290292minor)pagefaults 0swaps
+
+
+
+
+============[ PACKAGE: android-file-transfer-4.2-alt1_2 ]============
+Problem opening /proc/meminfo
+CMake Error at CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 has been removed from CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+
+
+
+============[ PACKAGE: android-file-transfer-4.2-alt1_2 ]============
+
+-- Configuring incomplete, errors occurred!
+error: Bad exit status from /usr/src/tmp/rpm-tmp.23443 (%build)
+
+
+
+
+
+============[ PACKAGE: android-file-transfer-4.2-alt1_2 ]============
+-- Configuring incomplete, errors occurred!
+error: Bad exit status from /usr/src/tmp/rpm-tmp.23443 (%build)
+
+
+RPM build errors:
+
+
+
+============[ PACKAGE: android-file-transfer-4.2-alt1_2 ]============
+
+RPM build errors:
+    Bad exit status from /usr/src/tmp/rpm-tmp.23443 (%build)
+Command exited with non-zero status 1
+0.11user 0.07system 0:00.17elapsed 103%CPU (0avgtext+0avgdata 15632maxresident)k
+
+
+
+============[ PACKAGE: android-file-transfer-4.2-alt1_2 ]============
+0inputs+0outputs (0major+11543minor)pagefaults 0swaps
+hsh-rebuild: rebuild of `android-file-transfer-4.2-alt1_2.src.rpm' failed.
+Command exited with non-zero status 1
+6.99user 4.22system 0:34.42elapsed 32%CPU (0avgtext+0avgdata 133480maxresident)k
+88616inputs+0outputs (0major+370510minor)pagefaults 0swaps
+
+
+
+
+============[ PACKAGE: apache2-mod_apreq-2.16-alt1 ]============
+func:     apr_pstrmemdup
+scan /usr/src/RPM/BUILD/libapreq2-2.16/glue/perl/xsbuilder/APR/Request/Error/APR__Request__Error.h ...
+func:     XS_APR__Request__Error_nil
+scan /usr/src/RPM/BUILD/libapreq2-2.16/glue/perl/xsbuilder/APR/Request/Param/APR__Request__Param.h ...
+func:     XS_APR__Request__Param_nil
+
+
+
+============[ PACKAGE: apache2-mod_apreq-2.16-alt1 ]============
+make[2]: Entering directory '/usr/src/RPM/BUILD/libapreq2-2.16/library'
+/bin/sh ../libtool  --tag=CC   --mode=compile i586-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../include  -I/usr/include/apr-1  -I/usr/include/apu-1 -DLINUX -D_REENTRANT -D_GNU_SOURCE -D_LARGEFILE64_SOURCE  -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -march=i586 -mtune=generic -c -o error.lo error.c
+libtool: compile:  i586-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../include -I/usr/include/apr-1 -I/usr/include/apu-1 -DLINUX -D_REENTRANT -D_GNU_SOURCE -D_LARGEFILE64_SOURCE -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -march=i586 -mtune=generic -c error.c  -fPIC -DPIC -o .libs/error.o
+make[2]: Leaving directory '/usr/src/RPM/BUILD/libapreq2-2.16/library'
+make[2]: Entering directory '/usr/src/RPM/BUILD/libapreq2-2.16/library'
+
+
+
+============[ PACKAGE: apache2-mod_apreq-2.16-alt1 ]============
+/bin/sh ../libtool  --tag=CC   --mode=compile i586-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../include  -I/usr/include/apr-1  -I/usr/include/apu-1 -DLINUX -D_REENTRANT -D_GNU_SOURCE -D_LARGEFILE64_SOURCE  -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -march=i586 -mtune=generic -c -o error.lo error.c
+libtool: compile:  i586-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../include -I/usr/include/apr-1 -I/usr/include/apu-1 -DLINUX -D_REENTRANT -D_GNU_SOURCE -D_LARGEFILE64_SOURCE -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -march=i586 -mtune=generic -c error.c  -fPIC -DPIC -o .libs/error.o
+make[2]: Leaving directory '/usr/src/RPM/BUILD/libapreq2-2.16/library'
+make[2]: Entering directory '/usr/src/RPM/BUILD/libapreq2-2.16/library'
+/bin/sh ../libtool  --tag=CC   --mode=compile i586-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../include  -I/usr/include/apr-1  -I/usr/include/apu-1 -DLINUX -D_REENTRANT -D_GNU_SOURCE -D_LARGEFILE64_SOURCE  -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -march=i586 -mtune=generic -c -o param.lo param.c
+
+
+
+============[ PACKAGE: apache2-mod_apreq-2.16-alt1 ]============
+make[2]: Entering directory '/usr/src/RPM/BUILD/libapreq2-2.16/library'
+/bin/sh ../libtool  --tag=CC   --mode=link i586-alt-linux-gcc  -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -march=i586 -mtune=generic -version-info 11:1:8  -L/usr/lib -R/usr/lib -lapr-1 -laprutil-1  -luuid -lcrypt  -lpthread -lexpat  -o libapreq2.la -rpath /usr/lib util.lo version.lo cookie.lo param.lo parser.lo parser_urlencoded.lo parser_header.lo parser_multipart.lo module.lo module_custom.lo module_cgi.lo error.lo  
+libtool: link: i586-alt-linux-gcc -shared  -fPIC -DPIC  .libs/util.o .libs/version.o .libs/cookie.o .libs/param.o .libs/parser.o .libs/parser_urlencoded.o .libs/parser_header.o .libs/parser_multipart.o .libs/module.o .libs/module_custom.o .libs/module_cgi.o .libs/error.o   -L/usr/lib -lapr-1 -laprutil-1 -luuid -lcrypt -lpthread -lexpat  -g -O2 -flto=auto -march=i586 -mtune=generic   -Wl,-soname -Wl,libapreq2.so.3 -o .libs/libapreq2.so.3.8.1
+libtool: link: (cd ".libs" && rm -f "libapreq2.so.3" && ln -s "libapreq2.so.3.8.1" "libapreq2.so.3")
+libtool: link: (cd ".libs" && rm -f "libapreq2.so" && ln -s "libapreq2.so.3.8.1" "libapreq2.so")
+
+
+
+============[ PACKAGE: apache2-mod_apreq-2.16-alt1 ]============
+/bin/sh ../libtool  --tag=CC   --mode=link i586-alt-linux-gcc  -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -march=i586 -mtune=generic -version-info 11:1:8  -L/usr/lib -R/usr/lib -lapr-1 -laprutil-1  -luuid -lcrypt  -lpthread -lexpat  -o libapreq2.la -rpath /usr/lib util.lo version.lo cookie.lo param.lo parser.lo parser_urlencoded.lo parser_header.lo parser_multipart.lo module.lo module_custom.lo module_cgi.lo error.lo  
+libtool: link: i586-alt-linux-gcc -shared  -fPIC -DPIC  .libs/util.o .libs/version.o .libs/cookie.o .libs/param.o .libs/parser.o .libs/parser_urlencoded.o .libs/parser_header.o .libs/parser_multipart.o .libs/module.o .libs/module_custom.o .libs/module_cgi.o .libs/error.o   -L/usr/lib -lapr-1 -laprutil-1 -luuid -lcrypt -lpthread -lexpat  -g -O2 -flto=auto -march=i586 -mtune=generic   -Wl,-soname -Wl,libapreq2.so.3 -o .libs/libapreq2.so.3.8.1
+libtool: link: (cd ".libs" && rm -f "libapreq2.so.3" && ln -s "libapreq2.so.3.8.1" "libapreq2.so.3")
+libtool: link: (cd ".libs" && rm -f "libapreq2.so" && ln -s "libapreq2.so.3.8.1" "libapreq2.so")
+libtool: link: ( cd ".libs" && rm -f "libapreq2.la" && ln -s "../libapreq2.la" "libapreq2.la" )
+
+
+
+
+============[ PACKAGE: apache2-mod_perl-2.0.13-alt1 ]============
+docs/api/APR/Date.pod
+docs/api/APR/Error.pod
+docs/api/APR/Finfo.pod
+docs/api/APR/IpSubnet.pod
+docs/api/APR/OS.pod
+
+
+
+============[ PACKAGE: apache2-mod_perl-2.0.13-alt1 ]============
+-c modperl_common_util.c && mv modperl_common_util.o modperl_common_util.lo
+modperl_common_util.c:57:53: error: initialization of 'int (*)(PerlInterpreter *, SV *, MAGIC *, SV *, const char *, I32)' {aka 'int (*)(struct interpreter *, struct sv *, struct magic *, struct sv *, const char *, long int)'} from incompatible pointer type 'int (*)(PerlInterpreter *, SV *, MAGIC *, SV *, const char *, int)' {aka 'int (*)(struct interpreter *, struct sv *, struct magic *, struct sv *, const char *, int)'} [-Wincompatible-pointer-types]
+   57 |                                                     modperl_table_magic_copy};
+      |                                                     ^~~~~~~~~~~~~~~~~~~~~~~~
+modperl_common_util.c:57:53: note: (near initialization for 'modperl_table_magic_prefetch.svt_copy')
+
+
+
+============[ PACKAGE: apache2-mod_perl-2.0.13-alt1 ]============
+modperl_common_util.c:57:53: note: (near initialization for 'modperl_table_magic_prefetch.svt_copy')
+make[1]: *** [Makefile:114: modperl_common_util.lo] Error 1
+make[1]: Leaving directory '/usr/src/RPM/BUILD/mod_perl-2.0.13/src/modules/perl'
+make[1]: *** Waiting for unfinished jobs....
+make[1]: Entering directory '/usr/src/RPM/BUILD/mod_perl-2.0.13/src/modules/perl'
+
+
+
+============[ PACKAGE: apache2-mod_perl-2.0.13-alt1 ]============
+make[1]: Leaving directory '/usr/src/RPM/BUILD/mod_perl-2.0.13/src/modules/perl'
+make: *** [Makefile:447: modperl_lib] Error 2
+make: *** Waiting for unfinished jobs....
+make[3]: Entering directory '/usr/src/RPM/BUILD/mod_perl-2.0.13/WrapXS/APR/Base64'
+gcc -c -I/usr/src/RPM/BUILD/mod_perl-2.0.13/src/modules/perl -I/usr/src/RPM/BUILD/mod_perl-2.0.13/xs -I/usr/include/apr-1 -I/usr/include/apu-1  -I/usr/include/apache2 -I/usr/src/RPM/BUILD/mod_perl-2.0.13/src/modules/perl -I/usr/src/RPM/BUILD/mod_perl-2.0.13/xs -I/usr/include/apr-1 -I/usr/include/apu-1  -I/usr/include/apache2 -I/usr/src/RPM/BUILD/mod_perl-2.0.13/src/modules/perl -I/usr/src/RPM/BUILD/mod_perl-2.0.13/xs -I/usr/include/apr-1 -I/usr/include/apu-1  -I/usr/include/apache2  -I/usr/src/RPM/BUILD/mod_perl-2.0.13/src/modules/perl -I/usr/src/RPM/BUILD/mod_perl-2.0.13/xs -I/usr/include/apr-1 -I/usr/include/apu-1  -I/usr/include/apache2 -D_REENTRANT -D_GNU_SOURCE -fwrapv -fno-strict-aliasing -pipe -fstack-protector-strong -I/usr/local/include -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -DMOD_PERL -DMP_COMPAT_1X -fgnu89-inline -DLINUX -D_REENTRANT -D_GNU_SOURCE -D_LARGEFILE64_SOURCE  -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -march=i586 -mtune=generic   -DVERSION=\"0.009000\" -DXS_VERSION=\"0.009000\" -fPIC "-I/usr/lib/perl5/CORE" -DMP_HAVE_APR_LIBS -DMP_HAVE_APR_LIBS -DMP_HAVE_APR_LIBS  -DMP_HAVE_APR_LIBS Base64.c
+
+
+
+============[ PACKAGE: apache2-mod_perl-2.0.13-alt1 ]============
+make[3]: Leaving directory '/usr/src/RPM/BUILD/mod_perl-2.0.13/WrapXS/APR/Date'
+make[3]: Entering directory '/usr/src/RPM/BUILD/mod_perl-2.0.13/WrapXS/APR/Error'
+Running Mkbootstrap for Error ()
+chmod 644 "Error.bs"
+make[3]: Leaving directory '/usr/src/RPM/BUILD/mod_perl-2.0.13/WrapXS/APR/Error'
+
+
+
+
