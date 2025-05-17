@@ -1,4 +1,4 @@
-from fastapi import FastAPI, Request
+from fastapi import FastAPI, Request, HTTPException
 import logging
 import requests
 import asyncio
@@ -68,6 +68,19 @@ def format_batch_for_prompt(batch: List[dict]) -> str:
     return "\n\n".join(formatted)
 
 
+@app.get("/get_llm_parsed_data")
+async def get_llm_parsed_data():
+    file_path = "merged.json"
+    if not os.path.exists(file_path):
+        raise HTTPException(status_code=404, detail="File not found")
+
+    try:
+        with open(file_path, "r", encoding="utf-8") as f:
+            data = json.load(f)
+        return data
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"Error reading file: {e}")
+
 @app.post("/llm_parse")
 async def llm_parse(logs: List[LogEntry]):
     try:
@@ -78,7 +91,7 @@ async def llm_parse(logs: List[LogEntry]):
         all_results = []
         batches = split_batches(logs_dicts, batch_size=BATCH_SIZE)
 
-        count = 26  # TODO: 1
+        count = 1  # TODO: 26
 
         for batch in batches:
             log_text = format_batch_for_prompt(batch)
