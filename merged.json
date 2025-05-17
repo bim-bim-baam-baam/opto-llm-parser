@@ -1,1581 +1,1581 @@
 [
   {
-    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/DirectXShaderCompiler-1.8.2403-alt0.3",
+    "link": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/DirectXShaderCompiler-1.8.2403-alt0.3",
     "package": "DirectXShaderCompiler-1.8.2403-alt0.3",
     "error_type": "cmake_policy",
     "programming_language": "C++",
     "description": "CMake configuration error: Policy CMP0051 cannot use OLD behavior as it's no longer supported. The policy was introduced in CMake 3.1.0, requiring NEW behavior in current versions."
   },
   {
-    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/GMT-6.4.0-alt1_10",
+    "link": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/GMT-6.4.0-alt1_10",
     "package": "GMT-6.4.0-alt1_10",
     "error_type": "cmake_minimum_required",
     "programming_language": "C++",
     "description": "CMake compatibility error: Minimum required CMake version syntax outdated. Compatibility with CMake <3.5 has been removed. Update VERSION argument in cmake_minimum_required."
   },
   {
-    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/a2ps-4.14-alt4",
+    "link": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/a2ps-4.14-alt4",
     "package": "a2ps-4.14-alt4",
     "error_type": "compilation_error",
     "programming_language": "C",
     "description": "Compilation error in fonts.c: Implicit declaration of rpl_malloc/rpl_realloc functions and return type mismatch between int and void*. Likely caused by incorrect macro replacements for memory allocation functions."
   },
   {
-    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/aces_container-1.0.2-alt1_8",
+    "link": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/aces_container-1.0.2-alt1_8",
     "package": "aces_container-1.0.2-alt1_8",
     "error_type": "cmake_minimum_required",
     "programming_language": "C++",
     "description": "CMake compatibility error: cmake_minimum_required specifies an outdated CMake version (<3.5). Update the minimum version argument to use <min>...<max> syntax or newer CMake."
   },
   {
-    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/alglib-4.01.0-alt1_1",
+    "link": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/alglib-4.01.0-alt1_1",
     "package": "alglib-4.01.0-alt1_1",
     "error_type": "cmake_minimum_required",
     "programming_language": "C++",
     "description": "CMake configuration error: Project requires update to cmake_minimum_required syntax as compatibility with CMake versions <3.5 has been removed."
   },
   {
-    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/alt-docs-apache2-0.2.2-alt1",
+    "link": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/alt-docs-apache2-0.2.2-alt1",
     "package": "alt-docs-apache2-0.2.2-alt1",
     "error_type": "cmake_minimum_required",
     "programming_language": "C++",
     "description": "CMake error: cmake_minimum_required uses deprecated syntax. Compatibility with CMake versions below 3.5 is no longer supported. Update the VERSION argument."
   },
   {
-    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/amgcl-devel-1.4.4-alt1",
+    "link": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/amgcl-devel-1.4.4-alt1",
     "package": "amgcl-devel-1.4.4-alt1",
     "error_type": "cmake_policy",
     "programming_language": "C++",
     "description": "CMake policy error: Policy CMP0058 cannot use OLD behavior. The policy was introduced in CMake 3.3.0, and NEW behavior is now mandatory."
   },
   {
-    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/android-file-transfer-4.2-alt1_2",
+    "link": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/android-file-transfer-4.2-alt1_2",
     "package": "android-file-transfer-4.2-alt1_2",
     "error_type": "cmake_minimum_required",
     "programming_language": "C++",
     "description": "CMake configuration error: Outdated cmake_minimum_required syntax. Compatibility with CMake versions older than 3.5 has been removed. Update the version specification."
   },
   {
-    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/apache2-mod_perl-2.0.13-alt1",
+    "link": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/apache2-mod_perl-2.0.13-alt1",
     "package": "apache2-mod_perl-2.0.13-alt1",
     "error_type": "compilation_error",
     "programming_language": "C",
     "description": "Compilation error in modperl_common_util.c: Incompatible function pointer types during initialization of 'modperl_table_magic_prefetch.svt_copy', causing build failure."
   },
   {
-    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/libgtkhtml-2.11.1-alt1.qa1",
+    "link": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/libgtkhtml-2.11.1-alt1.qa1",
     "package": "libgtkhtml-2.11.1-alt1.qa1",
     "error_type": "incompatible pointer type",
     "programming_language": "C",
     "description": "Type mismatch errors in C code: assignments of incompatible pointer types (DomEventListener*/GObject* and DomEventTarget*/DomNode*) causing compilation failures in dom-node.c."
   },
   {
-    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/libgxim-0.5.0-alt3",
+    "link": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/libgxim-0.5.0-alt3",
     "package": "libgxim-0.5.0-alt3",
     "error_type": "implicit function declaration",
     "programming_language": "C",
     "description": "Undefined function 'gdk_x11_atom_to_xatom_for_display' in gximcore.c, triggering implicit declaration warnings treated as errors during compilation."
   },
   {
-    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/libgxml-0.20.4-alt1",
+    "link": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/libgxml-0.20.4-alt1",
     "package": "libgxml-0.20.4-alt1",
     "error_type": "test failure,enum parsing",
     "programming_language": "Vala",
     "description": "Test failure during XML serialization: inability to parse 'UnkNown' text into SerializationTestMotorTensionSupplyEnum, indicating enum validation issues in Vala code."
   },
   {
-    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/libkkc-0.3.5-alt1_24",
+    "link": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/libkkc-0.3.5-alt1_24",
     "package": "libkkc-0.3.5-alt1_24",
     "error_type": "DBus method warning",
     "programming_language": "Vala",
     "description": "DBus methods in server.vala lack proper error handling (missing GLib.Error/GLib.DBusError declarations), triggering compilation warnings."
   },
   {
-    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/libksba-gost-1.3.6-alt15",
+    "link": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/libksba-gost-1.3.6-alt15",
     "package": "libksba-gost-1.3.6-alt15",
     "error_type": "incompatible pointer type",
     "programming_language": "C",
     "description": "Type mismatch in C code: incorrect pointer types passed to _ksba_oid_from_str function in cms.c, causing compilation errors."
   },
   {
-    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/liblevmar-2.6-alt1_12",
+    "link": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/liblevmar-2.6-alt1_12",
     "package": "liblevmar-2.6-alt1_12",
     "error_type": "CMake version compatibility",
     "programming_language": "C++",
     "description": "CMake configuration failure: cmake_minimum_required specifies outdated CMake version (compatibility with <3.5 removed), blocking project configuration."
   },
   {
-    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/libm17n-1.8.0-alt1",
+    "link": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/libm17n-1.8.0-alt1",
     "package": "libm17n-1.8.0-alt1",
     "error_type": "implicit int declaration",
     "programming_language": "C",
     "description": "Implicit int type declaration for parameter 'idx' in select_input_method function (medit.c), triggering -Wimplicit-int errors."
   },
   {
-    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/libmatchbox-1.9-alt4.1",
+    "link": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/libmatchbox-1.9-alt4.1",
     "package": "libmatchbox-1.9-alt4.1",
     "error_type": "implicit function declaration",
     "programming_language": "C",
     "description": "Undefined function 'mb_want_warnings' in mbpixbuf.c, causing implicit declaration errors during compilation."
   },
   {
-    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/libmirisdr-0.0.20230516-alt1_1.faf794b",
+    "link": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/libmirisdr-0.0.20230516-alt1_1.faf794b",
     "package": "libmirisdr-0.0.20230516-alt1_1.faf794b",
     "error_type": "CMake version compatibility",
     "programming_language": "C++",
     "description": "CMake configuration failure: cmake_minimum_required specifies outdated CMake version (compatibility with <3.5 removed), preventing project setup."
   },
   {
-    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/libmodman-2.0.1-alt2_23",
+    "link": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/libmodman-2.0.1-alt2_23",
     "package": "libmodman-2.0.1-alt2_23",
     "error_type": "CMake version compatibility",
     "programming_language": "C++",
     "description": "CMake configuration failure: cmake_minimum_required specifies outdated CMake version (compatibility with <3.5 removed), halting project configuration."
   },
   {
-    "path": null,
+    "link": null,
     "package": "libmsym-0.2.3-alt2_7.1",
     "error_type": "cmake_version",
     "programming_language": "C++",
     "description": "CMake configuration error: Outdated cmake_minimum_required version specification. Requires updating CMake version argument due to removed compatibility with versions below 3.5."
   },
   {
-    "path": null,
+    "link": null,
     "package": "libneXtaw-0.15.1-alt8",
     "error_type": "missing_include,implicit_declaration",
     "programming_language": "C",
     "description": "Implicit function declarations for LayYYerror, free, and LayYYlex due to missing headers (stdlib.h not included). Compiler warnings indicate incompatible function declarations."
   },
   {
-    "path": null,
+    "link": null,
     "package": "libnss-fallback-0.0.1-alt2.qa1",
     "error_type": "cmake_version",
     "programming_language": "C++",
     "description": "CMake configuration failure: Invalid cmake_minimum_required syntax. Requires updated version specification for modern CMake compatibility."
   },
   {
-    "path": null,
+    "link": null,
     "package": "libopenCOLLADA-0-alt8.gitcaad49c",
     "error_type": "build_script_error,cmake_version",
     "programming_language": "C++",
     "description": "Multiple issues: Invalid option syntax in build script (add_optflags) and CMake version incompatibility in CMakeLists.txt (minimum required version outdated)."
   },
   {
-    "path": null,
+    "link": null,
     "package": "liborigin-20080225-alt1_24",
     "error_type": "cmake_missing_min_version",
     "programming_language": "C++",
     "description": "Critical CMake error: Missing cmake_minimum_required command in CMakeLists.txt. Project configuration requires explicit minimum CMake version declaration."
   },
   {
-    "path": null,
+    "link": null,
     "package": "libpcl-1.12-alt2",
     "error_type": "missing_include",
     "programming_language": "C",
     "description": "Implicit declarations of atoi and malloc functions due to missing stdlib.h include in source files, causing compilation errors."
   },
   {
-    "path": null,
+    "link": null,
     "package": "libpolyclipping-6.4.2-alt1_17",
     "error_type": "cmake_version",
     "programming_language": "C++",
     "description": "CMake configuration failure: Deprecated cmake_minimum_required syntax. Requires updated version range specification for compatibility."
   },
   {
-    "path": null,
+    "link": null,
     "package": "libprojectM-2.1.0-alt17",
     "error_type": "cmake_policy",
     "programming_language": "C++",
     "description": "CMake policy errors: Use of obsolete CMP0005 policy with OLD behavior. Modern CMake requires NEW policy behavior for compatibility."
   },
   {
-    "path": null,
+    "link": null,
     "package": "libpst-0.6.76-alt4.1",
     "error_type": "incompatible_pointer_type",
     "programming_language": "C",
     "description": "Compilation error: Incompatible pointer type in uncompress function call (Bytef* vs unsigned long*) causing type mismatch."
   },
   {
-    "path": null,
+    "link": null,
     "package": "libqhttpengine-1.0.1-alt2",
     "error_type": "cmake_version",
     "programming_language": "C++",
     "description": "CMake configuration error: Invalid cmake_minimum_required version syntax. Requires modern version specification format."
   },
   {
-    "path": "path/to/log/libqmdnsengine-0.2.0-alt1",
+    "link": "path/to/log/libqmdnsengine-0.2.0-alt1",
     "package": "libqmdnsengine-0.2.0-alt1",
     "error_type": "CMake Configuration",
     "programming_language": "C++",
     "description": "CMake configuration error: Outdated CMake version specified. The cmake_minimum_required in CMakeLists.txt requires updating the VERSION argument to >=3.5 or using <min>...<max> syntax."
   },
   {
-    "path": "path/to/log/libreplaygain-r483-alt1.svn20131021",
+    "link": "path/to/log/libreplaygain-r483-alt1.svn20131021",
     "package": "libreplaygain-r483-alt1.svn20131021",
     "error_type": "CMake Configuration",
     "programming_language": "C++",
     "description": "CMake configuration error: Incompatible CMake version (older than 3.5) specified in CMakeLists.txt. Update cmake_minimum_required to a valid version."
   },
   {
-    "path": "path/to/log/libretro-computers-20250130-alt1",
+    "link": "path/to/log/libretro-computers-20250130-alt1",
     "package": "libretro-computers-20250130-alt1",
     "error_type": "Compiler Warnings,Unused Variables/Functions",
     "programming_language": "C++",
     "description": "Multiple compiler warnings for unused variables (e.g., BlockID, OldCurBlock) and functions (rwgetc). Build likely failed due to strict compiler flags treating warnings as errors."
   },
   {
-    "path": "path/to/log/libscalapack-2.1.0-alt3",
+    "link": "path/to/log/libscalapack-2.1.0-alt3",
     "package": "libscalapack-2.1.0-alt3",
     "error_type": "CMake Configuration,BLACS Configuration",
     "programming_language": "Fortran",
     "description": "Dual errors: (1) Outdated CMake version in CMakeLists.txt, (2) BLACS INSTALL directory configuration failure during Fortran mangling checks in CMAKE/FortranMangling.cmake."
   },
   {
-    "path": "path/to/log/libsdp-1.1.108-alt2.0.17.ga6958ef",
+    "link": "path/to/log/libsdp-1.1.108-alt2.0.17.ga6958ef",
     "package": "libsdp-1.1.108-alt2.0.17.ga6958ef",
     "error_type": "Compilation Error,Type Conflict",
     "programming_language": "C",
     "description": "Conflicting type declaration for 'ioctl' in port.c (custom vs. system header). Missing include for string.h causing memset/free implicit declaration warnings."
   },
   {
-    "path": "path/to/log/libskk-1.0.4-alt3_11",
+    "link": "path/to/log/libskk-1.0.4-alt3_11",
     "package": "libskk-1.0.4-alt3_11",
     "error_type": "Compilation Error,Incompatible Pointer Types",
     "programming_language": "C",
     "description": "Type mismatches in function arguments (e.g., GCompareFunc vs. g_strcmp0, SkkCandidate** vs. void**). Incompatible pointer assignments trigger build failures."
   },
   {
-    "path": "path/to/log/libsocket-2.4.1-alt4.git20140508",
+    "link": "path/to/log/libsocket-2.4.1-alt4.git20140508",
     "package": "libsocket-2.4.1-alt4.git20140508",
     "error_type": "CMake Configuration",
     "programming_language": "C++",
     "description": "CMake configuration error: cmake_minimum_requires outdated CMake version (<3.5). Update VERSION argument in CMakeLists.txt to resolve compatibility."
   },
   {
-    "path": "path/to/log/libspf2-1.2.11-alt1.git.4915c30",
+    "link": "path/to/log/libspf2-1.2.11-alt1.git.4915c30",
     "package": "libspf2-1.2.11-alt1.git.4915c30",
     "error_type": "Compilation Error,Implicit Function Declaration",
     "programming_language": "C",
     "description": "Implicit declaration of memset and free due to missing #include <string.h>/<stdlib.h> in spf_utils.c. Causes build failure under strict compiler settings."
   },
   {
-    "path": "path/to/log/libsvg-0.1.4-alt2_24",
+    "link": "path/to/log/libsvg-0.1.4-alt2_24",
     "package": "libsvg-0.1.4-alt2_24",
     "error_type": "Compilation Error,Implicit Function Declaration",
     "programming_language": "C",
     "description": "Implicit declarations of malloc/free in svg_paint.c and svg_group.c due to missing #include <stdlib.h>. Results in build failure."
   },
   {
-    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/libtiff-4.7.0-alt1",
+    "link": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/libtiff-4.7.0-alt1",
     "package": "libtiff-4.7.0-alt1",
     "error_type": "test failure",
     "programming_language": "C",
     "description": "Test suite failures during 'make check' phase, possibly due to environment or test case inconsistencies. Error 1 in test-suite.log reported."
   },
   {
-    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/libtiger-0.3.4-alt1.qa2",
+    "link": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/libtiger-0.3.4-alt1.qa2",
     "package": "libtiger-0.3.4-alt1.qa2",
     "error_type": "missing dependency",
     "programming_language": "C",
     "description": "Missing installation candidate for automake_1.11 package required for build process, causing failure in package file list generation."
   },
   {
-    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/libunwind-1.7.0-alt2",
+    "link": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/libunwind-1.7.0-alt2",
     "package": "libunwind-1.7.0-alt2",
     "error_type": "compiler error,pointer type",
     "programming_language": "C",
     "description": "Incompatible pointer type error in _ULx86_sigreturn call at x86/Gos-linux.c:302 during compilation, treated as fatal error."
   },
   {
-    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/liburing-2.9-alt1",
+    "link": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/liburing-2.9-alt1",
     "package": "liburing-2.9-alt1",
     "error_type": "test/kernel",
     "programming_language": "C",
     "description": "Kernel NULL pointer dereference and segmentation faults during test execution (buf-ring-nommap.t, coredump.t), resulting in killed processes (ret 137)."
   },
   {
-    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/libwebrtc-audio-processing-1.3-alt2",
+    "link": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/libwebrtc-audio-processing-1.3-alt2",
     "package": "libwebrtc-audio-processing-1.3-alt2",
     "error_type": "build timeout",
     "programming_language": "C++",
     "description": "hasher-privd exceeded idle time limit (3600 seconds) during rebuild process, leading to build failure."
   },
   {
-    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/libzmf-0.0.1-alt1",
+    "link": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/libzmf-0.0.1-alt1",
     "package": "libzmf-0.0.1-alt1",
     "error_type": "linker",
     "programming_language": "C++",
     "description": "Undefined reference to ICU library function 'ucnv_open_76' during linking of zmf2raw executable, indicating missing ICU development dependencies."
   },
   {
-    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/lilo-24.2-alt3",
+    "link": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/lilo-24.2-alt3",
     "package": "lilo-24.2-alt3",
     "error_type": "missing dependency",
     "programming_language": "C",
     "description": "Missing dev86 package required for build process, causing failure in package file list generation."
   },
   {
-    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/lincity-ng-2.12.0-alt1",
+    "link": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/lincity-ng-2.12.0-alt1",
     "package": "lincity-ng-2.12.0-alt1",
     "error_type": "cmake",
     "programming_language": "C++",
     "description": "CMake configuration failed: Could NOT find webp components (missing: webp_LIBRARY, webp_INCLUDE_PATH, webpdemux_LIBRARY)."
   },
   {
-    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/linux-pam-1.7.0-alt1",
+    "link": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/linux-pam-1.7.0-alt1",
     "package": "linux-pam-1.7.0-alt1",
     "error_type": "compiler warning,sign-compare",
     "programming_language": "C",
     "description": "Fatal sign comparison error (-Werror=sign-compare) in pam_lastlog.c:572 between __uint32_t and time_t types, treating warnings as errors."
   },
   {
-    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/linuxdoc-tools-0.9.69-alt4",
+    "link": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/linuxdoc-tools-0.9.69-alt4",
     "package": "linuxdoc-tools-0.9.69-alt4",
     "error_type": "type conflict",
     "programming_language": "C",
     "description": "Conflicting type declaration for fpos_t (long vs standard library's definition) in std.h:95 during compilation of sgmlsasp.c and getopt.c."
   },
   {
-    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/log4c-1.2.1-alt1.1.qa3",
+    "link": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/log4c-1.2.1-alt1.1.qa3",
     "package": "log4c-1.2.1-alt1.1.qa3",
     "error_type": "dependency_issue,compiler_warning",
     "programming_language": "C",
     "description": "EXPAT dependency problem: Test program failed to compile/link, possibly due to incorrect installation. Additional warning: unused 'version' constant variable in error.c."
   },
   {
-    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/lp_solve-5.5.2.5-alt1",
+    "link": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/lp_solve-5.5.2.5-alt1",
     "package": "lp_solve-5.5.2.5-alt1",
     "error_type": "macro_conflict",
     "programming_language": "C",
     "description": "Macro definition conflict: FALSE redefined as numeric constant causes syntax errors in multiple files. Implicit int return type warning in platform.c."
   },
   {
-    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/lrzsz-0.12.20-alt2",
+    "link": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/lrzsz-0.12.20-alt2",
     "package": "lrzsz-0:0.12.20-alt2",
     "error_type": "compiler_configuration",
     "programming_language": "C",
     "description": "C compiler failure: Configuration error indicates compiler cannot create executables, likely due to toolchain misconfiguration or missing dependencies."
   },
   {
-    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/lua5.4-module-dbi-0.7.2-alt2",
+    "link": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/lua5.4-module-dbi-0.7.2-alt2",
     "package": "lua5.4-module-dbi-0.7.2-alt2",
     "error_type": "type_mismatch",
     "programming_language": "C",
     "description": "Pointer type incompatibility: Assigning int* to my_bool* in MySQL statement.c. Size_t* to unsigned long* conversion error. Multiple incompatible pointer type warnings."
   },
   {
-    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/lugaru-0.0.r262-alt2.2",
+    "link": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/lugaru-0.0.r262-alt2.2",
     "package": "lugaru-0.0.r262-alt2.2",
     "error_type": "cmake_version",
     "programming_language": "C++",
     "description": "CMake compatibility error: cmake_minimum_required specifies outdated CMake version (below 3.5). Configuration aborted due to removed legacy support."
   },
   {
-    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/manaworld-0.5.2-alt5_9",
+    "link": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/manaworld-0.5.2-alt5_9",
     "package": "manaworld-0.5.2-alt5_9",
     "error_type": "cmake_version",
     "programming_language": "C++",
     "description": "CMake version conflict: cmake_minimum_required uses obsolete version specification. Additional warning about /proc/meminfo access failure."
   },
   {
-    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/matchbox-window-manager-1.2-alt5.1",
+    "link": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/matchbox-window-manager-1.2-alt5.1",
     "package": "matchbox-window-manager-1.2-alt5.1",
     "error_type": "implicit_declaration,format_warning",
     "programming_language": "C",
     "description": "Implicit function declaration: 'wait()' missing prototype in misc.c. Format string warning: %d vs XML_Size type mismatch in xml.c. Build fails due to compilation errors."
   },
   {
-    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/maven-scm-1.10.0-alt1_9jpp11",
+    "link": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/maven-scm-1.10.0-alt1_9jpp11",
     "package": "maven-scm-0:1.10.0-alt1_9jpp11",
     "error_type": "missing_symbol",
     "programming_language": "Java",
     "description": "Compilation error: ROLE symbol not found in SecDispatcher interface during maven-scm-test build. Likely caused by outdated dependencies or API changes."
   },
   {
-    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/mbootpack-0.6a-alt3",
+    "link": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/mbootpack-0.6a-alt3",
     "package": "mbootpack-0.6a-alt3",
     "error_type": "resource_exhaustion",
     "programming_language": "C",
     "description": "Memory exhaustion during compilation: Virtual memory allocation failed while building buildimage.o. Additional warnings about uninitialized variable usage."
   },
   {
-    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/metis-5.1.0-alt2",
+    "link": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/metis-5.1.0-alt2",
     "package": "metis-5.1.0-alt2",
     "error_type": "cmake_version",
     "programming_language": "C++",
     "description": "CMake version error: cmake_minimum_required uses outdated syntax. Configuration aborted due to removed legacy CMake compatibility."
   },
   {
-    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/milkytracker-1.03.00-alt1_5",
+    "link": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/milkytracker-1.03.00-alt1_5",
     "package": "milkytracker-1.03.00-alt1_5",
     "error_type": "cmake_policy",
     "programming_language": "C++",
     "description": "CMake policy error CMP0004: Policy OLD behavior is no longer supported. Update CMake configuration to use NEW behavior."
   },
   {
-    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/mkvextract-gtk-0.9.3-alt1",
+    "link": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/mkvextract-gtk-0.9.3-alt1",
     "package": "mkvextract-gtk-0.9.3-alt1",
     "error_type": "cmake_minimum_required",
     "programming_language": "C++",
     "description": "CMake version incompatibility: Missing cmake_minimum_required command and outdated VERSION argument (<3.5). Update CMakeLists.txt syntax."
   },
   {
-    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/mono-6.12.0.206-alt1",
+    "link": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/mono-6.12.0.206-alt1",
     "package": "mono-6.12.0.206-alt1",
     "error_type": "cmake_minimum_required",
     "programming_language": "C#",
     "description": "CMake configuration failure: Outdated cmake_minimum_required VERSION argument. Requires update to >=3.5 in CMakeLists.txt."
   },
   {
-    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/mppenc-1.16-alt0.1.qa1",
+    "link": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/mppenc-1.16-alt0.1.qa1",
     "package": "mppenc-1.16-alt0.1.qa1",
     "error_type": "cmake_minimum_required",
     "programming_language": "C++",
     "description": "CMake syntax error: Invalid cmake_minimum_required specification. Update to use compatible version syntax (>=3.5)."
   },
   {
-    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/mustache-cpp-4.1-alt1_10",
+    "link": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/mustache-cpp-4.1-alt1_10",
     "package": "mustache-cpp-4.1-alt1_10",
     "error_type": "cmake_minimum_required",
     "programming_language": "C++",
     "description": "CMake compatibility error: cmake_minimum_required lacks valid version specification. Requires VERSION >=3.5."
   },
   {
-    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/nagios-3.0.6-alt18",
+    "link": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/nagios-3.0.6-alt18",
     "package": "nagios-3.0.6-alt18",
     "error_type": "compilation,return_type_mismatch",
     "programming_language": "C",
     "description": "Type mismatch in logging.c: Returning NULL in int-returning functions. Additional warnings about misleading indentation."
   },
   {
-    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/nagios-plugins-2.2.1-alt1",
+    "link": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/nagios-plugins-2.2.1-alt1",
     "package": "nagios-plugins-2.2.1-alt1",
     "error_type": "missing_include,unused_result",
     "programming_language": "C",
     "description": "Missing ctype.h includes causing implicit tolower/toupper declarations. Unchecked return values of write() calls."
   },
   {
-    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/netconsole-1.1-alt1",
+    "link": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/netconsole-1.1-alt1",
     "package": "netconsole-1.1-alt1",
     "error_type": "permission_denied",
     "programming_language": "Shell",
     "description": "Permission denied during %check phase: systemd-analyze failed to create /run/systemd/ directory."
   },
   {
-    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/netdata-1.43.2-alt3",
+    "link": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/netdata-1.43.2-alt3",
     "package": "netdata-1.43.2-alt3",
     "error_type": "protobuf_dependency",
     "programming_language": "C++",
     "description": "Missing google/protobuf/descriptor.proto during Protobuf code generation. Dependency resolution failure."
   },
   {
-    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/nheko-0.12.0-alt2",
+    "link": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/nheko-0.12.0-alt2",
     "package": "nheko-0.12.0-alt2",
     "error_type": "linker",
     "programming_language": "C++",
     "description": "Undefined reference to mtx::events::msg::to_json during linking. Missing implementation or library dependencies."
   },
   {
-    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/niftilib-0.20100720-alt4",
+    "link": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/niftilib-0.20100720-alt4",
     "package": "niftilib-0.20100720-alt4",
     "error_type": "CMake configuration",
     "programming_language": "C/C++",
     "description": "CMake configuration failed due to missing 'cmake_minimum_required' command in CMakeLists.txt, resulting in incomplete build configuration and subsequent build failure."
   },
   {
-    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/node-uglify-js-3.17.0-alt1",
+    "link": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/node-uglify-js-3.17.0-alt1",
     "package": "node-uglify-js-3.17.0-alt1",
     "error_type": "test failure, syntax error",
     "programming_language": "JavaScript",
     "description": "Multiple test cases failed due to syntax errors in JavaScript code during testing, indicating issues with input validation or code parsing logic."
   },
   {
-    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/nx-libs-3.5.99.26.1-alt3.2",
+    "link": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/nx-libs-3.5.99.26.1-alt3.2",
     "package": "nx-libs-3.5.99.26.1-alt3.2",
     "error_type": "linker error, missing make target",
     "programming_language": "C/C++",
     "description": "Linker error: missing input file 'MesaTnlAsmSrcs' and build failure due to missing 'includes' target rule in Makefile, indicating configuration or dependency issues."
   },
   {
-    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/nxssh-7.5-alt14",
+    "link": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/nxssh-7.5-alt14",
     "package": "nxssh-7.5-alt14",
     "error_type": "compiler configuration",
     "programming_language": "C/C++",
     "description": "Compiler sanity check failed during configuration: unable to create working executables, likely due to incorrect compiler setup, missing dependencies, or invalid flags."
   },
   {
-    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/octave-nan-3.7.0-alt1",
+    "link": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/octave-nan-3.7.0-alt1",
     "package": "octave-nan-3.7.0-alt1",
     "error_type": "missing library dependency",
     "programming_language": "Octave (C/C++ mex)",
     "description": "Multiple mex files failed to link due to missing 'liboctmex.so.1', indicating unresolved dependency or incorrect library path configuration for Octave extensions."
   },
   {
-    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/octave-stk-2.7.0-alt1",
+    "link": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/octave-stk-2.7.0-alt1",
     "package": "octave-stk-2.7.0-alt1",
     "error_type": "missing library dependency",
     "programming_language": "Octave (C/C++ mex)",
     "description": "Build failed due to missing 'liboctmex.so.1' required by mex files, highlighting dependency issues in Octave package compilation."
   },
   {
-    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/onboard-1.4.2.2-alt2",
+    "link": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/onboard-1.4.2.2-alt2",
     "package": "onboard-1.4.2.2-alt2",
     "error_type": "compilation error",
     "programming_language": "C",
     "description": "Compilation failed due to redefinition of 'false' and 'true' in osk_module.h, conflicting with standard boolean definitions, causing syntax errors."
   },
   {
-    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/openbabel-3.1.1-alt4.1",
+    "link": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/openbabel-3.1.1-alt4.1",
     "package": "openbabel-3.1.1-alt4.1",
     "error_type": "CMake policy incompatibility",
     "programming_language": "C++",
     "description": "CMake configuration error: unsupported policy CMP0042 set to OLD. Update to CMake 3.0+ required to enforce NEW policy behavior, blocking build configuration."
   },
   {
-    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/pdnsd-1.2.9a-alt2",
+    "link": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/pdnsd-1.2.9a-alt2",
     "package": "pdnsd-1.2.9a-alt2",
     "error_type": "implicit_declaration",
     "programming_language": "C",
     "description": "Implicit function declaration error for 'error' in droppriv.c, likely missing include or incorrect function usage, leading to compilation failure."
   },
   {
-    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/perceptualdiff-1.1.1-alt1.qa1",
+    "link": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/perceptualdiff-1.1.1-alt1.qa1",
     "package": "perceptualdiff-1.1.1-alt1.qa1",
     "error_type": "cmake_min_version",
     "programming_language": "C++",
     "description": "CMake configuration error due to outdated minimum version requirement (Compatibility with CMake <3.5 removed). Requires update to VERSION syntax in CMakeLists.txt."
   },
   {
-    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/perl-Alien-Build-2.84-alt1",
+    "link": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/perl-Alien-Build-2.84-alt1",
     "package": "perl-Alien-Build-2.84-alt1",
     "error_type": "cmake_min_version",
     "programming_language": "C++",
     "description": "CMake configuration failure: Compatibility with CMake <3.5 removed. Update CMakeLists.txt to specify correct minimum version."
   },
   {
-    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/perl-Alien-cmake3-0.09-alt1",
+    "link": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/perl-Alien-cmake3-0.09-alt1",
     "package": "perl-Alien-cmake3-0.09-alt1",
     "error_type": "missing_perl_module",
     "programming_language": "Perl",
     "description": "Build failure due to missing Perl module Sort::Versions, required during the build process."
   },
   {
-    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/perl-B-C-1.57_01-alt1.gitb29a5b8f",
+    "link": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/perl-B-C-1.57_01-alt1.gitb29a5b8f",
     "package": "perl-B-C-1.57_01-alt1.gitb29a5b8f",
     "error_type": "compilation_error,incompatible_pointer_type",
     "programming_language": "C",
     "description": "Incompatible pointer type assignment in byterun.c (char* vs STRLEN*), causing compilation failure in Perl XS code."
   },
   {
-    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/perl-CGI-SpeedyCGI-2.22-alt9",
+    "link": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/perl-CGI-SpeedyCGI-2.22-alt9",
     "package": "perl-CGI-SpeedyCGI-2.22-alt9",
     "error_type": "implicit_declaration",
     "programming_language": "C",
     "description": "Implicit declaration of 'PerlIO_reopen' function in speedy_perl.c, likely missing header inclusion or outdated Perl API usage."
   },
   {
-    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/perl-Cairo-1.109-alt1",
+    "link": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/perl-Cairo-1.109-alt1",
     "package": "perl-Cairo-1.109-alt1",
     "error_type": "compilation_error,incompatible_pointer_type",
     "programming_language": "C",
     "description": "Incompatible pointer type in Perl XS code (CairoSurface.xs) during SvPV_flags call, leading to compilation error."
   },
   {
-    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/perl-CryptX-0.085-alt1",
+    "link": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/perl-CryptX-0.085-alt1",
     "package": "perl-CryptX-0.085-alt1",
     "error_type": "test_failure",
     "programming_language": "Perl",
     "description": "Test failures in Math::BigFloat::bgcd method: returned undef instead of expected values (e.g., gcd(2,3) expected 1)."
   },
   {
-    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/perl-DBD-InterBase-0.48-alt5.2",
+    "link": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/perl-DBD-InterBase-0.48-alt5.2",
     "package": "perl-DBD-InterBase-0.48-alt5.2",
     "error_type": "compilation_error,incompatible_pointer_type",
     "programming_language": "C",
     "description": "Incompatible pointer types in XS code for isc_event_block arguments (InterBase.xs), causing compilation failure."
   },
   {
-    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/perl-Dist-Zilla-Plugin-Git-Contributors-0.037-alt1",
+    "link": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/perl-Dist-Zilla-Plugin-Git-Contributors-0.037-alt1",
     "package": "perl-Dist-Zilla-Plugin-Git-Contributors-0.037-alt1",
     "error_type": "test_failure",
     "programming_language": "Perl",
     "description": "Test failure in t/19-ex-repo-paths.t: method argument was not a hash reference, leading to non-zero exit status and TAP parse errors."
   },
   {
-    "path": "https://example.com/logs/perl-HTML-Widget-1.11-alt3",
+    "link": "https://example.com/logs/perl-HTML-Widget-1.11-alt3",
     "package": "perl-HTML-Widget-1.11-alt3",
     "error_type": "Test failure,Module::Pluggable",
     "programming_language": "Perl",
     "description": "Test 'use HTML::Widget' failed due to 'Use of freed value in iteration' in Module::Pluggable::Fast line 74, causing compilation abortion during test execution."
   },
   {
-    "path": "https://example.com/logs/perl-Net-Async-CassandraCQL-0.12-alt3",
+    "link": "https://example.com/logs/perl-Net-Async-CassandraCQL-0.12-alt3",
     "package": "perl-Net-Async-CassandraCQL-0.12-alt3",
     "error_type": "Missing dependencies",
     "programming_language": "Perl",
     "description": "Build prerequisites Test::Fatal and Test::Refcount are missing, causing test harness failures and non-zero exits during test execution."
   },
   {
-    "path": "https://example.com/logs/perl-Net-RawIP-0.25-alt3.2",
+    "link": "https://example.com/logs/perl-Net-RawIP-0.25-alt3.2",
     "package": "perl-Net-RawIP-0.25-alt3.2",
     "error_type": "C compilation,Implicit declaration",
     "programming_language": "C",
     "description": "Implicit function declarations for 'tap', 'mac_disc', and 'send_eth_packet' in XS code cause compilation errors, leading to build failure."
   },
   {
-    "path": "https://example.com/logs/perl-Net-SIP-0.838-alt1",
+    "link": "https://example.com/logs/perl-Net-SIP-0.838-alt1",
     "package": "perl-Net-SIP-0.838-alt1",
     "error_type": "Functional test mismatch",
     "programming_language": "Perl",
     "description": "DTMF audio generator/extractor tests failed for codecs pcmu and pcma due to unexpected values in test output structures."
   },
   {
-    "path": "https://example.com/logs/perl-Pegex-0.75-alt1",
+    "link": "https://example.com/logs/perl-Pegex-0.75-alt1",
     "package": "perl-Pegex-0.75-alt1",
     "error_type": "YAML parsing",
     "programming_language": "Perl",
     "description": "Undefined subroutine reference in YAML::PP::Representer during test execution causes fatal errors and exits with status 255."
   },
   {
-    "path": "https://example.com/logs/perl-RPM2-1.4-alt1.1",
+    "link": "https://example.com/logs/perl-RPM2-1.4-alt1.1",
     "package": "perl-RPM2-1.4-alt1.1",
     "error_type": "C compilation,Implicit declaration",
     "programming_language": "C",
     "description": "Implicit declaration of function 'rpmvercmp' in XS code leads to compilation failure during RPM build process."
   },
   {
-    "path": "https://example.com/logs/perl-Tk-804.036-alt1",
+    "link": "https://example.com/logs/perl-Tk-804.036-alt1",
     "package": "perl-Tk-804.036-alt1",
     "error_type": "Header parsing",
     "programming_language": "C/Perl",
     "description": "Invalid terms and trailing characters during libpng header parsing in MakeDepend.pm cause build script failures."
   },
   {
-    "path": "https://example.com/logs/perl-XXX-0.38-alt2",
+    "link": "https://example.com/logs/perl-XXX-0.38-alt2",
     "package": "perl-XXX-0.38-alt2",
     "error_type": "YAML parsing",
     "programming_language": "Perl",
     "description": "Undefined subroutine reference in YAML::PP::Representer during test execution causes YAML dump failures and test errors."
   },
   {
-    "path": "https://example.com/logs/perl-YAML-PP-LibYAML-0.005-alt2",
+    "link": "https://example.com/logs/perl-YAML-PP-LibYAML-0.005-alt2",
     "package": "perl-YAML-PP-LibYAML-0.005-alt2",
     "error_type": "Test harness",
     "programming_language": "Perl",
     "description": "Non-zero exit statuses and TAP output parsing errors in test files cause test suite failures and build abortion."
   },
   {
-    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/perl-YAML-PP-Ref-0.02-alt1",
+    "link": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/perl-YAML-PP-Ref-0.02-alt1",
     "package": "perl-YAML-PP-Ref-0.02-alt1",
     "error_type": "test_failure,plan_missing",
     "programming_language": "Perl",
     "description": "Perl test failures: Undefined subroutine reference in YAML::PP::Representer, missing test plan declaration, and 1/2 subtests failed with exit status 255."
   },
   {
-    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/pgagent-4.2.2-alt1",
+    "link": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/pgagent-4.2.2-alt1",
     "package": "pgagent-4.2.2-alt1",
     "error_type": "cmake_minimum_required",
     "programming_language": "C++",
     "description": "CMake configuration failure: Requires update of cmake_minimum_required version as compatibility with CMake <3.5 has been removed."
   },
   {
-    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/plasma5-breeze-gtk-education-5.24.5-alt1",
+    "link": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/plasma5-breeze-gtk-education-5.24.5-alt1",
     "package": "plasma5-breeze-gtk-education-5.24.5-alt1",
     "error_type": "missing_dependency",
     "programming_language": "C++",
     "description": "Dependency resolution failure: plasma5-breeze-devel package not found, preventing installation candidate resolution."
   },
   {
-    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/plots-0.8.5-alt1",
+    "link": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/plots-0.8.5-alt1",
     "package": "plots-0.8.5-alt1",
     "error_type": "missing_file",
     "programming_language": "Python",
     "description": "Build failure: Missing critical Python package metadata directory /usr/lib/python3/site-packages/Plots-0.8.5.dist-info during RPM packaging."
   },
   {
-    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/prboom-2.5.0-alt0.3.2",
+    "link": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/prboom-2.5.0-alt0.3.2",
     "package": "prboom-2.5.0-alt0.3.2",
     "error_type": "compilation_error",
     "programming_language": "C",
     "description": "C compilation error: Incompatible pointer type assignment in i_main.c (const char* const* vs char**) triggering -Wincompatible-pointer-types."
   },
   {
-    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/prelink-0.4.4-alt3",
+    "link": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/prelink-0.4.4-alt3",
     "package": "prelink-0.4.4-alt3",
     "error_type": "libelf_compatibility",
     "programming_language": "C",
     "description": "Configuration error: libELF library incompatibility detected during configure, specifically with Elf64_Sxword conversions (patches required for libelf-0.7.0)."
   },
   {
-    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/procmail-3.22-alt11",
+    "link": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/procmail-3.22-alt11",
     "package": "procmail-3.22-alt11",
     "error_type": "compilation_error",
     "programming_language": "C",
     "description": "C compilation error: Implicit int return type in main() function triggering -Wimplicit-int warnings, failing build process."
   },
   {
-    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/pth-2.0.7-alt6",
+    "link": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/pth-2.0.7-alt6",
     "package": "pth-2.0.7-alt6",
     "error_type": "compilation_error",
     "programming_language": "C",
     "description": "C structure error: Invalid access to __jmpbuf members (__pc and __sp) in pth_mctx.c, causing struct/union type mismatch during compilation."
   },
   {
-    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/pudb-2024.1.3-alt1",
+    "link": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/pudb-2024.1.3-alt1",
     "package": "pudb-2024.1.3-alt1",
     "error_type": "test_failure,dependency_issue",
     "programming_language": "Python",
     "description": "Python test failures: Missing FlowWidget attribute in urwid dependency causing import errors in test modules (test_make_canvas.py, test_var_view.py)."
   },
   {
-    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/cercs_env-1.0.53-alt1.rev20269.svn20150203",
+    "link": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/cercs_env-1.0.53-alt1.rev20269.svn20150203",
     "package": "cercs_env-1.0.53-alt1.rev20269.svn20150203",
     "error_type": "cmake_version",
     "programming_language": "C++",
     "description": "CMake configuration error: The cmake_minimum_required command specifies a version older than 3.5, which is no longer supported. Update the minimum required CMake version."
   },
   {
-    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/cleaver-2.4-alt1",
+    "link": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/cleaver-2.4-alt1",
     "package": "cleaver-2.4-alt1",
     "error_type": "cmake_deprecated_command",
     "programming_language": "C++",
     "description": "CMake error due to use of deprecated command 'export_library_dependencies', which has been removed (refer to CMP0033 policy)."
   },
   {
-    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/cmucl-20b-alt3",
+    "link": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/cmucl-20b-alt3",
     "package": "cmucl-20b-alt3",
     "error_type": "missing_dependency",
     "programming_language": "Common Lisp",
     "description": "Dependency error: Package 'gcc4.5' is not available, causing installation failure during build."
   },
   {
-    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/colord-1.4.7-alt1.1",
+    "link": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/colord-1.4.7-alt1.1",
     "package": "colord-1.4.7-alt1.1",
     "error_type": "compilation_error",
     "programming_language": "C",
     "description": "Compilation error in 'cd-icc.c' due to incompatible pointer type passed to gmtime_r function, causing build failure."
   },
   {
-    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/cooldown-24-alt2",
+    "link": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/cooldown-24-alt2",
     "package": "cooldown-24-alt2",
     "error_type": "cmake_version",
     "programming_language": "C++",
     "description": "CMake configuration error: Outdated CMake version specified in cmake_minimum_required, needs update to 3.5 or higher."
   },
   {
-    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/dbusmenu-qt5-0.9.3-alt0.3",
+    "link": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/dbusmenu-qt5-0.9.3-alt0.3",
     "package": "dbusmenu-qt5-0.9.3-alt0.3",
     "error_type": "cmake_version",
     "programming_language": "C++",
     "description": "CMake configuration error: Minimum required version is outdated, update to CMake 3.5 or newer."
   },
   {
-    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/dill-2.1.14-alt1.rev20523.svn20150304",
+    "link": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/dill-2.1.14-alt1.rev20523.svn20150304",
     "package": "dill-2.1.14-alt1.rev20523.svn20150304",
     "error_type": "cmake_version",
     "programming_language": "C++",
     "description": "Build failed due to outdated CMake version specified in cmake_minimum_required command."
   },
   {
-    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/diskscan-0.20-alt1_3.11",
+    "link": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/diskscan-0.20-alt1_3.11",
     "package": "diskscan-0.20-alt1_3.11",
     "error_type": "cmake_version",
     "programming_language": "C++",
     "description": "CMake error: Incompatible minimum version specified, requires update to CMake 3.5 or later."
   },
   {
-    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/displaycal-3.9.14-alt1",
+    "link": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/displaycal-3.9.14-alt1",
     "package": "displaycal-3.9.14-alt1",
     "error_type": "missing_file",
     "programming_language": "Python",
     "description": "Build error due to missing Python package metadata file (DisplayCAL-3.9.14.dist-info), likely an installation or packaging issue."
   },
   {
-    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/dropbear-2025.87-alt1",
+    "link": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/dropbear-2025.87-alt1",
     "package": "dropbear-2025.87-alt1",
     "error_type": "test_failure",
     "programming_language": "Python",
     "description": "Test failure due to connection error during socket operations, possibly due to port issues or environment misconfiguration."
   },
   {
-    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/puppetdb-8.4.1-alt3",
+    "link": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/puppetdb-8.4.1-alt3",
     "package": "puppetdb-8.4.1-alt3",
     "error_type": "shell_script_syntax,rpm_requires",
     "programming_language": "Ruby/Shell",
     "description": "ERB template syntax in shell script causing RPM build failure: Unprocessed Ruby interpolation (`<%= %>`) in delete-reports.erb leads to shell syntax errors. Subsequent failures in RPM dependency resolution (shell.req) due to invalid script content."
   },
   {
-    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/purple-plugin-lurch-0.7.0-alt1",
+    "link": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/purple-plugin-lurch-0.7.0-alt1",
     "package": "purple-plugin-lurch-0.7.0-alt1",
     "error_type": "cmake_version",
     "programming_language": "C",
     "description": "CMake configuration failure: Outdated cmake_minimum_required version in CMakeLists.txt (compatibility with CMake <3.5 removed). Requires updating minimum CMake version specification to support modern build system."
   },
   {
-    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/python3-module-PyGLM-2.7.3-alt1",
+    "link": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/python3-module-PyGLM-2.7.3-alt1",
     "package": "python3-module-PyGLM-2.7.3-alt1",
     "error_type": "python_packaging",
     "programming_language": "Python",
     "description": "Missing distribution metadata: PyGLM-2.7.3.dist-info directory not found in buildroot, indicating incomplete Python package installation or incorrect packaging configuration."
   },
   {
-    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/python3-module-django-environ-0.10.0-alt1",
+    "link": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/python3-module-django-environ-0.10.0-alt1",
     "package": "python3-module-django-environ-0.10.0-alt1",
     "error_type": "test_failure",
     "programming_language": "Python",
     "description": "Test suite failure in PostgreSQL cluster parsing: ValueError during test_db_parsing due to invalid IPv6 URL handling in database configuration validation."
   },
   {
-    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/python3-module-brotlicffi-1.1.0.0-alt1",
+    "link": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/python3-module-brotlicffi-1.1.0.0-alt1",
     "package": "python3-module-brotlicffi-1.1.0.0-alt1",
     "error_type": "sphinx_config",
     "programming_language": "Python",
     "description": "Documentation build failure: Invalid None value in intersphinx_mapping configuration for Sphinx, requiring tuple-based format for Python documentation references."
   },
   {
-    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/python3-module-fs-2.4.16-alt1.2",
+    "link": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/python3-module-fs-2.4.16-alt1.2",
     "package": "python3-module-fs-2.4.16-alt1.2",
     "error_type": "sphinx_intersphinx",
     "programming_language": "Python",
     "description": "Documentation build DNS failure: Temporary name resolution error while fetching intersphinx inventory from docs.python.org, preventing proper API reference linking."
   },
   {
-    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/python3-module-hdf5storage-0.2-alt1.1",
+    "link": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/python3-module-hdf5storage-0.2-alt1.1",
     "package": "python3-module-hdf5storage-0.2-alt1.1",
     "error_type": "sphinx,documentation",
     "programming_language": "Python",
     "description": "Warnings during documentation generation: Failed to fetch intersphinx inventories from docs.python.org and docs.h5py.org due to temporary DNS resolution failures, indicating network or configuration issues."
   },
   {
-    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/python3-module-joblib-1.4.2-alt1",
+    "link": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/python3-module-joblib-1.4.2-alt1",
     "package": "python3-module-joblib-1.4.2-alt1",
     "error_type": "system_configuration",
     "programming_language": "Python",
     "description": "Build failure: /proc filesystem not mounted. Required for process information access during build. System configuration requires /etc/fstab entry or manual mounting of proc."
   },
   {
-    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/python3-module-jsonschema-spec-0.2.4-alt1",
+    "link": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/python3-module-jsonschema-spec-0.2.4-alt1",
     "package": "python3-module-jsonschema-spec-0.2.4-alt1",
     "error_type": "dependency_management,patch_error",
     "programming_language": "Python",
     "description": "Dependency mismatch: Source 'metadata' dependencies changed. Invalid patch file '/usr/src/RPM/SOURCES/python3-module-jsonschema-spec-0.2.4-alt.patch' (smaller than 8 bytes), requiring configuration update."
   },
   {
-    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/python3-module-jupyter_server-2.15.0-alt2",
+    "link": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/python3-module-jupyter_server-2.15.0-alt2",
     "package": "python3-module-jupyter_server-2.15.0-alt2",
     "error_type": "test_failure",
     "programming_language": "Python",
     "description": "Test failure in test_execution_state: AssertionError ('starting' != 'busy'). Incorrect kernel execution state handling during server operations, possibly due to timing or synchronization issues."
   },
   {
-    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/python3-module-loky-3.5.1-alt1",
+    "link": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/python3-module-loky-3.5.1-alt1",
     "package": "python3-module-loky-3.5.1-alt1",
     "error_type": "multiprocessing,resource_tracking",
     "programming_language": "Python",
     "description": "Test AssertionError: ResourceTracker cleanup failure in multiprocessing. ChildProcessError during __del__ method, indicating improper resource tracking or zombie processes."
   },
   {
-    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/python3-module-moneyed-3.0-alt1",
+    "link": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/python3-module-moneyed-3.0-alt1",
     "package": "python3-module-moneyed-3.0-alt1",
     "error_type": "test_failure",
     "programming_language": "Python",
     "description": "Test failure in test_all_babel_currencies: AssertionError due to mismatched currency data from Babel library, possibly caused by outdated or missing locale data."
   },
   {
-    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/python3-module-mongo-thingy-0.17.2-alt1",
+    "link": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/python3-module-mongo-thingy-0.17.2-alt1",
     "package": "python3-module-mongo-thingy-0.17.2-alt1",
     "error_type": "packaging",
     "programming_language": "Python",
     "description": "RPM build error: Missing dist-info directory '/usr/lib/python3/site-packages/Mongo_Thingy-0.17.2.dist-info' during package processing, likely due to incorrect buildroot setup or failed installation step."
   },
   {
-    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/python3-module-myst-parser-4.0.1-alt1",
+    "link": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/python3-module-myst-parser-4.0.1-alt1",
     "package": "python3-module-myst-parser-4.0.1-alt1",
     "error_type": "test_failure",
     "programming_language": "Python",
     "description": "4 test failures during %check phase including test_sphinx_directives and test_references_singlehtml, indicating compatibility issues with Pygments 2.19 or Sphinx integration problems."
   },
   {
-    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/python3-module-netCDF4-1.7.1-alt1",
+    "link": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/python3-module-netCDF4-1.7.1-alt1",
     "package": "python3-module-netCDF4-1.7.1-alt1",
     "error_type": "packaging",
     "programming_language": "Python",
     "description": "RPM build error: Missing dist-info directory '/usr/lib/python3/site-packages/netCDF4-1.7.1.dist-info', accompanied by numpy deprecation warnings about empty array truth evaluation."
   },
   {
-    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/python3-module-openstackclient-7.2.1-alt1",
+    "link": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/python3-module-openstackclient-7.2.1-alt1",
     "package": "python3-module-openstackclient-7.2.1-alt1",
     "error_type": "documentation_build",
     "programming_language": "Python",
     "description": "Documentation build failure: Missing git repository context prevents proper modification time detection for Sphinx docs, causing openstackdocstheme extension errors during doc generation."
   },
   {
-    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/python3-module-pymdown-extensions-10.14.3-alt1",
+    "link": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/python3-module-pymdown-extensions-10.14.3-alt1",
     "package": "python3-module-pymdown-extensions-10.14.3-alt1",
     "error_type": "test_failure",
     "programming_language": "Python",
     "description": "2 test failures in caption handling (TestBlocksCaptionPrefix and TestBlocksCaptionAutoPrefix) during pytest execution, indicating issues with empty paragraph handling in Markdown extensions."
   },
   {
-    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/python3-module-pyqtgraph-0.12.4-alt1.3",
+    "link": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/python3-module-pyqtgraph-0.12.4-alt1.3",
     "package": "python3-module-pyqtgraph-0.12.4-alt1.3",
     "error_type": "build_timeout",
     "programming_language": "Python",
     "description": "Build process timeout: hasher-privd exceeded 3600-second idle limit during rebuild, suggesting a hung process or unresolved dependency in Qt graph library compilation."
   },
   {
-    "path": "path/to/log1",
+    "link": "path/to/log1",
     "package": "python3-module-pytz-deprecation-shim-0.1.0.post0-alt3",
     "error_type": "TestFailure,ExceptionHandling",
     "programming_language": "Python",
     "description": "Test failure in test_zone_attribute due to UnknownTimeZoneError when processing key 'America/Coyhaique', indicating issues with timezone data handling during hypothesis testing."
   },
   {
-    "path": "path/to/log2",
+    "link": "path/to/log2",
     "package": "python3-module-sh-2.2.2-alt1",
     "error_type": "TestFailure",
     "programming_language": "Python",
     "description": "AssertionError in test_general_signal during pytest execution, causing non-zero exit status in RPM %check phase (1 failed test out of 183)."
   },
   {
-    "path": "path/to/log3",
+    "link": "path/to/log3",
     "package": "python3-module-sphinx-autobuild-2024.10.3-alt1",
     "error_type": "MissingDependency",
     "programming_language": "Python",
     "description": "Build failure due to missing dependency: Could not find compatible version of sphinxcontrib-jsmath>=1.0.1 required by Sphinx, causing check phase to exit with status 1."
   },
   {
-    "path": "path/to/log4",
+    "link": "path/to/log4",
     "package": "python3-module-sphinx-automodapi-0.18.0-alt1",
     "error_type": "MissingDependency",
     "programming_language": "Python",
     "description": "Dependency resolution failure: sphinxcontrib-jsmath>=1.0.1 not found despite Sphinx being installed, leading to RPM check phase error."
   },
   {
-    "path": "path/to/log5",
+    "link": "path/to/log5",
     "package": "python3-module-sphinx-click-6.0.0-alt1",
     "error_type": "MissingDependency",
     "programming_language": "Python",
     "description": "Failed build due to unresolved dependency sphinxcontrib-jsmath>=1.0.1 required by Sphinx, resulting in non-zero exit status during testing."
   },
   {
-    "path": "path/to/log6",
+    "link": "path/to/log6",
     "package": "python3-module-sphinxcontrib-apidoc-0.5.0-alt1",
     "error_type": "TestSetup,AssertionError",
     "programming_language": "Python",
     "description": "Test failures due to warnings during extension setup: Failed to convert [[<class 'str'>]] to frozenset in sphinxcontrib.apidoc, causing assertion errors in multiple tests."
   },
   {
-    "path": "path/to/log7",
+    "link": "path/to/log7",
     "package": "python3-module-sphinxcontrib-jsmath-1.0.1-alt2",
     "error_type": "TestFailure",
     "programming_language": "Python",
     "description": "Test failure in test_disabled_when_equations_not_found assertion, resulting in 1 failed test and non-zero exit status during package check."
   },
   {
-    "path": "path/to/log8",
+    "link": "path/to/log8",
     "package": "python3-module-spyder-kernels-2.5.2-alt1",
     "error_type": "TestFailure,AsyncError",
     "programming_language": "Python",
     "description": "Repeated test_debug_namespace failures due to _queue.Empty exceptions during Jupyter kernel communication, likely caused by asynchronous operation timeouts."
   },
   {
-    "path": "path/to/log/python3-module-thingy-0.10.0-alt1.log",
+    "link": "path/to/log/python3-module-thingy-0.10.0-alt1.log",
     "package": "python3-module-thingy-0.10.0-alt1",
     "error_type": "packaging_error,missing_files",
     "programming_language": "Python",
     "description": "RPM build failed due to missing directory: /usr/lib/python3/site-packages/Thingy-0.10.0.dist-info. The required distribution metadata files were not generated or installed correctly during packaging."
   },
   {
-    "path": "path/to/log/qca-qt5-2.3.8-alt1.log",
+    "link": "path/to/log/qca-qt5-2.3.8-alt1.log",
     "package": "qca-qt5-2.3.8-alt1",
     "error_type": "cmake_policy",
     "programming_language": "C++",
     "description": "CMake configuration error: Policy CMP0042 set to OLD is no longer supported. The CMake version requires updated policy settings in CMakeLists.txt."
   },
   {
-    "path": "path/to/log/qhull-2020.2-alt1.log",
+    "link": "path/to/log/qhull-2020.2-alt1.log",
     "package": "qhull-2020.2-alt1",
     "error_type": "cmake_version",
     "programming_language": "C++",
     "description": "CMake error: Compatibility with CMake < 3.5 removed. Update cmake_minimum_required in CMakeLists.txt to a supported version."
   },
   {
-    "path": "path/to/log/qimageblitz5-5.0.0-alt0.2.log",
+    "link": "path/to/log/qimageblitz5-5.0.0-alt0.2.log",
     "package": "qimageblitz5-5.0.0-alt0.2",
     "error_type": "cmake_version",
     "programming_language": "C++",
     "description": "CMake error: cmake_minimum_required specifies an outdated CMake version. Update to a minimum supported version using modern syntax."
   },
   {
-    "path": "path/to/log/qjson-qt5-0.9.0-alt2.log",
+    "link": "path/to/log/qjson-qt5-0.9.0-alt2.log",
     "package": "qjson-qt5-0.9.0-alt2",
     "error_type": "cmake_policy",
     "programming_language": "C++",
     "description": "CMake error: Policy CMP0020 set to OLD is unsupported. Update CMakeLists.txt to use NEW behavior for automatic linking of Qt libraries."
   },
   {
-    "path": "path/to/log/qm-dsp-1.7.1-alt1.log",
+    "link": "path/to/log/qm-dsp-1.7.1-alt1.log",
     "package": "qm-dsp-1.7.1-alt1",
     "error_type": "missing_dependency",
     "programming_language": "C",
     "description": "Compilation failed due to missing lapack.h header. Ensure LAPACK development packages are installed to resolve dependency."
   },
   {
-    "path": "path/to/log/qml-alembic-2023.2.0-alt1.log",
+    "link": "path/to/log/qml-alembic-2023.2.0-alt1.log",
     "package": "qml-alembic-2023.2.0-alt1",
     "error_type": "cmake_policy",
     "programming_language": "C++",
     "description": "CMake error: Policy CMP0043 set to OLD is no longer supported. Update CMakeLists.txt to use NEW behavior for library output directories."
   },
   {
-    "path": "path/to/log/qtcurve-2%3A1.9.1-alt3.git4e56a76a.log",
+    "link": "path/to/log/qtcurve-2%3A1.9.1-alt3.git4e56a76a.log",
     "package": "qtcurve-2%3A1.9.1-alt3.git4e56a76a",
     "error_type": "missing_dependency",
     "programming_language": "C++",
     "description": "Build dependency error: rpm-macros-qt4 package not found. Install required Qt4 macros or update build dependencies."
   },
   {
-    "path": "path/to/log/quassel-0.13.1-alt4.log",
+    "link": "path/to/log/quassel-0.13.1-alt4.log",
     "package": "quassel-0.13.1-alt4",
     "error_type": "cmake_policy",
     "programming_language": "C++",
     "description": "CMake error: Policy CMP0043 set to OLD is unsupported. Update CMakeLists.txt to use NEW behavior for library output directory handling."
   },
   {
-    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/rdesktop-1.9.0-alt1",
+    "link": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/rdesktop-1.9.0-alt1",
     "package": "rdesktop-1.9.0-alt1",
     "error_type": "Incompatible Pointer Types",
     "programming_language": "C",
     "description": "Compiler errors due to incompatible pointer types in SSL functions: __gmpz_sizeinbase() receives wrong pointer type for modulus and exponent arguments. Makefile build fails with exit status 1."
   },
   {
-    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/refal2-0.2.3-alt4",
+    "link": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/refal2-0.2.3-alt4",
     "package": "refal2-0.2.3-alt4",
     "error_type": "Implicit Int Return",
     "programming_language": "C",
     "description": "Multiple functions lack explicit return type declarations, triggering -Wimplicit-int errors during compilation (lsg_p(), rsg_p(), ortgn()). Build fails at ccst2.c compilation."
   },
   {
-    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/relive-1.0.4587-alt2",
+    "link": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/relive-1.0.4587-alt2",
     "package": "relive-1.0.4587-alt2",
     "error_type": "CMake Version Compatibility",
     "programming_language": "C++",
     "description": "CMake configuration failure: cmake_minimum_required specifies outdated CMake version (<3.5). Compatibility with old CMake versions has been removed, requiring VERSION argument update."
   },
   {
-    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/retro-gtk-1.0.2-alt2",
+    "link": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/retro-gtk-1.0.2-alt2",
     "package": "retro-gtk-1.0.2-alt2",
     "error_type": "Incompatible Pointer Types",
     "programming_language": "C",
     "description": "Type mismatch in retro-core.c: argument 3 of ipc_runner_call_get_memory_size_sync() expects different pointer type (&size). Ninja build fails during C compilation."
   },
   {
-    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/rpm-4.13.0.1-alt40",
+    "link": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/rpm-4.13.0.1-alt40",
     "package": "rpm-4.13.0.1-alt40",
     "error_type": "Python C Extension",
     "programming_language": "Python/C",
     "description": "Type mismatch in header-py.c: tp_hash function pointer expects Py_hash_t (*)(PyObject*) but receives long int (*)(PyObject*). Python setup.py build fails during C extension compilation."
   },
   {
-    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/rpmhdrcache-0.3.2-alt1",
+    "link": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/rpmhdrcache-0.3.2-alt1",
     "package": "rpmhdrcache-0.3.2-alt1",
     "error_type": "Incompatible Pointer Types",
     "programming_language": "C",
     "description": "snappy function arguments mismatch: snappy_uncompressed_length(), snappy_uncompress(), and snappy_validate_compressed_buffer() receive incompatible pointer types for buffer arguments in cache.c."
   },
   {
-    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/ruby-gnome2-4.2.5-alt0.2",
+    "link": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/ruby-gnome2-4.2.5-alt0.2",
     "package": "ruby-gnome2-4.2.5-alt0.2",
     "error_type": "Ruby Setup",
     "programming_language": "Ruby",
     "description": "Build failure during Ruby setup-rb script execution (exit status 1). Likely related to Ruby gem extensions or dependency issues."
   },
   {
-    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/rustic-0.9.5-alt1",
+    "link": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/rustic-0.9.5-alt1",
     "package": "rustic-0.9.5-alt1",
     "error_type": "Rust Compilation",
     "programming_language": "Rust",
     "description": "Rust compilation errors in derive_more-impl, enum-map-derive, and hyper_util crates. Includes ELF verification warnings about debug sections and non-LFS functions."
   },
   {
-    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/schedtool-1.3.0-alt1.qa1",
+    "link": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/schedtool-1.3.0-alt1.qa1",
     "package": "schedtool-1.3.0-alt1.qa1",
     "error_type": "Type Mismatch",
     "programming_language": "C",
     "description": "Pointer/integer type mismatch in schedtool.c conditional expression (CHECK_RANGE_POLICY). Triggers -Wint-conversion error during compilation."
   },
   {
-    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/scorched3d-44-alt3.1",
+    "link": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/scorched3d-44-alt3.1",
     "package": "scorched3d-44-alt3.1",
     "error_type": "Missing Dependency",
     "programming_language": "C++",
     "description": "Build dependency failure: automake_1.11 package is unavailable. Required for generating build files but missing from repository."
   },
   {
-    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/dropbear-musl-2025.87-alt2",
+    "link": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/dropbear-musl-2025.87-alt2",
     "package": "dropbear-musl-2025.87-alt2",
     "error_type": "test failure",
     "programming_language": "Python",
     "description": "Multiple test failures in test_channels.py::test_tcpflushout due to OSError: [Errno 98] Address already in use. Likely caused by port conflicts or improper socket cleanup between tests."
   },
   {
-    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/duperemove-0.14.1-alt1",
+    "link": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/duperemove-0.14.1-alt1",
     "package": "duperemove-0.14.1-alt1",
     "error_type": "compilation (incompatible pointer)",
     "programming_language": "C",
     "description": "Type mismatch in function call: passing incompatible pointer type to fiemap_count_shared() at run_dedupe.c:161, triggering -Wincompatible-pointer-types error during compilation."
   },
   {
-    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/dwgrep-0.4-alt3",
+    "link": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/dwgrep-0.4-alt3",
     "package": "dwgrep-0.4-alt3",
     "error_type": "CMake (undefined symbol)",
     "programming_language": "C++",
     "description": "Build failure in CMake documentation generation due to undefined symbol 'zw_vocabulary_core' in libzwerg/dwgrep-gendoc, indicating missing library linkage or build dependencies."
   },
   {
-    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/ebook-tools-0.2.2-alt3",
+    "link": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/ebook-tools-0.2.2-alt3",
     "package": "ebook-tools-0.2.2-alt3",
     "error_type": "CMake configuration",
     "programming_language": "C++",
     "description": "CMake configuration error: Outdated cmake_minimum_required specification (compatibility with CMake <3.5 removed). Requires updating minimum CMake version in CMakeLists.txt."
   },
   {
-    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/eigen-1.0.5-alt1",
+    "link": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/eigen-1.0.5-alt1",
     "package": "eigen-1.0.5-alt1",
     "error_type": "CMake configuration",
     "programming_language": "C++",
     "description": "Missing cmake_minimum_required command in CMakeLists.txt, violating CMake's requirement for specifying a minimum compatible version."
   },
   {
-    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/eigen2-2.0.17-alt3",
+    "link": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/eigen2-2.0.17-alt3",
     "package": "eigen2-2.0.17-alt3",
     "error_type": "CMake configuration",
     "programming_language": "C++",
     "description": "CMake configuration error: Outdated cmake_minimum_required specification (compatibility with CMake <3.5 removed). Requires version syntax update in CMakeLists.txt."
   },
   {
-    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/faketime-0.2.8-alt1",
+    "link": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/faketime-0.2.8-alt1",
     "package": "faketime-0.2.8-alt1",
     "error_type": "compilation (struct member)",
     "programming_language": "C",
     "description": "Compilation errors in plugin.c due to missing 'rpl_time' member in struct timeb, suggesting API changes or incorrect structure definitions in dependencies."
   },
   {
-    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/fcitx5-sayura-5.1.0-alt1_1",
+    "link": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/fcitx5-sayura-5.1.0-alt1_1",
     "package": "fcitx5-sayura-5.1.0-alt1_1",
     "error_type": "CMake configuration",
     "programming_language": "C++",
     "description": "CMake configuration error: Outdated cmake_minimum_required specification (compatibility with CMake <3.5 removed). Requires version syntax update in CMakeLists.txt."
   },
   {
-    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/fcitx5-skk-5.1.0-alt1_1",
+    "link": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/fcitx5-skk-5.1.0-alt1_1",
     "package": "fcitx5-skk-5.1.0-alt1_1",
     "error_type": "CMake configuration",
     "programming_language": "C++",
     "description": "CMake configuration error: Outdated cmake_minimum_required specification (compatibility with CMake <3.5 removed). Requires version syntax update in CMakeLists.txt."
   },
   {
-    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/flow-tools-ng-0.68.5-alt5",
+    "link": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/flow-tools-ng-0.68.5-alt5",
     "package": "flow-tools-ng-0.68.5-alt5",
     "error_type": "compilation (implicit declaration)",
     "programming_language": "C",
     "description": "Implicit function declaration errors for yylex() and yyerror() in aclyacc.c, indicating missing header inclusions or incorrect function prototypes."
   },
   {
-    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/fontmatrix-0.9.100-alt2",
+    "link": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/fontmatrix-0.9.100-alt2",
     "package": "fontmatrix-0.9.100-alt2",
     "error_type": "cmake_version",
     "programming_language": "C++",
     "description": "CMake configuration error: Compatibility with CMake versions below 3.5 has been removed. Update the VERSION argument in cmake_minimum_required to resolve the issue."
   },
   {
-    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/fonts-ttf-material-icons-4.0.0-alt1_6",
+    "link": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/fonts-ttf-material-icons-4.0.0-alt1_6",
     "package": "fonts-ttf-material-icons-4.0.0-alt1_6",
     "error_type": "missing_dependency",
     "programming_language": "N/A",
     "description": "Missing dependency: Package 'libappstream' is not available, causing failure during installation candidate resolution and package file list generation."
   },
   {
-    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/fonts-ttf-oxygen-5.4.3-alt1_15",
+    "link": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/fonts-ttf-oxygen-5.4.3-alt1_15",
     "package": "fonts-ttf-oxygen-5.4.3-alt1_15",
     "error_type": "license_issue,cmake_version",
     "programming_language": "C++",
     "description": "License file 'OFL' not found in /usr/share/license directory. Additionally, CMake configuration failed due to outdated minimum version requirement (needs update for compatibility with CMake <3.5)."
   },
   {
-    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/forbidden-apis-2.5-alt1_10jpp11",
+    "link": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/forbidden-apis-2.5-alt1_10jpp11",
     "package": "forbidden-apis-2.5-alt1_10jpp11",
     "error_type": "maven_plugin_goal",
     "programming_language": "Java",
     "description": "Maven build failure: Goal 'report' not found in plugin org.apache.maven.plugins:maven-plugin-plugin:3.6.4. Available goals are addPluginArtifactMetadata, descriptor, helpmojo."
   },
   {
-    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/fuse-cryfs-0.11.4-alt1",
+    "link": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/fuse-cryfs-0.11.4-alt1",
     "package": "fuse-cryfs-0.11.4-alt1",
     "error_type": "cmake_policy",
     "programming_language": "C++",
     "description": "CMake policy CMP0065 set to OLD is unsupported. Update to NEW behavior to fix configuration errors."
   },
   {
-    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/gamescope-3.15.14-alt1",
+    "link": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/gamescope-3.15.14-alt1",
     "package": "gamescope-3.15.14-alt1",
     "error_type": "cmake_version",
     "programming_language": "C++",
     "description": "CMake configuration failed due to outdated minimum version requirement (compatibility with CMake <3.5 removed). Affects meson subproject setup."
   },
   {
-    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/gammu-1.42.0-alt1",
+    "link": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/gammu-1.42.0-alt1",
     "package": "gammu-1.42.0-alt1",
     "error_type": "cmake_version",
     "programming_language": "C++",
     "description": "CMake configuration error: Update VERSION argument in cmake_minimum_required due to removed compatibility with CMake <3.5."
   },
   {
-    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/gcc11-11.4.1-alt1",
+    "link": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/gcc11-11.4.1-alt1",
     "package": "gcc11-11.4.1-alt1",
     "error_type": "compiler_error,makefile_configuration",
     "programming_language": "C",
     "description": "Compiler error due to incompatible pointer type in libiberty. Makefile warnings about disabled 'subdir-objects' option."
   },
   {
-    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/gem-libv8-8.4.255.5-alt1",
+    "link": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/gem-libv8-8.4.255.5-alt1",
     "package": "gem-libv8-8.4.255.5-alt1",
     "error_type": "missing_dependency",
     "programming_language": "Ruby",
     "description": "Missing development package 'libv8-3.14-devel', causing dependency resolution failure during installation."
   },
   {
-    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/gem-libv8-node-22.7.0.2-alt1",
+    "link": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/gem-libv8-node-22.7.0.2-alt1",
     "package": "gem-libv8-node-22.7.0.2-alt1",
     "error_type": "missing_dependency",
     "programming_language": "Ruby",
     "description": "Build failure due to missing dependency: libv8-3.14-devel package not found. This prevents generation of package file list during installation."
   },
   {
-    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/gettext-0.21-alt2",
+    "link": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/gettext-0.21-alt2",
     "package": "gettext-0.21-alt2",
     "error_type": "autotools_configuration",
     "programming_language": "C",
     "description": "Autotools version mismatch: configure.ac requires Automake 1.16.2 but detected 1.16.5. Patching failures and aclocal warnings indicate need to regenerate build system with 'autoreconf'."
   },
   {
-    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/ghc8.6.4-sha-1.6.4.4-alt1",
+    "link": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/ghc8.6.4-sha-1.6.4.4-alt1",
     "package": "ghc8.6.4-sha-1.6.4.4-alt1",
     "error_type": "compilation_memory,invalid_patch",
     "programming_language": "Haskell",
     "description": "GHC compiler out of memory during build process. Additional error: RPM patch file (ghc8.6.4-sha-1.6.4.4-alt1.patch) is invalid (smaller than 8 bytes)."
   },
   {
-    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/gi-docgen-2025.3-alt1",
+    "link": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/gi-docgen-2025.3-alt1",
     "package": "gi-docgen-2025.3-alt1",
     "error_type": "test_failure",
     "programming_language": "Python",
     "description": "Test failure during %check phase: Meson test suite execution failed. Full test log available in meson-logs/testlog.txt."
   },
   {
-    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/glade-3.40.0-alt2.1",
+    "link": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/glade-3.40.0-alt2.1",
     "package": "glade-3.40.0-alt2.1",
     "error_type": "gobject_introspection",
     "programming_language": "C",
     "description": "Fatal GObject registration error: Cannot register existing type 'GIRepository' during test execution. Accessibility service activation succeeded but caused critical failure."
   },
   {
-    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/gtk2-theme-oxygen-gtk-1.4.6-alt2",
+    "link": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/gtk2-theme-oxygen-gtk-1.4.6-alt2",
     "package": "gtk2-theme-oxygen-gtk-1.4.6-alt2",
     "error_type": "cmake_configuration",
     "programming_language": "C++",
     "description": "CMake configuration error: Invalid cmake_minimum_required syntax. Compatibility with CMake <3.5 was removed - requires update to modern CMake version syntax."
   },
   {
-    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/gucharmap7-2.32.1-alt1",
+    "link": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/gucharmap7-2.32.1-alt1",
     "package": "gucharmap7-2.32.1-alt1",
     "error_type": "compilation_error",
     "programming_language": "C",
     "description": "Type compatibility error in C code: Incompatible pointer types when casting GucharmapChartableCellAccessible to AtkObject. Build fails at gucharmap-chartable-accessible.c:131."
   },
   {
-    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/gz-fuel-tools-10.0.0-alt1",
+    "link": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/gz-fuel-tools-10.0.0-alt1",
     "package": "gz-fuel-tools-10.0.0-alt1",
     "error_type": "missing_dependency",
     "programming_language": "C++",
     "description": "Dependency resolution failure: Missing libjsonrpccpp-devel package prevents build process from completing. Installation fails during package file list generation."
   },
   {
-    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/indexhtml-common-0.6.4-alt1",
+    "link": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/indexhtml-common-0.6.4-alt1",
     "package": "indexhtml-common-0.6.4-alt1",
     "error_type": "cmake_version",
     "programming_language": "C++",
     "description": "CMake configuration error: Outdated cmake_minimum_required syntax. Requires updating VERSION argument to ≥3.5 or using <min>...<max> format, indicating incompatible CMake version."
   },
   {
-    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/indilib-1.9.0-alt2",
+    "link": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/indilib-1.9.0-alt2",
     "package": "indilib-1.9.0-alt2",
     "error_type": "cmake_version",
     "programming_language": "C++",
     "description": "CMake configuration error: cmake_minimum_required syntax incompatible with CMake versions <3.5. Requires version specification update in CMakeLists.txt."
   },
   {
-    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/innoextract-1.9-alt1.1",
+    "link": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/innoextract-1.9-alt1.1",
     "package": "innoextract-1.9-alt1.1",
     "error_type": "cmake_version",
     "programming_language": "C++",
     "description": "CMake error in VersionScript.cmake: cmake_minimum_required syntax outdated. Version argument must be updated to ≥3.5, causing build failure during release.cpp and manpage generation."
   },
   {
-    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/iptables-1.8.10-alt1",
+    "link": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/iptables-1.8.10-alt1",
     "package": "iptables-1.8.10-alt1",
     "error_type": "test_failure",
     "programming_language": "C",
     "description": "Test failures in libxt_recent.t: iptables commands with --rcheck and --mask options unexpectedly succeeded, violating test expectations."
   },
   {
-    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/java-1.8.0-openjdk-0%3A1.8.0.452.b09-alt1",
+    "link": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/java-1.8.0-openjdk-0%3A1.8.0.452.b09-alt1",
     "package": "java-1.8.0-openjdk-0:1.8.0.452.b09-alt1",
     "error_type": "license_missing,make_error",
     "programming_language": "Java",
     "description": "Missing licenses (GPL+, MPLv2.0, Public Domain) and build error: GNU Make failed due to invalid output-sync type 'l' during hotspot compilation."
   },
   {
-    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/java3d-1.5.2-alt6_15jpp8",
+    "link": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/java3d-1.5.2-alt6_15jpp8",
     "package": "java3d-1.5.2-alt6_15jpp8",
     "error_type": "missing_dependency",
     "programming_language": "Java",
     "description": "Dependency resolution failed: Missing package 'jogl' required for installation, causing package file list generation failure."
   },
   {
-    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/jmc-core-7.1.1-alt1_5.1jpp11",
+    "link": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/jmc-core-7.1.1-alt1_5.1jpp11",
     "package": "jmc-core-7.1.1-alt1_5.1jpp11",
     "error_type": "maven_surefire",
     "programming_language": "Java",
     "description": "Maven Surefire plugin failure: Variable substitution error (${surefireArgLine}) caused ClassNotFoundException during test execution, leading to VM termination."
   },
   {
-    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/jogl2-2.3.2-alt8_9jpp8",
+    "link": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/jogl2-2.3.2-alt8_9jpp8",
     "package": "jogl2-2.3.2-alt8_9jpp8",
     "error_type": "missing_dependency",
     "programming_language": "Java",
     "description": "Dependency resolution failed: Missing package 'eclipse-swt', preventing package file list generation during installation."
   },
   {
-    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/jsoncpp19-1.8.4-alt6",
+    "link": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/jsoncpp19-1.8.4-alt6",
     "package": "jsoncpp19-1.8.4-alt6",
     "error_type": "cmake_version",
     "programming_language": "C++",
     "description": "CMake configuration error: cmake_minimum_required syntax outdated in CMakeLists.txt. Requires version ≥3.5, causing build process failure."
   },
   {
-    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/jsonxx-20140722-alt1",
+    "link": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/jsonxx-20140722-alt1",
     "package": "jsonxx-20140722-alt1",
     "error_type": "cmake_version",
     "programming_language": "C++",
     "description": "CMake configuration error: Incompatible cmake_minimum_required syntax in CMakeLists.txt. Update to ≥3.5 required, leading to build termination."
   },
   {
-    "path": "jvgs-0.5-alt3.log",
+    "link": "jvgs-0.5-alt3.log",
     "package": "jvgs-0.5-alt3",
     "error_type": "cmake_version",
     "programming_language": "C++",
     "description": "CMake configuration error: Outdated CMake version requirement in CMakeLists.txt (minimum_required <3.5). CMake compatibility with versions below 3.5 was removed."
   },
   {
-    "path": "kbibtex-0.9-alt1.1.log",
+    "link": "kbibtex-0.9-alt1.1.log",
     "package": "kbibtex-0.9-alt1.1",
     "error_type": "C++_syntax,missing_components",
     "programming_language": "C++",
     "description": "Compiler errors in ICU header: Missing C++17 features (std::is_convertible_v, std::u16string_view). Qt5 WebKit components not found during configuration."
   },
   {
-    "path": "kde5-kaffeine-2.0.18-alt2.log",
+    "link": "kde5-kaffeine-2.0.18-alt2.log",
     "package": "kde5-kaffeine-2.0.18-alt2",
     "error_type": "cmake_policy",
     "programming_language": "C++",
     "description": "CMake policy violation: CMP0002 policy set to OLD behavior is unsupported. Requires migration to NEW policy behavior introduced in CMake 2.6.0."
   },
   {
-    "path": "kdumpid-1.5-alt1.log",
+    "link": "kdumpid-1.5-alt1.log",
     "package": "kdumpid-1.5-alt1",
     "error_type": "incompatible_pointer_type",
     "programming_language": "C",
     "description": "Type mismatch in function call: Argument 3 of kdump_get_number_attr expects incompatible pointer type (&dd.max_pfn), causing build failure in main.c."
   },
   {
-    "path": "kexi-3.2.0-alt7.log",
+    "link": "kexi-3.2.0-alt7.log",
     "package": "kexi-3.2.0-alt7",
     "error_type": "cmake_policy,missing_qt_components",
     "programming_language": "C++",
     "description": "CMake policy CMP0059 set to OLD is invalid (requires NEW behavior). Missing Qt5WebKit and Qt5WebKitWidgets components during configuration."
   },
   {
-    "path": "kf5-kdiagram-2.8.0-alt2.log",
+    "link": "kf5-kdiagram-2.8.0-alt2.log",
     "package": "kf5-kdiagram-2.8.0-alt2",
     "error_type": "cmake_configuration",
     "programming_language": "C++",
     "description": "Missing project version variables: ECM_GENERATE_PRI_FILE requires PROJECT_VERSION_STRING or PROJECT_VERSION via ecm_setup_version()."
   },
   {
-    "path": "kf5-kproperty-3.2.0-alt2.log",
+    "link": "kf5-kproperty-3.2.0-alt2.log",
     "package": "kf5-kproperty-3.2.0-alt2",
     "error_type": "cmake_policy",
     "programming_language": "C++",
     "description": "CMake policy CMP0059 set to OLD is invalid (requires NEW behavior). Configuration aborted due to deprecated policy usage."
   },
   {
-    "path": "kf5-kreport-3.2.0-alt3.log",
+    "link": "kf5-kreport-3.2.0-alt3.log",
     "package": "kf5-kreport-3.2.0-alt3",
     "error_type": "cmake_policy",
     "programming_language": "C++",
     "description": "CMake policy CMP0059 set to OLD is invalid (requires NEW behavior). Configuration aborted due to deprecated policy usage."
   },
   {
-    "path": "kronos-2.6.2-alt1.log",
+    "link": "kronos-2.6.2-alt1.log",
     "package": "kronos-2.6.2-alt1",
     "error_type": "cmake_version",
     "programming_language": "C++",
     "description": "CMake version compatibility error: CMakeLists.txt specifies outdated CMake minimum version (<3.5), which is no longer supported."
   },
   {
-    "path": "lapack-3.8.0-alt8.log",
+    "link": "lapack-3.8.0-alt8.log",
     "package": "lapack-3.8.0-alt8",
     "error_type": "cmake_version,cmake_configuration",
     "programming_language": "Fortran",
     "description": "CMake version error: Outdated CMake requirement in INSTALL/CMakeLists.txt. Additional failure in test project configuration for time function checks."
   },
   {
-    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/lftp-4.9.2-alt1",
+    "link": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/lftp-4.9.2-alt1",
     "package": "lftp-4.9.2-alt1",
     "error_type": "missing_header_file",
     "programming_language": "C",
     "description": "Fatal compilation error due to missing 'trio.h' header file. The build process fails because the required Trio library (trio.h) is not found or not installed in the system."
   },
   {
-    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/libcdio-2.1.0-alt1",
+    "link": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/libcdio-2.1.0-alt1",
     "package": "libcdio-2.1.0-alt1",
     "error_type": "function_declaration,large_file_support",
     "programming_language": "C",
     "description": "Implicit declaration errors for 'fseeko64' and 'lseek64', indicating missing feature macros for large file support (e.g., _LARGEFILE64_SOURCE). The build fails due to outdated function declarations or missing compiler flags."
   },
   {
-    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/libchipcard-5.1.6-alt1",
+    "link": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/libchipcard-5.1.6-alt1",
     "package": "libchipcard-5.1.6-alt1",
     "error_type": "symbolic_link,missing_header",
     "programming_language": "C",
     "description": "Failed symbolic link creation due to existing files and implicit declaration of 'toupper' caused by missing <ctype.h> include. The build fails due to file conflicts and incomplete headers."
   },
   {
-    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/libcminpack-1.3.8-alt1_4",
+    "link": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/libcminpack-1.3.8-alt1_4",
     "package": "libcminpack-1.3.8-alt1_4",
     "error_type": "cmake_minimum_required",
     "programming_language": "C++",
     "description": "CMake configuration error: Project requires updating cmake_minimum_required to a compatible version (>=3.5). The build fails due to outdated CMake version constraints."
   },
   {
-    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/libcomps-0.1.18-alt1_4",
+    "link": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/libcomps-0.1.18-alt1_4",
     "package": "libcomps-0.1.18-alt1_4",
     "error_type": "cmake_minimum_required",
     "programming_language": "C++",
     "description": "CMake configuration error: Compatibility with CMake <3.5 removed. Update cmake_minimum_required version in CMakeLists.txt to resolve the build failure."
   },
   {
-    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/libdnf-0.65.0-alt1",
+    "link": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/libdnf-0.65.0-alt1",
     "package": "libdnf-0.65.0-alt1",
     "error_type": "cmake_policy",
     "programming_language": "C++",
     "description": "CMake policy CMP0005 error: Project uses deprecated OLD policy behavior no longer supported. Update CMakeLists.txt to use NEW behavior for compatibility."
   },
   {
-    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/libdtkwm-2.0.12-alt1",
+    "link": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/libdtkwm-2.0.12-alt1",
     "package": "libdtkwm-2.0.12-alt1",
     "error_type": "qt_module",
     "programming_language": "C++",
     "description": "Build failure due to missing QT module 'dtkcore' and CMake feature 'dtk_cmake'. The project requires DTK framework dependencies or correct QT configuration."
   },
   {
-    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/libechonest-2.3.1-alt1",
+    "link": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/libechonest-2.3.1-alt1",
     "package": "libechonest-2.3.1-alt1",
     "error_type": "cmake_minimum_required",
     "programming_language": "C++",
     "description": "CMake configuration error: Outdated cmake_minimum_required version. Update to use syntax compatible with CMake >=3.5 to fix the build."
   },
   {
-    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/libflann-1.9.2-alt2.1",
+    "link": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/libflann-1.9.2-alt2.1",
     "package": "libflann-1.9.2-alt2.1",
     "error_type": "cmake_minimum_required",
     "programming_language": "C++",
     "description": "CMake configuration error: Incompatible cmake_minimum_required version. Update to use a minimum CMake version >=3.5 or adjust the syntax in CMakeLists.txt."
   },
   {
-    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/libfli-1.9.0-alt1_2",
+    "link": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/libfli-1.9.0-alt1_2",
     "package": "libfli-1.9.0-alt1_2",
     "error_type": "cmake_minimum_required",
     "programming_language": "C++",
     "description": "CMake configuration error: Project specifies an outdated CMake minimum version. Update CMakeLists.txt to require CMake >=3.5 to resolve compatibility issues."
   },
   {
-    "path": "libfprint2-1.94.9-alt1",
+    "link": "libfprint2-1.94.9-alt1",
     "package": "libfprint2-1.94.9-alt1",
     "error_type": "Python function signature mismatch,device detection",
     "programming_language": "Python",
     "description": "TypeError in identify_done() function: expected 2 arguments but received 3. Multiple 'uevent_sender_send' errors indicate missing USB device paths, possibly due to hardware detection issues during fingerprint enrollment process."
   },
   {
-    "path": "libgamerzilla-0.1.3-alt1_1",
+    "link": "libgamerzilla-0.1.3-alt1_1",
     "package": "libgamerzilla-0.1.3-alt1_1",
     "error_type": "CMake version compatibility",
     "programming_language": "C++",
     "description": "CMake configuration failure due to outdated minimum version requirement in CMakeLists.txt. Error specifies that compatibility with CMake < 3.5 has been removed, requiring update of cmake_minimum_required command."
   },
   {
-    "path": "libgarmin-0.1.0-alt3",
+    "link": "libgarmin-0.1.0-alt3",
     "package": "libgarmin-0.1.0-alt3",
     "error_type": "missing dependency",
     "programming_language": "Shell",
     "description": "Build failure due to missing required package 'rpm-macros-fillup', preventing proper package file list generation during installation process."
   },
   {
-    "path": "libgda6-6.0.0-alt2",
+    "link": "libgda6-6.0.0-alt2",
     "package": "libgda6-6.0.0-alt2",
     "error_type": "Vala package configuration",
     "programming_language": "Vala",
     "description": "VAPI generation failure: Package 'libgda-6.0' not found in Vala API directories, indicating missing development files or improper build configuration during GObject-Introspection processing."
   },
   {
-    "path": "libgibsonclient-1.0.0-alt1.git20140523",
+    "link": "libgibsonclient-1.0.0-alt1.git20140523",
     "package": "libgibsonclient-1.0.0-alt1.git20140523",
     "error_type": "CMake version compatibility",
     "programming_language": "C++",
     "description": "Identical CMake error to libgamerzilla package: CMakeLists.txt contains outdated minimum version specification incompatible with modern CMake (3.5+ requirements)."
   },
   {
-    "path": "libgle-3.1.0-alt7.3.qa1",
+    "link": "libgle-3.1.0-alt7.3.qa1",
     "package": "libgle-3.1.0-alt7.3.qa1",
     "error_type": "C function pointer mismatch",
     "programming_language": "C",
     "description": "Compiler errors in ex_angle.c due to incompatible pointer types passed to gluTessCallback, indicating API mismatch or incorrect OpenGL utility toolkit usage."
   },
   {
-    "path": "libgme-0.6.3-alt2",
+    "link": "libgme-0.6.3-alt2",
     "package": "libgme-0.6.3-alt2",
     "error_type": "CMake version compatibility",
     "programming_language": "C++",
     "description": "Recurring CMake minimum version error identical to libgamerzilla and libgibsonclient packages, requiring update of cmake_minimum_required specification."
   },
   {
-    "path": "libgoocanvas2-2.0.4-alt2",
+    "link": "libgoocanvas2-2.0.4-alt2",
     "package": "libgoocanvas2-2.0.4-alt2",
     "error_type": "C incompatible pointer type",
     "programming_language": "C",
     "description": "Type mismatch error in goocanvasitemsimple.c: Attempt to assign GooCanvasItemModel* to GooCanvasItemModelSimple* pointer, indicating API version inconsistency or incorrect type casting."
   },
   {
-    "path": "libgtk-engine-murrine-0.98.1.1-alt0.1.1.1",
+    "link": "libgtk-engine-murrine-0.98.1.1-alt0.1.1.1",
     "package": "libgtk-engine-murrine-0.98.1.1-alt0.1.1.1",
     "error_type": "C implicit declaration",
     "programming_language": "C",
     "description": "Multiple implicit function declaration errors including missing murrine_widget_is_ltr and murrine_style_register_types, suggesting missing header files or prototype declarations in theme initialization code."
   },
   {
-    "path": "libgtk-sharp2-2.12.45-alt1",
+    "link": "libgtk-sharp2-2.12.45-alt1",
     "package": "libgtk-sharp2-2.12.45-alt1",
     "error_type": "C pointer type mismatch",
     "programming_language": "C",
