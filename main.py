@@ -11,6 +11,8 @@ from typing import List
 from pydantic import BaseModel
 from typing import List
 
+from fastapi.middleware.cors import CORSMiddleware
+
 
 class LogEntry(BaseModel):
     # link: str
@@ -20,6 +22,14 @@ class LogEntry(BaseModel):
 
 load_dotenv()
 app = FastAPI()
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],  # Можешь указать список, например, ["http://localhost:49800"]
+    allow_credentials=True,
+    allow_methods=["*"],  # Разрешены все методы: GET, POST, PUT, DELETE и т.д.
+    allow_headers=["*"],  # Все заголовки разрешены
+)
 
 API_KEY = os.getenv("API_KEY")
 api_key = "io-v2-eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJvd25lciI6ImVjYmQ2ZDk3LTE5MGItNDU2Mi04ZTY1LWJjMTJhNGJlNjkwOSIsImV4cCI6NDkwMTA5MjYyNX0.dLmBbWToUQzJ3fUPHS0qMYn10MO9E6yFIKreNBa5YtGMaAFWD6GoV__3ajTxo2m-hcEtgb58LMobsDXhgtFIIg"
