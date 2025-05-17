@@ -1,0 +1,65 @@
+[
+  {
+    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/DirectXShaderCompiler-1.8.2403-alt0.3",
+    "package": "DirectXShaderCompiler-1.8.2403-alt0.3",
+    "error_type": "cmake_policy",
+    "programming_language": "C++",
+    "description": "CMake configuration error: Policy CMP0051 cannot use OLD behavior as it's no longer supported. The policy was introduced in CMake 3.1.0, requiring NEW behavior in current versions."
+  },
+  {
+    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/GMT-6.4.0-alt1_10",
+    "package": "GMT-6.4.0-alt1_10",
+    "error_type": "cmake_minimum_required",
+    "programming_language": "C++",
+    "description": "CMake compatibility error: Minimum required CMake version syntax outdated. Compatibility with CMake <3.5 has been removed. Update VERSION argument in cmake_minimum_required."
+  },
+  {
+    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/a2ps-4.14-alt4",
+    "package": "a2ps-4.14-alt4",
+    "error_type": "compilation_error",
+    "programming_language": "C",
+    "description": "Compilation error in fonts.c: Implicit declaration of rpl_malloc/rpl_realloc functions and return type mismatch between int and void*. Likely caused by incorrect macro replacements for memory allocation functions."
+  },
+  {
+    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/aces_container-1.0.2-alt1_8",
+    "package": "aces_container-1.0.2-alt1_8",
+    "error_type": "cmake_minimum_required",
+    "programming_language": "C++",
+    "description": "CMake compatibility error: cmake_minimum_required specifies an outdated CMake version (<3.5). Update the minimum version argument to use <min>...<max> syntax or newer CMake."
+  },
+  {
+    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/alglib-4.01.0-alt1_1",
+    "package": "alglib-4.01.0-alt1_1",
+    "error_type": "cmake_minimum_required",
+    "programming_language": "C++",
+    "description": "CMake configuration error: Project requires update to cmake_minimum_required syntax as compatibility with CMake versions <3.5 has been removed."
+  },
+  {
+    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/alt-docs-apache2-0.2.2-alt1",
+    "package": "alt-docs-apache2-0.2.2-alt1",
+    "error_type": "cmake_minimum_required",
+    "programming_language": "C++",
+    "description": "CMake error: cmake_minimum_required uses deprecated syntax. Compatibility with CMake versions below 3.5 is no longer supported. Update the VERSION argument."
+  },
+  {
+    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/amgcl-devel-1.4.4-alt1",
+    "package": "amgcl-devel-1.4.4-alt1",
+    "error_type": "cmake_policy",
+    "programming_language": "C++",
+    "description": "CMake policy error: Policy CMP0058 cannot use OLD behavior. The policy was introduced in CMake 3.3.0, and NEW behavior is now mandatory."
+  },
+  {
+    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/android-file-transfer-4.2-alt1_2",
+    "package": "android-file-transfer-4.2-alt1_2",
+    "error_type": "cmake_minimum_required",
+    "programming_language": "C++",
+    "description": "CMake configuration error: Outdated cmake_minimum_required syntax. Compatibility with CMake versions older than 3.5 has been removed. Update the version specification."
+  },
+  {
+    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/apache2-mod_perl-2.0.13-alt1",
+    "package": "apache2-mod_perl-2.0.13-alt1",
+    "error_type": "compilation_error",
+    "programming_language": "C",
+    "description": "Compilation error in modperl_common_util.c: Incompatible function pointer types during initialization of 'modperl_table_magic_prefetch.svt_copy', causing build failure."
+  }
+]

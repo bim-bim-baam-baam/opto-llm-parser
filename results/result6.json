@@ -1,0 +1,72 @@
+[
+  {
+    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/indexhtml-common-0.6.4-alt1",
+    "package": "indexhtml-common-0.6.4-alt1",
+    "error_type": "cmake_version",
+    "programming_language": "C++",
+    "description": "CMake configuration error: Outdated cmake_minimum_required syntax. Requires updating VERSION argument to ≥3.5 or using <min>...<max> format, indicating incompatible CMake version."
+  },
+  {
+    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/indilib-1.9.0-alt2",
+    "package": "indilib-1.9.0-alt2",
+    "error_type": "cmake_version",
+    "programming_language": "C++",
+    "description": "CMake configuration error: cmake_minimum_required syntax incompatible with CMake versions <3.5. Requires version specification update in CMakeLists.txt."
+  },
+  {
+    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/innoextract-1.9-alt1.1",
+    "package": "innoextract-1.9-alt1.1",
+    "error_type": "cmake_version",
+    "programming_language": "C++",
+    "description": "CMake error in VersionScript.cmake: cmake_minimum_required syntax outdated. Version argument must be updated to ≥3.5, causing build failure during release.cpp and manpage generation."
+  },
+  {
+    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/iptables-1.8.10-alt1",
+    "package": "iptables-1.8.10-alt1",
+    "error_type": "test_failure",
+    "programming_language": "C",
+    "description": "Test failures in libxt_recent.t: iptables commands with --rcheck and --mask options unexpectedly succeeded, violating test expectations."
+  },
+  {
+    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/java-1.8.0-openjdk-0%3A1.8.0.452.b09-alt1",
+    "package": "java-1.8.0-openjdk-0:1.8.0.452.b09-alt1",
+    "error_type": "license_missing,make_error",
+    "programming_language": "Java",
+    "description": "Missing licenses (GPL+, MPLv2.0, Public Domain) and build error: GNU Make failed due to invalid output-sync type 'l' during hotspot compilation."
+  },
+  {
+    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/java3d-1.5.2-alt6_15jpp8",
+    "package": "java3d-1.5.2-alt6_15jpp8",
+    "error_type": "missing_dependency",
+    "programming_language": "Java",
+    "description": "Dependency resolution failed: Missing package 'jogl' required for installation, causing package file list generation failure."
+  },
+  {
+    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/jmc-core-7.1.1-alt1_5.1jpp11",
+    "package": "jmc-core-7.1.1-alt1_5.1jpp11",
+    "error_type": "maven_surefire",
+    "programming_language": "Java",
+    "description": "Maven Surefire plugin failure: Variable substitution error (${surefireArgLine}) caused ClassNotFoundException during test execution, leading to VM termination."
+  },
+  {
+    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/jogl2-2.3.2-alt8_9jpp8",
+    "package": "jogl2-2.3.2-alt8_9jpp8",
+    "error_type": "missing_dependency",
+    "programming_language": "Java",
+    "description": "Dependency resolution failed: Missing package 'eclipse-swt', preventing package file list generation during installation."
+  },
+  {
+    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/jsoncpp19-1.8.4-alt6",
+    "package": "jsoncpp19-1.8.4-alt6",
+    "error_type": "cmake_version",
+    "programming_language": "C++",
+    "description": "CMake configuration error: cmake_minimum_required syntax outdated in CMakeLists.txt. Requires version ≥3.5, causing build process failure."
+  },
+  {
+    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/jsonxx-20140722-alt1",
+    "package": "jsonxx-20140722-alt1",
+    "error_type": "cmake_version",
+    "programming_language": "C++",
+    "description": "CMake configuration error: Incompatible cmake_minimum_required syntax in CMakeLists.txt. Update to ≥3.5 required, leading to build termination."
+  }
+]

@@ -1,0 +1,72 @@
+[
+  {
+    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/cercs_env-1.0.53-alt1.rev20269.svn20150203",
+    "package": "cercs_env-1.0.53-alt1.rev20269.svn20150203",
+    "error_type": "cmake_version",
+    "programming_language": "C++",
+    "description": "CMake configuration error: The cmake_minimum_required command specifies a version older than 3.5, which is no longer supported. Update the minimum required CMake version."
+  },
+  {
+    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/cleaver-2.4-alt1",
+    "package": "cleaver-2.4-alt1",
+    "error_type": "cmake_deprecated_command",
+    "programming_language": "C++",
+    "description": "CMake error due to use of deprecated command 'export_library_dependencies', which has been removed (refer to CMP0033 policy)."
+  },
+  {
+    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/cmucl-20b-alt3",
+    "package": "cmucl-20b-alt3",
+    "error_type": "missing_dependency",
+    "programming_language": "Common Lisp",
+    "description": "Dependency error: Package 'gcc4.5' is not available, causing installation failure during build."
+  },
+  {
+    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/colord-1.4.7-alt1.1",
+    "package": "colord-1.4.7-alt1.1",
+    "error_type": "compilation_error",
+    "programming_language": "C",
+    "description": "Compilation error in 'cd-icc.c' due to incompatible pointer type passed to gmtime_r function, causing build failure."
+  },
+  {
+    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/cooldown-24-alt2",
+    "package": "cooldown-24-alt2",
+    "error_type": "cmake_version",
+    "programming_language": "C++",
+    "description": "CMake configuration error: Outdated CMake version specified in cmake_minimum_required, needs update to 3.5 or higher."
+  },
+  {
+    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/dbusmenu-qt5-0.9.3-alt0.3",
+    "package": "dbusmenu-qt5-0.9.3-alt0.3",
+    "error_type": "cmake_version",
+    "programming_language": "C++",
+    "description": "CMake configuration error: Minimum required version is outdated, update to CMake 3.5 or newer."
+  },
+  {
+    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/dill-2.1.14-alt1.rev20523.svn20150304",
+    "package": "dill-2.1.14-alt1.rev20523.svn20150304",
+    "error_type": "cmake_version",
+    "programming_language": "C++",
+    "description": "Build failed due to outdated CMake version specified in cmake_minimum_required command."
+  },
+  {
+    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/diskscan-0.20-alt1_3.11",
+    "package": "diskscan-0.20-alt1_3.11",
+    "error_type": "cmake_version",
+    "programming_language": "C++",
+    "description": "CMake error: Incompatible minimum version specified, requires update to CMake 3.5 or later."
+  },
+  {
+    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/displaycal-3.9.14-alt1",
+    "package": "displaycal-3.9.14-alt1",
+    "error_type": "missing_file",
+    "programming_language": "Python",
+    "description": "Build error due to missing Python package metadata file (DisplayCAL-3.9.14.dist-info), likely an installation or packaging issue."
+  },
+  {
+    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/dropbear-2025.87-alt1",
+    "package": "dropbear-2025.87-alt1",
+    "error_type": "test_failure",
+    "programming_language": "Python",
+    "description": "Test failure due to connection error during socket operations, possibly due to port issues or environment misconfiguration."
+  }
+]

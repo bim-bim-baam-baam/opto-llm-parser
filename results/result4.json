@@ -1,0 +1,65 @@
+[
+  {
+    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/fontmatrix-0.9.100-alt2",
+    "package": "fontmatrix-0.9.100-alt2",
+    "error_type": "cmake_version",
+    "programming_language": "C++",
+    "description": "CMake configuration error: Compatibility with CMake versions below 3.5 has been removed. Update the VERSION argument in cmake_minimum_required to resolve the issue."
+  },
+  {
+    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/fonts-ttf-material-icons-4.0.0-alt1_6",
+    "package": "fonts-ttf-material-icons-4.0.0-alt1_6",
+    "error_type": "missing_dependency",
+    "programming_language": "N/A",
+    "description": "Missing dependency: Package 'libappstream' is not available, causing failure during installation candidate resolution and package file list generation."
+  },
+  {
+    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/fonts-ttf-oxygen-5.4.3-alt1_15",
+    "package": "fonts-ttf-oxygen-5.4.3-alt1_15",
+    "error_type": "license_issue,cmake_version",
+    "programming_language": "C++",
+    "description": "License file 'OFL' not found in /usr/share/license directory. Additionally, CMake configuration failed due to outdated minimum version requirement (needs update for compatibility with CMake <3.5)."
+  },
+  {
+    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/forbidden-apis-2.5-alt1_10jpp11",
+    "package": "forbidden-apis-2.5-alt1_10jpp11",
+    "error_type": "maven_plugin_goal",
+    "programming_language": "Java",
+    "description": "Maven build failure: Goal 'report' not found in plugin org.apache.maven.plugins:maven-plugin-plugin:3.6.4. Available goals are addPluginArtifactMetadata, descriptor, helpmojo."
+  },
+  {
+    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/fuse-cryfs-0.11.4-alt1",
+    "package": "fuse-cryfs-0.11.4-alt1",
+    "error_type": "cmake_policy",
+    "programming_language": "C++",
+    "description": "CMake policy CMP0065 set to OLD is unsupported. Update to NEW behavior to fix configuration errors."
+  },
+  {
+    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/gamescope-3.15.14-alt1",
+    "package": "gamescope-3.15.14-alt1",
+    "error_type": "cmake_version",
+    "programming_language": "C++",
+    "description": "CMake configuration failed due to outdated minimum version requirement (compatibility with CMake <3.5 removed). Affects meson subproject setup."
+  },
+  {
+    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/gammu-1.42.0-alt1",
+    "package": "gammu-1.42.0-alt1",
+    "error_type": "cmake_version",
+    "programming_language": "C++",
+    "description": "CMake configuration error: Update VERSION argument in cmake_minimum_required due to removed compatibility with CMake <3.5."
+  },
+  {
+    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/gcc11-11.4.1-alt1",
+    "package": "gcc11-11.4.1-alt1",
+    "error_type": "compiler_error,makefile_configuration",
+    "programming_language": "C",
+    "description": "Compiler error due to incompatible pointer type in libiberty. Makefile warnings about disabled 'subdir-objects' option."
+  },
+  {
+    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/gem-libv8-8.4.255.5-alt1",
+    "package": "gem-libv8-8.4.255.5-alt1",
+    "error_type": "missing_dependency",
+    "programming_language": "Ruby",
+    "description": "Missing development package 'libv8-3.14-devel', causing dependency resolution failure during installation."
+  }
+]
