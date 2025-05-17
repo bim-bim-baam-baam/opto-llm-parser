@@ -1,0 +1,72 @@
+[
+  {
+    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/pdnsd-1.2.9a-alt2",
+    "package": "pdnsd-1.2.9a-alt2",
+    "error_type": "implicit_declaration",
+    "programming_language": "C",
+    "description": "Implicit function declaration error for 'error' in droppriv.c, likely missing include or incorrect function usage, leading to compilation failure."
+  },
+  {
+    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/perceptualdiff-1.1.1-alt1.qa1",
+    "package": "perceptualdiff-1.1.1-alt1.qa1",
+    "error_type": "cmake_min_version",
+    "programming_language": "C++",
+    "description": "CMake configuration error due to outdated minimum version requirement (Compatibility with CMake <3.5 removed). Requires update to VERSION syntax in CMakeLists.txt."
+  },
+  {
+    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/perl-Alien-Build-2.84-alt1",
+    "package": "perl-Alien-Build-2.84-alt1",
+    "error_type": "cmake_min_version",
+    "programming_language": "C++",
+    "description": "CMake configuration failure: Compatibility with CMake <3.5 removed. Update CMakeLists.txt to specify correct minimum version."
+  },
+  {
+    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/perl-Alien-cmake3-0.09-alt1",
+    "package": "perl-Alien-cmake3-0.09-alt1",
+    "error_type": "missing_perl_module",
+    "programming_language": "Perl",
+    "description": "Build failure due to missing Perl module Sort::Versions, required during the build process."
+  },
+  {
+    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/perl-B-C-1.57_01-alt1.gitb29a5b8f",
+    "package": "perl-B-C-1.57_01-alt1.gitb29a5b8f",
+    "error_type": "compilation_error,incompatible_pointer_type",
+    "programming_language": "C",
+    "description": "Incompatible pointer type assignment in byterun.c (char* vs STRLEN*), causing compilation failure in Perl XS code."
+  },
+  {
+    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/perl-CGI-SpeedyCGI-2.22-alt9",
+    "package": "perl-CGI-SpeedyCGI-2.22-alt9",
+    "error_type": "implicit_declaration",
+    "programming_language": "C",
+    "description": "Implicit declaration of 'PerlIO_reopen' function in speedy_perl.c, likely missing header inclusion or outdated Perl API usage."
+  },
+  {
+    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/perl-Cairo-1.109-alt1",
+    "package": "perl-Cairo-1.109-alt1",
+    "error_type": "compilation_error,incompatible_pointer_type",
+    "programming_language": "C",
+    "description": "Incompatible pointer type in Perl XS code (CairoSurface.xs) during SvPV_flags call, leading to compilation error."
+  },
+  {
+    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/perl-CryptX-0.085-alt1",
+    "package": "perl-CryptX-0.085-alt1",
+    "error_type": "test_failure",
+    "programming_language": "Perl",
+    "description": "Test failures in Math::BigFloat::bgcd method: returned undef instead of expected values (e.g., gcd(2,3) expected 1)."
+  },
+  {
+    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/perl-DBD-InterBase-0.48-alt5.2",
+    "package": "perl-DBD-InterBase-0.48-alt5.2",
+    "error_type": "compilation_error,incompatible_pointer_type",
+    "programming_language": "C",
+    "description": "Incompatible pointer types in XS code for isc_event_block arguments (InterBase.xs), causing compilation failure."
+  },
+  {
+    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/perl-Dist-Zilla-Plugin-Git-Contributors-0.037-alt1",
+    "package": "perl-Dist-Zilla-Plugin-Git-Contributors-0.037-alt1",
+    "error_type": "test_failure",
+    "programming_language": "Perl",
+    "description": "Test failure in t/19-ex-repo-paths.t: method argument was not a hash reference, leading to non-zero exit status and TAP parse errors."
+  }
+]

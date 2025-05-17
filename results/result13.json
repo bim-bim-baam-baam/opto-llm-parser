@@ -1,0 +1,72 @@
+[
+  {
+    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/libtiff-4.7.0-alt1",
+    "package": "libtiff-4.7.0-alt1",
+    "error_type": "test failure",
+    "programming_language": "C",
+    "description": "Test suite failures during 'make check' phase, possibly due to environment or test case inconsistencies. Error 1 in test-suite.log reported."
+  },
+  {
+    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/libtiger-0.3.4-alt1.qa2",
+    "package": "libtiger-0.3.4-alt1.qa2",
+    "error_type": "missing dependency",
+    "programming_language": "C",
+    "description": "Missing installation candidate for automake_1.11 package required for build process, causing failure in package file list generation."
+  },
+  {
+    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/libunwind-1.7.0-alt2",
+    "package": "libunwind-1.7.0-alt2",
+    "error_type": "compiler error,pointer type",
+    "programming_language": "C",
+    "description": "Incompatible pointer type error in _ULx86_sigreturn call at x86/Gos-linux.c:302 during compilation, treated as fatal error."
+  },
+  {
+    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/liburing-2.9-alt1",
+    "package": "liburing-2.9-alt1",
+    "error_type": "test/kernel",
+    "programming_language": "C",
+    "description": "Kernel NULL pointer dereference and segmentation faults during test execution (buf-ring-nommap.t, coredump.t), resulting in killed processes (ret 137)."
+  },
+  {
+    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/libwebrtc-audio-processing-1.3-alt2",
+    "package": "libwebrtc-audio-processing-1.3-alt2",
+    "error_type": "build timeout",
+    "programming_language": "C++",
+    "description": "hasher-privd exceeded idle time limit (3600 seconds) during rebuild process, leading to build failure."
+  },
+  {
+    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/libzmf-0.0.1-alt1",
+    "package": "libzmf-0.0.1-alt1",
+    "error_type": "linker",
+    "programming_language": "C++",
+    "description": "Undefined reference to ICU library function 'ucnv_open_76' during linking of zmf2raw executable, indicating missing ICU development dependencies."
+  },
+  {
+    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/lilo-24.2-alt3",
+    "package": "lilo-24.2-alt3",
+    "error_type": "missing dependency",
+    "programming_language": "C",
+    "description": "Missing dev86 package required for build process, causing failure in package file list generation."
+  },
+  {
+    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/lincity-ng-2.12.0-alt1",
+    "package": "lincity-ng-2.12.0-alt1",
+    "error_type": "cmake",
+    "programming_language": "C++",
+    "description": "CMake configuration failed: Could NOT find webp components (missing: webp_LIBRARY, webp_INCLUDE_PATH, webpdemux_LIBRARY)."
+  },
+  {
+    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/linux-pam-1.7.0-alt1",
+    "package": "linux-pam-1.7.0-alt1",
+    "error_type": "compiler warning,sign-compare",
+    "programming_language": "C",
+    "description": "Fatal sign comparison error (-Werror=sign-compare) in pam_lastlog.c:572 between __uint32_t and time_t types, treating warnings as errors."
+  },
+  {
+    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/linuxdoc-tools-0.9.69-alt4",
+    "package": "linuxdoc-tools-0.9.69-alt4",
+    "error_type": "type conflict",
+    "programming_language": "C",
+    "description": "Conflicting type declaration for fpos_t (long vs standard library's definition) in std.h:95 during compilation of sgmlsasp.c and getopt.c."
+  }
+]

@@ -1,0 +1,65 @@
+[
+  {
+    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/perl-YAML-PP-Ref-0.02-alt1",
+    "package": "perl-YAML-PP-Ref-0.02-alt1",
+    "error_type": "test_failure,plan_missing",
+    "programming_language": "Perl",
+    "description": "Perl test failures: Undefined subroutine reference in YAML::PP::Representer, missing test plan declaration, and 1/2 subtests failed with exit status 255."
+  },
+  {
+    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/pgagent-4.2.2-alt1",
+    "package": "pgagent-4.2.2-alt1",
+    "error_type": "cmake_minimum_required",
+    "programming_language": "C++",
+    "description": "CMake configuration failure: Requires update of cmake_minimum_required version as compatibility with CMake <3.5 has been removed."
+  },
+  {
+    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/plasma5-breeze-gtk-education-5.24.5-alt1",
+    "package": "plasma5-breeze-gtk-education-5.24.5-alt1",
+    "error_type": "missing_dependency",
+    "programming_language": "C++",
+    "description": "Dependency resolution failure: plasma5-breeze-devel package not found, preventing installation candidate resolution."
+  },
+  {
+    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/plots-0.8.5-alt1",
+    "package": "plots-0.8.5-alt1",
+    "error_type": "missing_file",
+    "programming_language": "Python",
+    "description": "Build failure: Missing critical Python package metadata directory /usr/lib/python3/site-packages/Plots-0.8.5.dist-info during RPM packaging."
+  },
+  {
+    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/prboom-2.5.0-alt0.3.2",
+    "package": "prboom-2.5.0-alt0.3.2",
+    "error_type": "compilation_error",
+    "programming_language": "C",
+    "description": "C compilation error: Incompatible pointer type assignment in i_main.c (const char* const* vs char**) triggering -Wincompatible-pointer-types."
+  },
+  {
+    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/prelink-0.4.4-alt3",
+    "package": "prelink-0.4.4-alt3",
+    "error_type": "libelf_compatibility",
+    "programming_language": "C",
+    "description": "Configuration error: libELF library incompatibility detected during configure, specifically with Elf64_Sxword conversions (patches required for libelf-0.7.0)."
+  },
+  {
+    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/procmail-3.22-alt11",
+    "package": "procmail-3.22-alt11",
+    "error_type": "compilation_error",
+    "programming_language": "C",
+    "description": "C compilation error: Implicit int return type in main() function triggering -Wimplicit-int warnings, failing build process."
+  },
+  {
+    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/pth-2.0.7-alt6",
+    "package": "pth-2.0.7-alt6",
+    "error_type": "compilation_error",
+    "programming_language": "C",
+    "description": "C structure error: Invalid access to __jmpbuf members (__pc and __sp) in pth_mctx.c, causing struct/union type mismatch during compilation."
+  },
+  {
+    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/pudb-2024.1.3-alt1",
+    "package": "pudb-2024.1.3-alt1",
+    "error_type": "test_failure,dependency_issue",
+    "programming_language": "Python",
+    "description": "Python test failures: Missing FlowWidget attribute in urwid dependency causing import errors in test modules (test_make_canvas.py, test_var_view.py)."
+  }
+]

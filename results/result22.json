@@ -1,0 +1,44 @@
+[
+  {
+    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/python3-module-mongo-thingy-0.17.2-alt1",
+    "package": "python3-module-mongo-thingy-0.17.2-alt1",
+    "error_type": "packaging",
+    "programming_language": "Python",
+    "description": "RPM build error: Missing dist-info directory '/usr/lib/python3/site-packages/Mongo_Thingy-0.17.2.dist-info' during package processing, likely due to incorrect buildroot setup or failed installation step."
+  },
+  {
+    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/python3-module-myst-parser-4.0.1-alt1",
+    "package": "python3-module-myst-parser-4.0.1-alt1",
+    "error_type": "test_failure",
+    "programming_language": "Python",
+    "description": "4 test failures during %check phase including test_sphinx_directives and test_references_singlehtml, indicating compatibility issues with Pygments 2.19 or Sphinx integration problems."
+  },
+  {
+    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/python3-module-netCDF4-1.7.1-alt1",
+    "package": "python3-module-netCDF4-1.7.1-alt1",
+    "error_type": "packaging",
+    "programming_language": "Python",
+    "description": "RPM build error: Missing dist-info directory '/usr/lib/python3/site-packages/netCDF4-1.7.1.dist-info', accompanied by numpy deprecation warnings about empty array truth evaluation."
+  },
+  {
+    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/python3-module-openstackclient-7.2.1-alt1",
+    "package": "python3-module-openstackclient-7.2.1-alt1",
+    "error_type": "documentation_build",
+    "programming_language": "Python",
+    "description": "Documentation build failure: Missing git repository context prevents proper modification time detection for Sphinx docs, causing openstackdocstheme extension errors during doc generation."
+  },
+  {
+    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/python3-module-pymdown-extensions-10.14.3-alt1",
+    "package": "python3-module-pymdown-extensions-10.14.3-alt1",
+    "error_type": "test_failure",
+    "programming_language": "Python",
+    "description": "2 test failures in caption handling (TestBlocksCaptionPrefix and TestBlocksCaptionAutoPrefix) during pytest execution, indicating issues with empty paragraph handling in Markdown extensions."
+  },
+  {
+    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/python3-module-pyqtgraph-0.12.4-alt1.3",
+    "package": "python3-module-pyqtgraph-0.12.4-alt1.3",
+    "error_type": "build_timeout",
+    "programming_language": "Python",
+    "description": "Build process timeout: hasher-privd exceeded 3600-second idle limit during rebuild, suggesting a hung process or unresolved dependency in Qt graph library compilation."
+  }
+]

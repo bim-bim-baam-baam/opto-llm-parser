@@ -1,0 +1,44 @@
+[
+  {
+    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/puppetdb-8.4.1-alt3",
+    "package": "puppetdb-8.4.1-alt3",
+    "error_type": "shell_script_syntax,rpm_requires",
+    "programming_language": "Ruby/Shell",
+    "description": "ERB template syntax in shell script causing RPM build failure: Unprocessed Ruby interpolation (`<%= %>`) in delete-reports.erb leads to shell syntax errors. Subsequent failures in RPM dependency resolution (shell.req) due to invalid script content."
+  },
+  {
+    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/purple-plugin-lurch-0.7.0-alt1",
+    "package": "purple-plugin-lurch-0.7.0-alt1",
+    "error_type": "cmake_version",
+    "programming_language": "C",
+    "description": "CMake configuration failure: Outdated cmake_minimum_required version in CMakeLists.txt (compatibility with CMake <3.5 removed). Requires updating minimum CMake version specification to support modern build system."
+  },
+  {
+    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/python3-module-PyGLM-2.7.3-alt1",
+    "package": "python3-module-PyGLM-2.7.3-alt1",
+    "error_type": "python_packaging",
+    "programming_language": "Python",
+    "description": "Missing distribution metadata: PyGLM-2.7.3.dist-info directory not found in buildroot, indicating incomplete Python package installation or incorrect packaging configuration."
+  },
+  {
+    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/python3-module-django-environ-0.10.0-alt1",
+    "package": "python3-module-django-environ-0.10.0-alt1",
+    "error_type": "test_failure",
+    "programming_language": "Python",
+    "description": "Test suite failure in PostgreSQL cluster parsing: ValueError during test_db_parsing due to invalid IPv6 URL handling in database configuration validation."
+  },
+  {
+    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/python3-module-brotlicffi-1.1.0.0-alt1",
+    "package": "python3-module-brotlicffi-1.1.0.0-alt1",
+    "error_type": "sphinx_config",
+    "programming_language": "Python",
+    "description": "Documentation build failure: Invalid None value in intersphinx_mapping configuration for Sphinx, requiring tuple-based format for Python documentation references."
+  },
+  {
+    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/python3-module-fs-2.4.16-alt1.2",
+    "package": "python3-module-fs-2.4.16-alt1.2",
+    "error_type": "sphinx_intersphinx",
+    "programming_language": "Python",
+    "description": "Documentation build DNS failure: Temporary name resolution error while fetching intersphinx inventory from docs.python.org, preventing proper API reference linking."
+  }
+]

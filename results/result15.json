@@ -1,0 +1,72 @@
+[
+  {
+    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/milkytracker-1.03.00-alt1_5",
+    "package": "milkytracker-1.03.00-alt1_5",
+    "error_type": "cmake_policy",
+    "programming_language": "C++",
+    "description": "CMake policy error CMP0004: Policy OLD behavior is no longer supported. Update CMake configuration to use NEW behavior."
+  },
+  {
+    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/mkvextract-gtk-0.9.3-alt1",
+    "package": "mkvextract-gtk-0.9.3-alt1",
+    "error_type": "cmake_minimum_required",
+    "programming_language": "C++",
+    "description": "CMake version incompatibility: Missing cmake_minimum_required command and outdated VERSION argument (<3.5). Update CMakeLists.txt syntax."
+  },
+  {
+    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/mono-6.12.0.206-alt1",
+    "package": "mono-6.12.0.206-alt1",
+    "error_type": "cmake_minimum_required",
+    "programming_language": "C#",
+    "description": "CMake configuration failure: Outdated cmake_minimum_required VERSION argument. Requires update to >=3.5 in CMakeLists.txt."
+  },
+  {
+    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/mppenc-1.16-alt0.1.qa1",
+    "package": "mppenc-1.16-alt0.1.qa1",
+    "error_type": "cmake_minimum_required",
+    "programming_language": "C++",
+    "description": "CMake syntax error: Invalid cmake_minimum_required specification. Update to use compatible version syntax (>=3.5)."
+  },
+  {
+    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/mustache-cpp-4.1-alt1_10",
+    "package": "mustache-cpp-4.1-alt1_10",
+    "error_type": "cmake_minimum_required",
+    "programming_language": "C++",
+    "description": "CMake compatibility error: cmake_minimum_required lacks valid version specification. Requires VERSION >=3.5."
+  },
+  {
+    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/nagios-3.0.6-alt18",
+    "package": "nagios-3.0.6-alt18",
+    "error_type": "compilation,return_type_mismatch",
+    "programming_language": "C",
+    "description": "Type mismatch in logging.c: Returning NULL in int-returning functions. Additional warnings about misleading indentation."
+  },
+  {
+    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/nagios-plugins-2.2.1-alt1",
+    "package": "nagios-plugins-2.2.1-alt1",
+    "error_type": "missing_include,unused_result",
+    "programming_language": "C",
+    "description": "Missing ctype.h includes causing implicit tolower/toupper declarations. Unchecked return values of write() calls."
+  },
+  {
+    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/netconsole-1.1-alt1",
+    "package": "netconsole-1.1-alt1",
+    "error_type": "permission_denied",
+    "programming_language": "Shell",
+    "description": "Permission denied during %check phase: systemd-analyze failed to create /run/systemd/ directory."
+  },
+  {
+    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/netdata-1.43.2-alt3",
+    "package": "netdata-1.43.2-alt3",
+    "error_type": "protobuf_dependency",
+    "programming_language": "C++",
+    "description": "Missing google/protobuf/descriptor.proto during Protobuf code generation. Dependency resolution failure."
+  },
+  {
+    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/nheko-0.12.0-alt2",
+    "package": "nheko-0.12.0-alt2",
+    "error_type": "linker",
+    "programming_language": "C++",
+    "description": "Undefined reference to mtx::events::msg::to_json during linking. Missing implementation or library dependencies."
+  }
+]

@@ -1,0 +1,72 @@
+[
+  {
+    "path": "libfprint2-1.94.9-alt1",
+    "package": "libfprint2-1.94.9-alt1",
+    "error_type": "Python function signature mismatch,device detection",
+    "programming_language": "Python",
+    "description": "TypeError in identify_done() function: expected 2 arguments but received 3. Multiple 'uevent_sender_send' errors indicate missing USB device paths, possibly due to hardware detection issues during fingerprint enrollment process."
+  },
+  {
+    "path": "libgamerzilla-0.1.3-alt1_1",
+    "package": "libgamerzilla-0.1.3-alt1_1",
+    "error_type": "CMake version compatibility",
+    "programming_language": "C++",
+    "description": "CMake configuration failure due to outdated minimum version requirement in CMakeLists.txt. Error specifies that compatibility with CMake < 3.5 has been removed, requiring update of cmake_minimum_required command."
+  },
+  {
+    "path": "libgarmin-0.1.0-alt3",
+    "package": "libgarmin-0.1.0-alt3",
+    "error_type": "missing dependency",
+    "programming_language": "Shell",
+    "description": "Build failure due to missing required package 'rpm-macros-fillup', preventing proper package file list generation during installation process."
+  },
+  {
+    "path": "libgda6-6.0.0-alt2",
+    "package": "libgda6-6.0.0-alt2",
+    "error_type": "Vala package configuration",
+    "programming_language": "Vala",
+    "description": "VAPI generation failure: Package 'libgda-6.0' not found in Vala API directories, indicating missing development files or improper build configuration during GObject-Introspection processing."
+  },
+  {
+    "path": "libgibsonclient-1.0.0-alt1.git20140523",
+    "package": "libgibsonclient-1.0.0-alt1.git20140523",
+    "error_type": "CMake version compatibility",
+    "programming_language": "C++",
+    "description": "Identical CMake error to libgamerzilla package: CMakeLists.txt contains outdated minimum version specification incompatible with modern CMake (3.5+ requirements)."
+  },
+  {
+    "path": "libgle-3.1.0-alt7.3.qa1",
+    "package": "libgle-3.1.0-alt7.3.qa1",
+    "error_type": "C function pointer mismatch",
+    "programming_language": "C",
+    "description": "Compiler errors in ex_angle.c due to incompatible pointer types passed to gluTessCallback, indicating API mismatch or incorrect OpenGL utility toolkit usage."
+  },
+  {
+    "path": "libgme-0.6.3-alt2",
+    "package": "libgme-0.6.3-alt2",
+    "error_type": "CMake version compatibility",
+    "programming_language": "C++",
+    "description": "Recurring CMake minimum version error identical to libgamerzilla and libgibsonclient packages, requiring update of cmake_minimum_required specification."
+  },
+  {
+    "path": "libgoocanvas2-2.0.4-alt2",
+    "package": "libgoocanvas2-2.0.4-alt2",
+    "error_type": "C incompatible pointer type",
+    "programming_language": "C",
+    "description": "Type mismatch error in goocanvasitemsimple.c: Attempt to assign GooCanvasItemModel* to GooCanvasItemModelSimple* pointer, indicating API version inconsistency or incorrect type casting."
+  },
+  {
+    "path": "libgtk-engine-murrine-0.98.1.1-alt0.1.1.1",
+    "package": "libgtk-engine-murrine-0.98.1.1-alt0.1.1.1",
+    "error_type": "C implicit declaration",
+    "programming_language": "C",
+    "description": "Multiple implicit function declaration errors including missing murrine_widget_is_ltr and murrine_style_register_types, suggesting missing header files or prototype declarations in theme initialization code."
+  },
+  {
+    "path": "libgtk-sharp2-2.12.45-alt1",
+    "package": "libgtk-sharp2-2.12.45-alt1",
+    "error_type": "C pointer type mismatch",
+    "programming_language": "C",
+    "description": "Compilation error in object.c: Pointer type mismatch during GTypeInstance allocation, likely caused by API changes in GTK# bindings or incorrect type casting in interop code."
+  }
+]

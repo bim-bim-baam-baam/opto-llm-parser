@@ -1,0 +1,72 @@
+[
+  {
+    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/rdesktop-1.9.0-alt1",
+    "package": "rdesktop-1.9.0-alt1",
+    "error_type": "Incompatible Pointer Types",
+    "programming_language": "C",
+    "description": "Compiler errors due to incompatible pointer types in SSL functions: __gmpz_sizeinbase() receives wrong pointer type for modulus and exponent arguments. Makefile build fails with exit status 1."
+  },
+  {
+    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/refal2-0.2.3-alt4",
+    "package": "refal2-0.2.3-alt4",
+    "error_type": "Implicit Int Return",
+    "programming_language": "C",
+    "description": "Multiple functions lack explicit return type declarations, triggering -Wimplicit-int errors during compilation (lsg_p(), rsg_p(), ortgn()). Build fails at ccst2.c compilation."
+  },
+  {
+    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/relive-1.0.4587-alt2",
+    "package": "relive-1.0.4587-alt2",
+    "error_type": "CMake Version Compatibility",
+    "programming_language": "C++",
+    "description": "CMake configuration failure: cmake_minimum_required specifies outdated CMake version (<3.5). Compatibility with old CMake versions has been removed, requiring VERSION argument update."
+  },
+  {
+    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/retro-gtk-1.0.2-alt2",
+    "package": "retro-gtk-1.0.2-alt2",
+    "error_type": "Incompatible Pointer Types",
+    "programming_language": "C",
+    "description": "Type mismatch in retro-core.c: argument 3 of ipc_runner_call_get_memory_size_sync() expects different pointer type (&size). Ninja build fails during C compilation."
+  },
+  {
+    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/rpm-4.13.0.1-alt40",
+    "package": "rpm-4.13.0.1-alt40",
+    "error_type": "Python C Extension",
+    "programming_language": "Python/C",
+    "description": "Type mismatch in header-py.c: tp_hash function pointer expects Py_hash_t (*)(PyObject*) but receives long int (*)(PyObject*). Python setup.py build fails during C extension compilation."
+  },
+  {
+    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/rpmhdrcache-0.3.2-alt1",
+    "package": "rpmhdrcache-0.3.2-alt1",
+    "error_type": "Incompatible Pointer Types",
+    "programming_language": "C",
+    "description": "snappy function arguments mismatch: snappy_uncompressed_length(), snappy_uncompress(), and snappy_validate_compressed_buffer() receive incompatible pointer types for buffer arguments in cache.c."
+  },
+  {
+    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/ruby-gnome2-4.2.5-alt0.2",
+    "package": "ruby-gnome2-4.2.5-alt0.2",
+    "error_type": "Ruby Setup",
+    "programming_language": "Ruby",
+    "description": "Build failure during Ruby setup-rb script execution (exit status 1). Likely related to Ruby gem extensions or dependency issues."
+  },
+  {
+    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/rustic-0.9.5-alt1",
+    "package": "rustic-0.9.5-alt1",
+    "error_type": "Rust Compilation",
+    "programming_language": "Rust",
+    "description": "Rust compilation errors in derive_more-impl, enum-map-derive, and hyper_util crates. Includes ELF verification warnings about debug sections and non-LFS functions."
+  },
+  {
+    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/schedtool-1.3.0-alt1.qa1",
+    "package": "schedtool-1.3.0-alt1.qa1",
+    "error_type": "Type Mismatch",
+    "programming_language": "C",
+    "description": "Pointer/integer type mismatch in schedtool.c conditional expression (CHECK_RANGE_POLICY). Triggers -Wint-conversion error during compilation."
+  },
+  {
+    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/scorched3d-44-alt3.1",
+    "package": "scorched3d-44-alt3.1",
+    "error_type": "Missing Dependency",
+    "programming_language": "C++",
+    "description": "Build dependency failure: automake_1.11 package is unavailable. Required for generating build files but missing from repository."
+  }
+]

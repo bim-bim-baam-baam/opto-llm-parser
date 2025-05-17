@@ -11,6 +11,7 @@ from typing import List
 
 
 class LogEntry(BaseModel):
+    link: str
     package: str
     errors: str
 
@@ -31,7 +32,7 @@ SYSTEM_PROMPT = (
     "Ты эксперт в анализе логов сборки Linux-пакетов. "
     "Тебе даются фрагменты логов пакетов с фрагментами ошибок. "
     "На их основе сформируй краткий JSON-ответ с 5 полями:\n"
-    "1. path - путь к логу, \n"
+    "1. link - путь к логу, \n"
     "2. package — имя пакета,\n"
     "3. error_type — узкая категория ошибки. если получено несколько ошибок разных категорий для одного пакета,"
     " то может быть указано несколько категорий через запятую,\n"
@@ -39,7 +40,7 @@ SYSTEM_PROMPT = (
     "5. description — подробное описание ошибки, включая основную причину сбоя и её контекст.\n"
     "Пример ответа:\n"
     "{\n"
-    "  \"path\": \"https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/yajl-2.1.0-alt3\", \n"
+    "  \"link\": \"https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/yajl-2.1.0-alt3\", \n"
     "  \"package\": \"yajl-2.1.0-alt3\",\n"
     "  \"error_type\": \"cmake\",\n"
     "  \"programming_language\": \"C++\", \n"
@@ -60,9 +61,10 @@ def format_batch_for_prompt(batch: List[dict]) -> str:
     """Форматирует один батч логов для отправки в prompt"""
     formatted = []
     for entry in batch:
+        link = entry.get("link")
         package = entry.get("package")
         errors = entry.get("errors")
-        formatted.append(f"Package: {package}\nErrors:\n{errors}")
+        formatted.append(f"Link: {link}\nPackage: {package}\nErrors:\n{errors}")
     return "\n\n".join(formatted)
 
 
@@ -76,7 +78,7 @@ async def llm_parse(logs: List[LogEntry]):
         all_results = []
         batches = split_batches(logs_dicts, batch_size=BATCH_SIZE)
 
-        count = 1
+        count = 26  # TODO: 1
 
         for batch in batches:
             log_text = format_batch_for_prompt(batch)

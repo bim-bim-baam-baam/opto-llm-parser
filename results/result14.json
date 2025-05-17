@@ -1,0 +1,72 @@
+[
+  {
+    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/log4c-1.2.1-alt1.1.qa3",
+    "package": "log4c-1.2.1-alt1.1.qa3",
+    "error_type": "dependency_issue,compiler_warning",
+    "programming_language": "C",
+    "description": "EXPAT dependency problem: Test program failed to compile/link, possibly due to incorrect installation. Additional warning: unused 'version' constant variable in error.c."
+  },
+  {
+    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/lp_solve-5.5.2.5-alt1",
+    "package": "lp_solve-5.5.2.5-alt1",
+    "error_type": "macro_conflict",
+    "programming_language": "C",
+    "description": "Macro definition conflict: FALSE redefined as numeric constant causes syntax errors in multiple files. Implicit int return type warning in platform.c."
+  },
+  {
+    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/lrzsz-0.12.20-alt2",
+    "package": "lrzsz-0:0.12.20-alt2",
+    "error_type": "compiler_configuration",
+    "programming_language": "C",
+    "description": "C compiler failure: Configuration error indicates compiler cannot create executables, likely due to toolchain misconfiguration or missing dependencies."
+  },
+  {
+    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/lua5.4-module-dbi-0.7.2-alt2",
+    "package": "lua5.4-module-dbi-0.7.2-alt2",
+    "error_type": "type_mismatch",
+    "programming_language": "C",
+    "description": "Pointer type incompatibility: Assigning int* to my_bool* in MySQL statement.c. Size_t* to unsigned long* conversion error. Multiple incompatible pointer type warnings."
+  },
+  {
+    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/lugaru-0.0.r262-alt2.2",
+    "package": "lugaru-0.0.r262-alt2.2",
+    "error_type": "cmake_version",
+    "programming_language": "C++",
+    "description": "CMake compatibility error: cmake_minimum_required specifies outdated CMake version (below 3.5). Configuration aborted due to removed legacy support."
+  },
+  {
+    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/manaworld-0.5.2-alt5_9",
+    "package": "manaworld-0.5.2-alt5_9",
+    "error_type": "cmake_version",
+    "programming_language": "C++",
+    "description": "CMake version conflict: cmake_minimum_required uses obsolete version specification. Additional warning about /proc/meminfo access failure."
+  },
+  {
+    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/matchbox-window-manager-1.2-alt5.1",
+    "package": "matchbox-window-manager-1.2-alt5.1",
+    "error_type": "implicit_declaration,format_warning",
+    "programming_language": "C",
+    "description": "Implicit function declaration: 'wait()' missing prototype in misc.c. Format string warning: %d vs XML_Size type mismatch in xml.c. Build fails due to compilation errors."
+  },
+  {
+    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/maven-scm-1.10.0-alt1_9jpp11",
+    "package": "maven-scm-0:1.10.0-alt1_9jpp11",
+    "error_type": "missing_symbol",
+    "programming_language": "Java",
+    "description": "Compilation error: ROLE symbol not found in SecDispatcher interface during maven-scm-test build. Likely caused by outdated dependencies or API changes."
+  },
+  {
+    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/mbootpack-0.6a-alt3",
+    "package": "mbootpack-0.6a-alt3",
+    "error_type": "resource_exhaustion",
+    "programming_language": "C",
+    "description": "Memory exhaustion during compilation: Virtual memory allocation failed while building buildimage.o. Additional warnings about uninitialized variable usage."
+  },
+  {
+    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/metis-5.1.0-alt2",
+    "package": "metis-5.1.0-alt2",
+    "error_type": "cmake_version",
+    "programming_language": "C++",
+    "description": "CMake version error: cmake_minimum_required uses outdated syntax. Configuration aborted due to removed legacy CMake compatibility."
+  }
+]

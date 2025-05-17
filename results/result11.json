@@ -1,0 +1,72 @@
+[
+  {
+    "path": null,
+    "package": "libmsym-0.2.3-alt2_7.1",
+    "error_type": "cmake_version",
+    "programming_language": "C++",
+    "description": "CMake configuration error: Outdated cmake_minimum_required version specification. Requires updating CMake version argument due to removed compatibility with versions below 3.5."
+  },
+  {
+    "path": null,
+    "package": "libneXtaw-0.15.1-alt8",
+    "error_type": "missing_include,implicit_declaration",
+    "programming_language": "C",
+    "description": "Implicit function declarations for LayYYerror, free, and LayYYlex due to missing headers (stdlib.h not included). Compiler warnings indicate incompatible function declarations."
+  },
+  {
+    "path": null,
+    "package": "libnss-fallback-0.0.1-alt2.qa1",
+    "error_type": "cmake_version",
+    "programming_language": "C++",
+    "description": "CMake configuration failure: Invalid cmake_minimum_required syntax. Requires updated version specification for modern CMake compatibility."
+  },
+  {
+    "path": null,
+    "package": "libopenCOLLADA-0-alt8.gitcaad49c",
+    "error_type": "build_script_error,cmake_version",
+    "programming_language": "C++",
+    "description": "Multiple issues: Invalid option syntax in build script (add_optflags) and CMake version incompatibility in CMakeLists.txt (minimum required version outdated)."
+  },
+  {
+    "path": null,
+    "package": "liborigin-20080225-alt1_24",
+    "error_type": "cmake_missing_min_version",
+    "programming_language": "C++",
+    "description": "Critical CMake error: Missing cmake_minimum_required command in CMakeLists.txt. Project configuration requires explicit minimum CMake version declaration."
+  },
+  {
+    "path": null,
+    "package": "libpcl-1.12-alt2",
+    "error_type": "missing_include",
+    "programming_language": "C",
+    "description": "Implicit declarations of atoi and malloc functions due to missing stdlib.h include in source files, causing compilation errors."
+  },
+  {
+    "path": null,
+    "package": "libpolyclipping-6.4.2-alt1_17",
+    "error_type": "cmake_version",
+    "programming_language": "C++",
+    "description": "CMake configuration failure: Deprecated cmake_minimum_required syntax. Requires updated version range specification for compatibility."
+  },
+  {
+    "path": null,
+    "package": "libprojectM-2.1.0-alt17",
+    "error_type": "cmake_policy",
+    "programming_language": "C++",
+    "description": "CMake policy errors: Use of obsolete CMP0005 policy with OLD behavior. Modern CMake requires NEW policy behavior for compatibility."
+  },
+  {
+    "path": null,
+    "package": "libpst-0.6.76-alt4.1",
+    "error_type": "incompatible_pointer_type",
+    "programming_language": "C",
+    "description": "Compilation error: Incompatible pointer type in uncompress function call (Bytef* vs unsigned long*) causing type mismatch."
+  },
+  {
+    "path": null,
+    "package": "libqhttpengine-1.0.1-alt2",
+    "error_type": "cmake_version",
+    "programming_language": "C++",
+    "description": "CMake configuration error: Invalid cmake_minimum_required version syntax. Requires modern version specification format."
+  }
+]

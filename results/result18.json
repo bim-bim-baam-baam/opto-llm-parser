@@ -1,0 +1,65 @@
+[
+  {
+    "path": "https://example.com/logs/perl-HTML-Widget-1.11-alt3",
+    "package": "perl-HTML-Widget-1.11-alt3",
+    "error_type": "Test failure,Module::Pluggable",
+    "programming_language": "Perl",
+    "description": "Test 'use HTML::Widget' failed due to 'Use of freed value in iteration' in Module::Pluggable::Fast line 74, causing compilation abortion during test execution."
+  },
+  {
+    "path": "https://example.com/logs/perl-Net-Async-CassandraCQL-0.12-alt3",
+    "package": "perl-Net-Async-CassandraCQL-0.12-alt3",
+    "error_type": "Missing dependencies",
+    "programming_language": "Perl",
+    "description": "Build prerequisites Test::Fatal and Test::Refcount are missing, causing test harness failures and non-zero exits during test execution."
+  },
+  {
+    "path": "https://example.com/logs/perl-Net-RawIP-0.25-alt3.2",
+    "package": "perl-Net-RawIP-0.25-alt3.2",
+    "error_type": "C compilation,Implicit declaration",
+    "programming_language": "C",
+    "description": "Implicit function declarations for 'tap', 'mac_disc', and 'send_eth_packet' in XS code cause compilation errors, leading to build failure."
+  },
+  {
+    "path": "https://example.com/logs/perl-Net-SIP-0.838-alt1",
+    "package": "perl-Net-SIP-0.838-alt1",
+    "error_type": "Functional test mismatch",
+    "programming_language": "Perl",
+    "description": "DTMF audio generator/extractor tests failed for codecs pcmu and pcma due to unexpected values in test output structures."
+  },
+  {
+    "path": "https://example.com/logs/perl-Pegex-0.75-alt1",
+    "package": "perl-Pegex-0.75-alt1",
+    "error_type": "YAML parsing",
+    "programming_language": "Perl",
+    "description": "Undefined subroutine reference in YAML::PP::Representer during test execution causes fatal errors and exits with status 255."
+  },
+  {
+    "path": "https://example.com/logs/perl-RPM2-1.4-alt1.1",
+    "package": "perl-RPM2-1.4-alt1.1",
+    "error_type": "C compilation,Implicit declaration",
+    "programming_language": "C",
+    "description": "Implicit declaration of function 'rpmvercmp' in XS code leads to compilation failure during RPM build process."
+  },
+  {
+    "path": "https://example.com/logs/perl-Tk-804.036-alt1",
+    "package": "perl-Tk-804.036-alt1",
+    "error_type": "Header parsing",
+    "programming_language": "C/Perl",
+    "description": "Invalid terms and trailing characters during libpng header parsing in MakeDepend.pm cause build script failures."
+  },
+  {
+    "path": "https://example.com/logs/perl-XXX-0.38-alt2",
+    "package": "perl-XXX-0.38-alt2",
+    "error_type": "YAML parsing",
+    "programming_language": "Perl",
+    "description": "Undefined subroutine reference in YAML::PP::Representer during test execution causes YAML dump failures and test errors."
+  },
+  {
+    "path": "https://example.com/logs/perl-YAML-PP-LibYAML-0.005-alt2",
+    "package": "perl-YAML-PP-LibYAML-0.005-alt2",
+    "error_type": "Test harness",
+    "programming_language": "Perl",
+    "description": "Non-zero exit statuses and TAP output parsing errors in test files cause test suite failures and build abortion."
+  }
+]

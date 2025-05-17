@@ -1,0 +1,44 @@
+[
+  {
+    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/python3-module-hdf5storage-0.2-alt1.1",
+    "package": "python3-module-hdf5storage-0.2-alt1.1",
+    "error_type": "sphinx,documentation",
+    "programming_language": "Python",
+    "description": "Warnings during documentation generation: Failed to fetch intersphinx inventories from docs.python.org and docs.h5py.org due to temporary DNS resolution failures, indicating network or configuration issues."
+  },
+  {
+    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/python3-module-joblib-1.4.2-alt1",
+    "package": "python3-module-joblib-1.4.2-alt1",
+    "error_type": "system_configuration",
+    "programming_language": "Python",
+    "description": "Build failure: /proc filesystem not mounted. Required for process information access during build. System configuration requires /etc/fstab entry or manual mounting of proc."
+  },
+  {
+    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/python3-module-jsonschema-spec-0.2.4-alt1",
+    "package": "python3-module-jsonschema-spec-0.2.4-alt1",
+    "error_type": "dependency_management,patch_error",
+    "programming_language": "Python",
+    "description": "Dependency mismatch: Source 'metadata' dependencies changed. Invalid patch file '/usr/src/RPM/SOURCES/python3-module-jsonschema-spec-0.2.4-alt.patch' (smaller than 8 bytes), requiring configuration update."
+  },
+  {
+    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/python3-module-jupyter_server-2.15.0-alt2",
+    "package": "python3-module-jupyter_server-2.15.0-alt2",
+    "error_type": "test_failure",
+    "programming_language": "Python",
+    "description": "Test failure in test_execution_state: AssertionError ('starting' != 'busy'). Incorrect kernel execution state handling during server operations, possibly due to timing or synchronization issues."
+  },
+  {
+    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/python3-module-loky-3.5.1-alt1",
+    "package": "python3-module-loky-3.5.1-alt1",
+    "error_type": "multiprocessing,resource_tracking",
+    "programming_language": "Python",
+    "description": "Test AssertionError: ResourceTracker cleanup failure in multiprocessing. ChildProcessError during __del__ method, indicating improper resource tracking or zombie processes."
+  },
+  {
+    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/python3-module-moneyed-3.0-alt1",
+    "package": "python3-module-moneyed-3.0-alt1",
+    "error_type": "test_failure",
+    "programming_language": "Python",
+    "description": "Test failure in test_all_babel_currencies: AssertionError due to mismatched currency data from Babel library, possibly caused by outdated or missing locale data."
+  }
+]
