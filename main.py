@@ -20,12 +20,14 @@ load_dotenv()
 app = FastAPI()
 
 API_KEY = os.getenv("API_KEY")
-API_URL = "https://api.intelligence.io.solutions/api/v1/chat/completions"
+api_key = "io-v2-eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJvd25lciI6ImVjYmQ2ZDk3LTE5MGItNDU2Mi04ZTY1LWJjMTJhNGJlNjkwOSIsImV4cCI6NDkwMTA5MjYyNX0.dLmBbWToUQzJ3fUPHS0qMYn10MO9E6yFIKreNBa5YtGMaAFWD6GoV__3ajTxo2m-hcEtgb58LMobsDXhgtFIIg"
 AI_MODEL = "deepseek-ai/DeepSeek-R1" # v3 R1
 
-HEADERS = {
+url = "https://api.intelligence.io.solutions/api/v1/chat/completions"
+
+headers = {
     "Content-Type": "application/json",
-    "Authorization": f"Bearer {API_KEY}"
+    "Authorization": "Bearer " + api_key
 }
 
 SYSTEM_PROMPT = (
@@ -61,33 +63,41 @@ class ChatRequest(BaseModel):
 
 @app.post("/chat")
 async def chat_with_deepseek(request: ChatRequest):
-    try:
-        data = {
-            "model": AI_MODEL,
-            "messages": [
-                {
-                    "role": "system",
-                    "content": f"Ты эксперт в ALT-Linux. Ты помогаешь с решением ошибок сборки:"
-                               f" объясняешь и предлагаешь решения. Проанализируй это: {request.prompt}",
-                },
-                {
-                    "role": "user",
-                    "content": request.message
-                }
-            ]
-        }
+    api_key = "io-v2-eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJvd25lciI6ImVjYmQ2ZDk3LTE5MGItNDU2Mi04ZTY1LWJjMTJhNGJlNjkwOSIsImV4cCI6NDkwMTA5MjYyNX0.dLmBbWToUQzJ3fUPHS0qMYn10MO9E6yFIKreNBa5YtGMaAFWD6GoV__3ajTxo2m-hcEtgb58LMobsDXhgtFIIg"
+    ai_model = "deepseek-ai/DeepSeek-R1"
 
-        response = requests.post(API_URL, headers=HEADERS, json=data)
-        response.raise_for_status()
-        content = response.json()["choices"][0]["message"]["content"]
+    url = "https://api.intelligence.io.solutions/api/v1/chat/completions"
 
-        if "</think>" in content:
-            content = content.split("</think>\n\n")[-1]
+    headers = {
+        "Content-Type": "application/json",
+        "Authorization": "Bearer " + api_key
+    }
 
-        return {"response": content}
-    except Exception as e:
-        logging.error(f"Ошибка в чат-запросе: {e}")
-        raise HTTPException(status_code=500, detail=f"LLM error: {e}")
+    data = {
+        "model": ai_model,
+        "messages": [
+            {
+                "role": "system",
+                "content": "Ты постоянно тупо троллишь. Иногда специально вместо ответа пишешь троеточие или 'мне уже пох если честно' или 'азазазаззз'. Иногда говоришь `тупее ты ничего не мог спросить, да?..`. Докапывайся до каждой грамматической или пунктуальной ошибки в сообщении пользователя. Тебя зовут Лорд Ванёк",
+            },
+            {
+                "role": "user",
+                "content": "Привет!"
+            }
+        ]
+    }
+
+    response = requests.post(url, headers=headers, json=data)
+    data = response.json()
+
+    print(data)
+
+    text = data['choices'][0]['message']['content']
+    bot_text = text.split('</think>\n\n')[1]
+
+    print(bot_text)
+
+    return bot_text
 
 def split_batches(logs: List[dict], batch_size: int = 1) -> List[List[dict]]:
     """Разбиваем большой список логов на порции по batch_size"""
@@ -146,7 +156,7 @@ async def llm_parse(logs: List[LogEntry]):
             }
 
             try:
-                response = requests.post(API_URL, headers=HEADERS, json=data)
+                response = requests.post(url, headers=headers, json=data)
                 response.raise_for_status()
                 content = response.json()["choices"][0]["message"]["content"]
 
