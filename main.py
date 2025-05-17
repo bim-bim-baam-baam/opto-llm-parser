@@ -78,8 +78,7 @@ async def chat_with_deepseek(request: ChatRequest):
         "messages": [
             {
                 "role": "system",
-                "content": f"Ты эксперт в ALT-Linux. Ты помогаешь с решением ошибок сборки "
-                           f"объясняешь и предлагаешь решения. Проанализируй это: {request.prompt}",
+                "content": request.prompt,
             },
             {
                 "role": "user",
