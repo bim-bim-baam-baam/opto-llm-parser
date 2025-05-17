@@ -1,0 +1,58 @@
+[
+  {
+    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/gem-libv8-node-22.7.0.2-alt1",
+    "package": "gem-libv8-node-22.7.0.2-alt1",
+    "error_type": "missing_dependency",
+    "programming_language": "Ruby",
+    "description": "Build failure due to missing dependency: libv8-3.14-devel package not found. This prevents generation of package file list during installation."
+  },
+  {
+    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/gettext-0.21-alt2",
+    "package": "gettext-0.21-alt2",
+    "error_type": "autotools_configuration",
+    "programming_language": "C",
+    "description": "Autotools version mismatch: configure.ac requires Automake 1.16.2 but detected 1.16.5. Patching failures and aclocal warnings indicate need to regenerate build system with 'autoreconf'."
+  },
+  {
+    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/ghc8.6.4-sha-1.6.4.4-alt1",
+    "package": "ghc8.6.4-sha-1.6.4.4-alt1",
+    "error_type": "compilation_memory,invalid_patch",
+    "programming_language": "Haskell",
+    "description": "GHC compiler out of memory during build process. Additional error: RPM patch file (ghc8.6.4-sha-1.6.4.4-alt1.patch) is invalid (smaller than 8 bytes)."
+  },
+  {
+    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/gi-docgen-2025.3-alt1",
+    "package": "gi-docgen-2025.3-alt1",
+    "error_type": "test_failure",
+    "programming_language": "Python",
+    "description": "Test failure during %check phase: Meson test suite execution failed. Full test log available in meson-logs/testlog.txt."
+  },
+  {
+    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/glade-3.40.0-alt2.1",
+    "package": "glade-3.40.0-alt2.1",
+    "error_type": "gobject_introspection",
+    "programming_language": "C",
+    "description": "Fatal GObject registration error: Cannot register existing type 'GIRepository' during test execution. Accessibility service activation succeeded but caused critical failure."
+  },
+  {
+    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/gtk2-theme-oxygen-gtk-1.4.6-alt2",
+    "package": "gtk2-theme-oxygen-gtk-1.4.6-alt2",
+    "error_type": "cmake_configuration",
+    "programming_language": "C++",
+    "description": "CMake configuration error: Invalid cmake_minimum_required syntax. Compatibility with CMake <3.5 was removed - requires update to modern CMake version syntax."
+  },
+  {
+    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/gucharmap7-2.32.1-alt1",
+    "package": "gucharmap7-2.32.1-alt1",
+    "error_type": "compilation_error",
+    "programming_language": "C",
+    "description": "Type compatibility error in C code: Incompatible pointer types when casting GucharmapChartableCellAccessible to AtkObject. Build fails at gucharmap-chartable-accessible.c:131."
+  },
+  {
+    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/gz-fuel-tools-10.0.0-alt1",
+    "package": "gz-fuel-tools-10.0.0-alt1",
+    "error_type": "missing_dependency",
+    "programming_language": "C++",
+    "description": "Dependency resolution failure: Missing libjsonrpccpp-devel package prevents build process from completing. Installation fails during package file list generation."
+  }
+]

@@ -1,0 +1,72 @@
+[
+  {
+    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/dropbear-musl-2025.87-alt2",
+    "package": "dropbear-musl-2025.87-alt2",
+    "error_type": "test failure",
+    "programming_language": "Python",
+    "description": "Multiple test failures in test_channels.py::test_tcpflushout due to OSError: [Errno 98] Address already in use. Likely caused by port conflicts or improper socket cleanup between tests."
+  },
+  {
+    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/duperemove-0.14.1-alt1",
+    "package": "duperemove-0.14.1-alt1",
+    "error_type": "compilation (incompatible pointer)",
+    "programming_language": "C",
+    "description": "Type mismatch in function call: passing incompatible pointer type to fiemap_count_shared() at run_dedupe.c:161, triggering -Wincompatible-pointer-types error during compilation."
+  },
+  {
+    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/dwgrep-0.4-alt3",
+    "package": "dwgrep-0.4-alt3",
+    "error_type": "CMake (undefined symbol)",
+    "programming_language": "C++",
+    "description": "Build failure in CMake documentation generation due to undefined symbol 'zw_vocabulary_core' in libzwerg/dwgrep-gendoc, indicating missing library linkage or build dependencies."
+  },
+  {
+    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/ebook-tools-0.2.2-alt3",
+    "package": "ebook-tools-0.2.2-alt3",
+    "error_type": "CMake configuration",
+    "programming_language": "C++",
+    "description": "CMake configuration error: Outdated cmake_minimum_required specification (compatibility with CMake <3.5 removed). Requires updating minimum CMake version in CMakeLists.txt."
+  },
+  {
+    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/eigen-1.0.5-alt1",
+    "package": "eigen-1.0.5-alt1",
+    "error_type": "CMake configuration",
+    "programming_language": "C++",
+    "description": "Missing cmake_minimum_required command in CMakeLists.txt, violating CMake's requirement for specifying a minimum compatible version."
+  },
+  {
+    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/eigen2-2.0.17-alt3",
+    "package": "eigen2-2.0.17-alt3",
+    "error_type": "CMake configuration",
+    "programming_language": "C++",
+    "description": "CMake configuration error: Outdated cmake_minimum_required specification (compatibility with CMake <3.5 removed). Requires version syntax update in CMakeLists.txt."
+  },
+  {
+    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/faketime-0.2.8-alt1",
+    "package": "faketime-0.2.8-alt1",
+    "error_type": "compilation (struct member)",
+    "programming_language": "C",
+    "description": "Compilation errors in plugin.c due to missing 'rpl_time' member in struct timeb, suggesting API changes or incorrect structure definitions in dependencies."
+  },
+  {
+    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/fcitx5-sayura-5.1.0-alt1_1",
+    "package": "fcitx5-sayura-5.1.0-alt1_1",
+    "error_type": "CMake configuration",
+    "programming_language": "C++",
+    "description": "CMake configuration error: Outdated cmake_minimum_required specification (compatibility with CMake <3.5 removed). Requires version syntax update in CMakeLists.txt."
+  },
+  {
+    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/fcitx5-skk-5.1.0-alt1_1",
+    "package": "fcitx5-skk-5.1.0-alt1_1",
+    "error_type": "CMake configuration",
+    "programming_language": "C++",
+    "description": "CMake configuration error: Outdated cmake_minimum_required specification (compatibility with CMake <3.5 removed). Requires version syntax update in CMakeLists.txt."
+  },
+  {
+    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/flow-tools-ng-0.68.5-alt5",
+    "package": "flow-tools-ng-0.68.5-alt5",
+    "error_type": "compilation (implicit declaration)",
+    "programming_language": "C",
+    "description": "Implicit function declaration errors for yylex() and yyerror() in aclyacc.c, indicating missing header inclusions or incorrect function prototypes."
+  }
+]
