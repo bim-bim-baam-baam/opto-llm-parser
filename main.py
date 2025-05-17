@@ -11,7 +11,7 @@ from typing import List
 
 
 class LogEntry(BaseModel):
-    link: str
+    # link: str
     package: str
     errors: str
 
@@ -51,6 +51,43 @@ SYSTEM_PROMPT = (
     "поэтому детальнее указывай error_type. Нам важно потом в другом сервисе выделять кластеры по этим error_type."
 )
 
+# ---------- ЧАТ-ЭНДПОИНТ ----------
+
+
+class ChatRequest(BaseModel):
+    prompt: str
+    message: str
+
+
+@app.post("/chat")
+async def chat_with_deepseek(request: ChatRequest):
+    try:
+        data = {
+            "model": AI_MODEL,
+            "messages": [
+                {
+                    "role": "system",
+                    "content": f"Ты эксперт в ALT-Linux. Ты помогаешь с решением ошибок сборки:"
+                               f" объясняешь и предлагаешь решения. Проанализируй это: {request.prompt}",
+                },
+                {
+                    "role": "user",
+                    "content": request.message
+                }
+            ]
+        }
+
+        response = requests.post(API_URL, headers=HEADERS, json=data)
+        response.raise_for_status()
+        content = response.json()["choices"][0]["message"]["content"]
+
+        if "</think>" in content:
+            content = content.split("</think>\n\n")[-1]
+
+        return {"response": content}
+    except Exception as e:
+        logging.error(f"Ошибка в чат-запросе: {e}")
+        raise HTTPException(status_code=500, detail=f"LLM error: {e}")
 
 def split_batches(logs: List[dict], batch_size: int = 1) -> List[List[dict]]:
     """Разбиваем большой список логов на порции по batch_size"""
@@ -61,10 +98,10 @@ def format_batch_for_prompt(batch: List[dict]) -> str:
     """Форматирует один батч логов для отправки в prompt"""
     formatted = []
     for entry in batch:
-        link = entry.get("link")
+        # link = entry.get("link")
         package = entry.get("package")
         errors = entry.get("errors")
-        formatted.append(f"Link: {link}\nPackage: {package}\nErrors:\n{errors}")
+        formatted.append(f"Package: {package}\nErrors:\n{errors}")
     return "\n\n".join(formatted)
 
 
@@ -80,6 +117,7 @@ async def get_llm_parsed_data():
         return data
     except Exception as e:
         raise HTTPException(status_code=500, detail=f"Error reading file: {e}")
+
 
 @app.post("/llm_parse")
 async def llm_parse(logs: List[LogEntry]):

@@ -1,0 +1,58 @@
+[
+  {
+    "link": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/setserial-2.17-alt2.qa1",
+    "package": "setserial-1%3A2.17-alt2.qa1",
+    "error_type": "compiler configuration",
+    "programming_language": "C",
+    "description": "C compiler failure during configuration: cannot create executables. Possible issues with compiler installation or environment setup."
+  },
+  {
+    "link": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/sfnt2woff-zopfli-1.3.1-alt1",
+    "package": "sfnt2woff-zopfli-1.3.1-alt1",
+    "error_type": "function argument mismatch",
+    "programming_language": "C",
+    "description": "Incompatible pointer types in ZopfliCompress calls: argument 6 type mismatch. Requires pointer type adjustment in woffEncode and woffSetMetadata functions."
+  },
+  {
+    "link": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/shorten-3.6.1-alt1.qa1",
+    "package": "shorten-3.6.1-alt1.qa1",
+    "error_type": "missing function declaration",
+    "programming_language": "C",
+    "description": "Implicit declaration of 'swab' function in fixio.c. Missing header inclusion or obsolete function usage causing build failure."
+  },
+  {
+    "link": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/simde-0.8.2-alt1",
+    "package": "simde-0.8.2-alt1",
+    "error_type": "internal compiler error",
+    "programming_language": "C, C++",
+    "description": "GCC internal error during GIMPLE pass (predicate_for_phi_result) when compiling ARM NEON test code. Likely compiler bug or unsupported code pattern."
+  },
+  {
+    "link": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/siril-1.2.6-alt1",
+    "package": "siril-1.2.6-alt1",
+    "error_type": "meson configuration",
+    "programming_language": "C, C++",
+    "description": "Unhandled Python exception in Meson build system configuration. Indicates a Meson bug requiring upstream reporting."
+  },
+  {
+    "link": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/springlobby-0.273-alt2_3",
+    "package": "springlobby-0.273-alt2_3",
+    "error_type": "cmake version compatibility",
+    "programming_language": "C++",
+    "description": "CMake minimum required version compatibility error: CMake <3.5 no longer supported. Requires update to cmake_minimum_required syntax."
+  },
+  {
+    "link": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/squeak-vm-4.10.2.2614-alt3_29",
+    "package": "squeak-vm-4.10.2.2614-alt3_29",
+    "error_type": "cmake version compatibility",
+    "programming_language": "C++",
+    "description": "CMake configuration failure due to outdated cmake_minimum_required syntax. Requires version specification update for modern CMake."
+  },
+  {
+    "link": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/sysfsutils-2.1.1-alt2",
+    "package": "sysfsutils-2.1.1-alt2",
+    "error_type": "systemd permission",
+    "programming_language": "C",
+    "description": "Permission denied during systemd-analyze verify in %check phase: Failed to create /run/systemd/ directory in buildroot environment."
+  }
+]
