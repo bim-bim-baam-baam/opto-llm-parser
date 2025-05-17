@@ -1,0 +1,72 @@
+[
+  {
+    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/lftp-4.9.2-alt1",
+    "package": "lftp-4.9.2-alt1",
+    "error_type": "missing_header_file",
+    "programming_language": "C",
+    "description": "Fatal compilation error due to missing 'trio.h' header file. The build process fails because the required Trio library (trio.h) is not found or not installed in the system."
+  },
+  {
+    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/libcdio-2.1.0-alt1",
+    "package": "libcdio-2.1.0-alt1",
+    "error_type": "function_declaration,large_file_support",
+    "programming_language": "C",
+    "description": "Implicit declaration errors for 'fseeko64' and 'lseek64', indicating missing feature macros for large file support (e.g., _LARGEFILE64_SOURCE). The build fails due to outdated function declarations or missing compiler flags."
+  },
+  {
+    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/libchipcard-5.1.6-alt1",
+    "package": "libchipcard-5.1.6-alt1",
+    "error_type": "symbolic_link,missing_header",
+    "programming_language": "C",
+    "description": "Failed symbolic link creation due to existing files and implicit declaration of 'toupper' caused by missing <ctype.h> include. The build fails due to file conflicts and incomplete headers."
+  },
+  {
+    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/libcminpack-1.3.8-alt1_4",
+    "package": "libcminpack-1.3.8-alt1_4",
+    "error_type": "cmake_minimum_required",
+    "programming_language": "C++",
+    "description": "CMake configuration error: Project requires updating cmake_minimum_required to a compatible version (>=3.5). The build fails due to outdated CMake version constraints."
+  },
+  {
+    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/libcomps-0.1.18-alt1_4",
+    "package": "libcomps-0.1.18-alt1_4",
+    "error_type": "cmake_minimum_required",
+    "programming_language": "C++",
+    "description": "CMake configuration error: Compatibility with CMake <3.5 removed. Update cmake_minimum_required version in CMakeLists.txt to resolve the build failure."
+  },
+  {
+    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/libdnf-0.65.0-alt1",
+    "package": "libdnf-0.65.0-alt1",
+    "error_type": "cmake_policy",
+    "programming_language": "C++",
+    "description": "CMake policy CMP0005 error: Project uses deprecated OLD policy behavior no longer supported. Update CMakeLists.txt to use NEW behavior for compatibility."
+  },
+  {
+    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/libdtkwm-2.0.12-alt1",
+    "package": "libdtkwm-2.0.12-alt1",
+    "error_type": "qt_module",
+    "programming_language": "C++",
+    "description": "Build failure due to missing QT module 'dtkcore' and CMake feature 'dtk_cmake'. The project requires DTK framework dependencies or correct QT configuration."
+  },
+  {
+    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/libechonest-2.3.1-alt1",
+    "package": "libechonest-2.3.1-alt1",
+    "error_type": "cmake_minimum_required",
+    "programming_language": "C++",
+    "description": "CMake configuration error: Outdated cmake_minimum_required version. Update to use syntax compatible with CMake >=3.5 to fix the build."
+  },
+  {
+    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/libflann-1.9.2-alt2.1",
+    "package": "libflann-1.9.2-alt2.1",
+    "error_type": "cmake_minimum_required",
+    "programming_language": "C++",
+    "description": "CMake configuration error: Incompatible cmake_minimum_required version. Update to use a minimum CMake version >=3.5 or adjust the syntax in CMakeLists.txt."
+  },
+  {
+    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/libfli-1.9.0-alt1_2",
+    "package": "libfli-1.9.0-alt1_2",
+    "error_type": "cmake_minimum_required",
+    "programming_language": "C++",
+    "description": "CMake configuration error: Project specifies an outdated CMake minimum version. Update CMakeLists.txt to require CMake >=3.5 to resolve compatibility issues."
+  }
+]

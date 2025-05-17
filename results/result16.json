@@ -1,0 +1,58 @@
+[
+  {
+    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/niftilib-0.20100720-alt4",
+    "package": "niftilib-0.20100720-alt4",
+    "error_type": "CMake configuration",
+    "programming_language": "C/C++",
+    "description": "CMake configuration failed due to missing 'cmake_minimum_required' command in CMakeLists.txt, resulting in incomplete build configuration and subsequent build failure."
+  },
+  {
+    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/node-uglify-js-3.17.0-alt1",
+    "package": "node-uglify-js-3.17.0-alt1",
+    "error_type": "test failure, syntax error",
+    "programming_language": "JavaScript",
+    "description": "Multiple test cases failed due to syntax errors in JavaScript code during testing, indicating issues with input validation or code parsing logic."
+  },
+  {
+    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/nx-libs-3.5.99.26.1-alt3.2",
+    "package": "nx-libs-3.5.99.26.1-alt3.2",
+    "error_type": "linker error, missing make target",
+    "programming_language": "C/C++",
+    "description": "Linker error: missing input file 'MesaTnlAsmSrcs' and build failure due to missing 'includes' target rule in Makefile, indicating configuration or dependency issues."
+  },
+  {
+    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/nxssh-7.5-alt14",
+    "package": "nxssh-7.5-alt14",
+    "error_type": "compiler configuration",
+    "programming_language": "C/C++",
+    "description": "Compiler sanity check failed during configuration: unable to create working executables, likely due to incorrect compiler setup, missing dependencies, or invalid flags."
+  },
+  {
+    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/octave-nan-3.7.0-alt1",
+    "package": "octave-nan-3.7.0-alt1",
+    "error_type": "missing library dependency",
+    "programming_language": "Octave (C/C++ mex)",
+    "description": "Multiple mex files failed to link due to missing 'liboctmex.so.1', indicating unresolved dependency or incorrect library path configuration for Octave extensions."
+  },
+  {
+    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/octave-stk-2.7.0-alt1",
+    "package": "octave-stk-2.7.0-alt1",
+    "error_type": "missing library dependency",
+    "programming_language": "Octave (C/C++ mex)",
+    "description": "Build failed due to missing 'liboctmex.so.1' required by mex files, highlighting dependency issues in Octave package compilation."
+  },
+  {
+    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/onboard-1.4.2.2-alt2",
+    "package": "onboard-1.4.2.2-alt2",
+    "error_type": "compilation error",
+    "programming_language": "C",
+    "description": "Compilation failed due to redefinition of 'false' and 'true' in osk_module.h, conflicting with standard boolean definitions, causing syntax errors."
+  },
+  {
+    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/openbabel-3.1.1-alt4.1",
+    "package": "openbabel-3.1.1-alt4.1",
+    "error_type": "CMake policy incompatibility",
+    "programming_language": "C++",
+    "description": "CMake configuration error: unsupported policy CMP0042 set to OLD. Update to CMake 3.0+ required to enforce NEW policy behavior, blocking build configuration."
+  }
+]

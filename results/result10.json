@@ -1,0 +1,72 @@
+[
+  {
+    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/libgtkhtml-2.11.1-alt1.qa1",
+    "package": "libgtkhtml-2.11.1-alt1.qa1",
+    "error_type": "incompatible pointer type",
+    "programming_language": "C",
+    "description": "Type mismatch errors in C code: assignments of incompatible pointer types (DomEventListener*/GObject* and DomEventTarget*/DomNode*) causing compilation failures in dom-node.c."
+  },
+  {
+    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/libgxim-0.5.0-alt3",
+    "package": "libgxim-0.5.0-alt3",
+    "error_type": "implicit function declaration",
+    "programming_language": "C",
+    "description": "Undefined function 'gdk_x11_atom_to_xatom_for_display' in gximcore.c, triggering implicit declaration warnings treated as errors during compilation."
+  },
+  {
+    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/libgxml-0.20.4-alt1",
+    "package": "libgxml-0.20.4-alt1",
+    "error_type": "test failure,enum parsing",
+    "programming_language": "Vala",
+    "description": "Test failure during XML serialization: inability to parse 'UnkNown' text into SerializationTestMotorTensionSupplyEnum, indicating enum validation issues in Vala code."
+  },
+  {
+    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/libkkc-0.3.5-alt1_24",
+    "package": "libkkc-0.3.5-alt1_24",
+    "error_type": "DBus method warning",
+    "programming_language": "Vala",
+    "description": "DBus methods in server.vala lack proper error handling (missing GLib.Error/GLib.DBusError declarations), triggering compilation warnings."
+  },
+  {
+    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/libksba-gost-1.3.6-alt15",
+    "package": "libksba-gost-1.3.6-alt15",
+    "error_type": "incompatible pointer type",
+    "programming_language": "C",
+    "description": "Type mismatch in C code: incorrect pointer types passed to _ksba_oid_from_str function in cms.c, causing compilation errors."
+  },
+  {
+    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/liblevmar-2.6-alt1_12",
+    "package": "liblevmar-2.6-alt1_12",
+    "error_type": "CMake version compatibility",
+    "programming_language": "C++",
+    "description": "CMake configuration failure: cmake_minimum_required specifies outdated CMake version (compatibility with <3.5 removed), blocking project configuration."
+  },
+  {
+    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/libm17n-1.8.0-alt1",
+    "package": "libm17n-1.8.0-alt1",
+    "error_type": "implicit int declaration",
+    "programming_language": "C",
+    "description": "Implicit int type declaration for parameter 'idx' in select_input_method function (medit.c), triggering -Wimplicit-int errors."
+  },
+  {
+    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/libmatchbox-1.9-alt4.1",
+    "package": "libmatchbox-1.9-alt4.1",
+    "error_type": "implicit function declaration",
+    "programming_language": "C",
+    "description": "Undefined function 'mb_want_warnings' in mbpixbuf.c, causing implicit declaration errors during compilation."
+  },
+  {
+    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/libmirisdr-0.0.20230516-alt1_1.faf794b",
+    "package": "libmirisdr-0.0.20230516-alt1_1.faf794b",
+    "error_type": "CMake version compatibility",
+    "programming_language": "C++",
+    "description": "CMake configuration failure: cmake_minimum_required specifies outdated CMake version (compatibility with <3.5 removed), preventing project setup."
+  },
+  {
+    "path": "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/libmodman-2.0.1-alt2_23",
+    "package": "libmodman-2.0.1-alt2_23",
+    "error_type": "CMake version compatibility",
+    "programming_language": "C++",
+    "description": "CMake configuration failure: cmake_minimum_required specifies outdated CMake version (compatibility with <3.5 removed), halting project configuration."
+  }
+]

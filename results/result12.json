@@ -1,0 +1,65 @@
+[
+  {
+    "path": "path/to/log/libqmdnsengine-0.2.0-alt1",
+    "package": "libqmdnsengine-0.2.0-alt1",
+    "error_type": "CMake Configuration",
+    "programming_language": "C++",
+    "description": "CMake configuration error: Outdated CMake version specified. The cmake_minimum_required in CMakeLists.txt requires updating the VERSION argument to >=3.5 or using <min>...<max> syntax."
+  },
+  {
+    "path": "path/to/log/libreplaygain-r483-alt1.svn20131021",
+    "package": "libreplaygain-r483-alt1.svn20131021",
+    "error_type": "CMake Configuration",
+    "programming_language": "C++",
+    "description": "CMake configuration error: Incompatible CMake version (older than 3.5) specified in CMakeLists.txt. Update cmake_minimum_required to a valid version."
+  },
+  {
+    "path": "path/to/log/libretro-computers-20250130-alt1",
+    "package": "libretro-computers-20250130-alt1",
+    "error_type": "Compiler Warnings,Unused Variables/Functions",
+    "programming_language": "C++",
+    "description": "Multiple compiler warnings for unused variables (e.g., BlockID, OldCurBlock) and functions (rwgetc). Build likely failed due to strict compiler flags treating warnings as errors."
+  },
+  {
+    "path": "path/to/log/libscalapack-2.1.0-alt3",
+    "package": "libscalapack-2.1.0-alt3",
+    "error_type": "CMake Configuration,BLACS Configuration",
+    "programming_language": "Fortran",
+    "description": "Dual errors: (1) Outdated CMake version in CMakeLists.txt, (2) BLACS INSTALL directory configuration failure during Fortran mangling checks in CMAKE/FortranMangling.cmake."
+  },
+  {
+    "path": "path/to/log/libsdp-1.1.108-alt2.0.17.ga6958ef",
+    "package": "libsdp-1.1.108-alt2.0.17.ga6958ef",
+    "error_type": "Compilation Error,Type Conflict",
+    "programming_language": "C",
+    "description": "Conflicting type declaration for 'ioctl' in port.c (custom vs. system header). Missing include for string.h causing memset/free implicit declaration warnings."
+  },
+  {
+    "path": "path/to/log/libskk-1.0.4-alt3_11",
+    "package": "libskk-1.0.4-alt3_11",
+    "error_type": "Compilation Error,Incompatible Pointer Types",
+    "programming_language": "C",
+    "description": "Type mismatches in function arguments (e.g., GCompareFunc vs. g_strcmp0, SkkCandidate** vs. void**). Incompatible pointer assignments trigger build failures."
+  },
+  {
+    "path": "path/to/log/libsocket-2.4.1-alt4.git20140508",
+    "package": "libsocket-2.4.1-alt4.git20140508",
+    "error_type": "CMake Configuration",
+    "programming_language": "C++",
+    "description": "CMake configuration error: cmake_minimum_requires outdated CMake version (<3.5). Update VERSION argument in CMakeLists.txt to resolve compatibility."
+  },
+  {
+    "path": "path/to/log/libspf2-1.2.11-alt1.git.4915c30",
+    "package": "libspf2-1.2.11-alt1.git.4915c30",
+    "error_type": "Compilation Error,Implicit Function Declaration",
+    "programming_language": "C",
+    "description": "Implicit declaration of memset and free due to missing #include <string.h>/<stdlib.h> in spf_utils.c. Causes build failure under strict compiler settings."
+  },
+  {
+    "path": "path/to/log/libsvg-0.1.4-alt2_24",
+    "package": "libsvg-0.1.4-alt2_24",
+    "error_type": "Compilation Error,Implicit Function Declaration",
+    "programming_language": "C",
+    "description": "Implicit declarations of malloc/free in svg_paint.c and svg_group.c due to missing #include <stdlib.h>. Results in build failure."
+  }
+]

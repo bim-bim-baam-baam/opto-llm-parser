@@ -1,0 +1,72 @@
+[
+  {
+    "path": "jvgs-0.5-alt3.log",
+    "package": "jvgs-0.5-alt3",
+    "error_type": "cmake_version",
+    "programming_language": "C++",
+    "description": "CMake configuration error: Outdated CMake version requirement in CMakeLists.txt (minimum_required <3.5). CMake compatibility with versions below 3.5 was removed."
+  },
+  {
+    "path": "kbibtex-0.9-alt1.1.log",
+    "package": "kbibtex-0.9-alt1.1",
+    "error_type": "C++_syntax,missing_components",
+    "programming_language": "C++",
+    "description": "Compiler errors in ICU header: Missing C++17 features (std::is_convertible_v, std::u16string_view). Qt5 WebKit components not found during configuration."
+  },
+  {
+    "path": "kde5-kaffeine-2.0.18-alt2.log",
+    "package": "kde5-kaffeine-2.0.18-alt2",
+    "error_type": "cmake_policy",
+    "programming_language": "C++",
+    "description": "CMake policy violation: CMP0002 policy set to OLD behavior is unsupported. Requires migration to NEW policy behavior introduced in CMake 2.6.0."
+  },
+  {
+    "path": "kdumpid-1.5-alt1.log",
+    "package": "kdumpid-1.5-alt1",
+    "error_type": "incompatible_pointer_type",
+    "programming_language": "C",
+    "description": "Type mismatch in function call: Argument 3 of kdump_get_number_attr expects incompatible pointer type (&dd.max_pfn), causing build failure in main.c."
+  },
+  {
+    "path": "kexi-3.2.0-alt7.log",
+    "package": "kexi-3.2.0-alt7",
+    "error_type": "cmake_policy,missing_qt_components",
+    "programming_language": "C++",
+    "description": "CMake policy CMP0059 set to OLD is invalid (requires NEW behavior). Missing Qt5WebKit and Qt5WebKitWidgets components during configuration."
+  },
+  {
+    "path": "kf5-kdiagram-2.8.0-alt2.log",
+    "package": "kf5-kdiagram-2.8.0-alt2",
+    "error_type": "cmake_configuration",
+    "programming_language": "C++",
+    "description": "Missing project version variables: ECM_GENERATE_PRI_FILE requires PROJECT_VERSION_STRING or PROJECT_VERSION via ecm_setup_version()."
+  },
+  {
+    "path": "kf5-kproperty-3.2.0-alt2.log",
+    "package": "kf5-kproperty-3.2.0-alt2",
+    "error_type": "cmake_policy",
+    "programming_language": "C++",
+    "description": "CMake policy CMP0059 set to OLD is invalid (requires NEW behavior). Configuration aborted due to deprecated policy usage."
+  },
+  {
+    "path": "kf5-kreport-3.2.0-alt3.log",
+    "package": "kf5-kreport-3.2.0-alt3",
+    "error_type": "cmake_policy",
+    "programming_language": "C++",
+    "description": "CMake policy CMP0059 set to OLD is invalid (requires NEW behavior). Configuration aborted due to deprecated policy usage."
+  },
+  {
+    "path": "kronos-2.6.2-alt1.log",
+    "package": "kronos-2.6.2-alt1",
+    "error_type": "cmake_version",
+    "programming_language": "C++",
+    "description": "CMake version compatibility error: CMakeLists.txt specifies outdated CMake minimum version (<3.5), which is no longer supported."
+  },
+  {
+    "path": "lapack-3.8.0-alt8.log",
+    "package": "lapack-3.8.0-alt8",
+    "error_type": "cmake_version,cmake_configuration",
+    "programming_language": "Fortran",
+    "description": "CMake version error: Outdated CMake requirement in INSTALL/CMakeLists.txt. Additional failure in test project configuration for time function checks."
+  }
+]

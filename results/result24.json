@@ -1,0 +1,65 @@
+[
+  {
+    "path": "path/to/log/python3-module-thingy-0.10.0-alt1.log",
+    "package": "python3-module-thingy-0.10.0-alt1",
+    "error_type": "packaging_error,missing_files",
+    "programming_language": "Python",
+    "description": "RPM build failed due to missing directory: /usr/lib/python3/site-packages/Thingy-0.10.0.dist-info. The required distribution metadata files were not generated or installed correctly during packaging."
+  },
+  {
+    "path": "path/to/log/qca-qt5-2.3.8-alt1.log",
+    "package": "qca-qt5-2.3.8-alt1",
+    "error_type": "cmake_policy",
+    "programming_language": "C++",
+    "description": "CMake configuration error: Policy CMP0042 set to OLD is no longer supported. The CMake version requires updated policy settings in CMakeLists.txt."
+  },
+  {
+    "path": "path/to/log/qhull-2020.2-alt1.log",
+    "package": "qhull-2020.2-alt1",
+    "error_type": "cmake_version",
+    "programming_language": "C++",
+    "description": "CMake error: Compatibility with CMake < 3.5 removed. Update cmake_minimum_required in CMakeLists.txt to a supported version."
+  },
+  {
+    "path": "path/to/log/qimageblitz5-5.0.0-alt0.2.log",
+    "package": "qimageblitz5-5.0.0-alt0.2",
+    "error_type": "cmake_version",
+    "programming_language": "C++",
+    "description": "CMake error: cmake_minimum_required specifies an outdated CMake version. Update to a minimum supported version using modern syntax."
+  },
+  {
+    "path": "path/to/log/qjson-qt5-0.9.0-alt2.log",
+    "package": "qjson-qt5-0.9.0-alt2",
+    "error_type": "cmake_policy",
+    "programming_language": "C++",
+    "description": "CMake error: Policy CMP0020 set to OLD is unsupported. Update CMakeLists.txt to use NEW behavior for automatic linking of Qt libraries."
+  },
+  {
+    "path": "path/to/log/qm-dsp-1.7.1-alt1.log",
+    "package": "qm-dsp-1.7.1-alt1",
+    "error_type": "missing_dependency",
+    "programming_language": "C",
+    "description": "Compilation failed due to missing lapack.h header. Ensure LAPACK development packages are installed to resolve dependency."
+  },
+  {
+    "path": "path/to/log/qml-alembic-2023.2.0-alt1.log",
+    "package": "qml-alembic-2023.2.0-alt1",
+    "error_type": "cmake_policy",
+    "programming_language": "C++",
+    "description": "CMake error: Policy CMP0043 set to OLD is no longer supported. Update CMakeLists.txt to use NEW behavior for library output directories."
+  },
+  {
+    "path": "path/to/log/qtcurve-2%3A1.9.1-alt3.git4e56a76a.log",
+    "package": "qtcurve-2%3A1.9.1-alt3.git4e56a76a",
+    "error_type": "missing_dependency",
+    "programming_language": "C++",
+    "description": "Build dependency error: rpm-macros-qt4 package not found. Install required Qt4 macros or update build dependencies."
+  },
+  {
+    "path": "path/to/log/quassel-0.13.1-alt4.log",
+    "package": "quassel-0.13.1-alt4",
+    "error_type": "cmake_policy",
+    "programming_language": "C++",
+    "description": "CMake error: Policy CMP0043 set to OLD is unsupported. Update CMakeLists.txt to use NEW behavior for library output directory handling."
+  }
+]
