@@ -1,3 +1,5 @@
+from collections import defaultdict
+
 from fastapi import FastAPI, Request, HTTPException
 import logging
 import requests
@@ -186,3 +188,52 @@ async def llm_parse(logs: List[LogEntry]):
         logging.error(f"Ошибка на уровне запроса: {e}")
         return {"error": str(e)}
 
+class ParsedLogEntry(BaseModel):
+    package: str
+    error_type: str
+    programming_language: str
+    description: str
+
+@app.post("/cluster_format")
+async def cluster_logs_by_error_type():
+    file_path = "merged.json"
+    if not os.path.exists(file_path):
+        raise HTTPException(status_code=404, detail="merged.json not found")
+
+    try:
+        with open(file_path, "r", encoding="utf-8") as f:
+            raw_data = json.load(f)
+
+        parsed_logs: List[ParsedLogEntry] = [ParsedLogEntry(**item) for item in raw_data]
+
+        # Группируем не просто названия пакетов, а (название, язык)
+        grouped_packages: defaultdict[str, List[Tuple[str, str]]] = defaultdict(list)
+        error_descriptions = {}
+
+        for entry in parsed_logs:
+            error_types = [etype.strip() for etype in entry.error_type.split(",")]
+            for etype in error_types:
+                grouped_packages[etype].append((entry.package, entry.programming_language))
+                if etype not in error_descriptions:
+                    error_descriptions[etype] = entry.description  # первое описание
+
+        clusters = []
+        for i, (error_type, packages) in enumerate(grouped_packages.items()):
+            cluster = {
+                "id": i,
+                "name": error_type,
+                "description": error_descriptions.get(error_type, ""),
+                "packages": [
+                    {"id": j, "name": pkg_name, "programming_language": lang}
+                    for j, (pkg_name, lang) in enumerate(packages)
+                ]
+            }
+            clusters.append(cluster)
+
+        return {
+            "status": "NEW",
+            "clusters": clusters
+        }
+
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"Error processing file: {e}")
